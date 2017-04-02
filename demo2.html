@@ -14,7 +14,6 @@
     -->
 </ul>
 <script type="text/javascript">
-    var aqilist = document.getElementById("aqi-list");
     var aqiData = [
         ["北京", 90],
         ["上海", 50],
@@ -24,17 +23,22 @@
         ["西安", 100]
     ];
     (function () {
-
         /*
          在注释下方编写代码
          遍历读取aqiData中各个城市的数据
          将空气质量指数大于60的城市显示到aqi-list的列表中
          */
-          for(var i =0;i < aqiData.length; i++){
-               
-
-          }
-
+        for(var i=0;i<aqiData.length;i++){
+            for(var j=0;j<aqiData[i].length;j++){
+            }
+            if(aqiData[i][1] > 60){
+                var aqilist = document.getElementById("aqi-list");
+                var li = document.createElement("li");       //创建元素节点
+                aqilist.appendChild(li);
+                var txt = document.createTextNode(aqiData[i][0] + ','+aqiData[i][1]);  //创建文本节点
+                li.appendChild(txt);
+            }
+        }
     })();
 
 </script>
