@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c7deaf3-dd98-4396-ba19-f493c8a88de0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo3.html" afterPath="$PROJECT_DIR$/demo3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.html" afterPath="$PROJECT_DIR$/test.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="baidu.iws" />
@@ -28,7 +30,7 @@
       <file leaf-file-name="demo1.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="858">
+            <state vertical-scroll-proportion="-4.2580647" vertical-offset="264" max-vertical-offset="858">
               <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding />
             </state>
@@ -45,21 +47,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo3.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="demo3.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.064516" vertical-offset="1624" max-vertical-offset="2200">
-              <caret line="88" column="59" selection-start-line="87" selection-start-column="7" selection-end-line="89" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.121527776" vertical-offset="1690" max-vertical-offset="2266">
+              <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35069445" vertical-offset="2174" max-vertical-offset="2750">
-              <caret line="108" column="49" selection-start-line="108" selection-start-column="49" selection-end-line="108" selection-end-column="49" />
+            <state vertical-scroll-proportion="-17.161291" vertical-offset="1646" max-vertical-offset="2310">
+              <caret line="99" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="99" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -80,8 +82,9 @@
       <list>
         <option value="$PROJECT_DIR$/demo1.html" />
         <option value="$PROJECT_DIR$/demo2.html" />
-        <option value="$PROJECT_DIR$/demo3.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/demo3.html" />
       </list>
     </option>
   </component>
@@ -274,7 +277,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="858">
+        <state vertical-scroll-proportion="-4.2580647" vertical-offset="264" max-vertical-offset="858">
           <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding />
         </state>
@@ -288,18 +291,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo3.html">
+    <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.064516" vertical-offset="1624" max-vertical-offset="2200">
-          <caret line="88" column="59" selection-start-line="87" selection-start-column="7" selection-end-line="89" selection-end-column="49" />
+        <state vertical-scroll-proportion="-17.161291" vertical-offset="1646" max-vertical-offset="2310">
+          <caret line="99" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="99" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
+    <entry file="file://$PROJECT_DIR$/demo3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35069445" vertical-offset="2174" max-vertical-offset="2750">
-          <caret line="108" column="49" selection-start-line="108" selection-start-column="49" selection-end-line="108" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.121527776" vertical-offset="1690" max-vertical-offset="2266">
+          <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
           <folding />
         </state>
       </provider>
