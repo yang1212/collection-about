@@ -6,7 +6,7 @@
 </head>
 <body>
 <ul id="source">
-    <li>北京空气质量: <b>90</b></li>
+    <li>北京空气质量：<b>90</b></li>
     <li>上海空气质量：<b>70</b></li>
     <li>天津空气质量：<b>80</b></li>
     <li>广州空气质量：<b>50</b></li>
@@ -39,17 +39,18 @@
          ……
          ]
          */
-        var source = doucment.getElementById("source");
-        var city = source.getElementsByTagName("li");
-        var data = [];
-        for(i=0;i<city.length;i++){
-            data[i] = [];
-            data[i][0]=city[i].innerHTML.substring(0,city[i].innerHTML.indexOf("空"));
-            //substring提取字符串中介于两个指定下标之间的字符
-            //IndexOf() 方法可返回某个指定的字符串值在字符串中首次出现的位置
-
-            var b=city[i].getElementsByTagName("b");
-            data[i].push(parseInt(b[0].innerHTML));
+        var source = document.getElementById("source");
+        var li = source.getElementsByTagName("li");
+        var data = [];  //定义一个空数组
+        for(i=0;i<li.length;i++){
+            //去除空节点
+            if(li[i].innerHTML != undefined) {
+                //获取城市,substring提取字符串中介于两个指定下标之间的字符
+                var city = li[i].innerHTML.substring(0,2);
+                //获取li的子元素b即空气质量
+                var num =  li[i].childNodes.item(1).innerHTML;
+                data.push([city,num]);
+            }
         }
         return data;
     }
@@ -72,11 +73,13 @@
      */
     function render(data) {
         var rank=['一','二','三','四','五','六','七','八','九','十'];
-        var resort = document.getElementById("resort");
-        var li = document.createElement("li"); //创建文本节点
-        resort.appendChild(li);
-        var txt = document.createTextNode("第"); //创建元素节点
-        li.appendChild(txt);
+        for(var i=0;i < data.length;i++) {
+            var resort = document.getElementById("resort");
+            var li = document.createElement("li");
+            resort.appendChild(li);
+            var txt = document.createTextNode("第"+rank[i]+"名："+data[i][0]+"空气质量："+data[i][1]);
+            li.appendChild(txt);
+        }
     }
 
     function btnHandle() {
@@ -85,8 +88,8 @@
         render(aqiData);
     }
     function init() {
-         var sortBtn = document.getElementById("sort-btn");
-         sortBtn.addEventListener("click",btnHandle,false);
+        var sortBtn = document.getElementById("sort-btn");
+        sortBtn.addEventListener("click",btnHandle,false);
         // 在这下面给sort-btn绑定一个点击事件，点击时触发btnHandle函数
     }
     init();

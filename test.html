@@ -2,10 +2,9 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>IFE JavaScript Task 01</title>
+    <title>IFE JavaScript Task 03</title>
 </head>
 <body>
-
 <ul id="source">
     <li>北京空气质量：<b>90</b></li>
     <li>上海空气质量：<b>70</b></li>
@@ -15,20 +14,15 @@
     <li>福州空气质量：<b>32</b></li>
     <li>成都空气质量：<b>90</b></li>
 </ul>
-
 <ul id="resort">
     <!--
     <li>第一名：北京空气质量：<b>90</b></li>
     <li>第二名：北京空气质量：<b>90</b></li>
     <li>第三名：北京空气质量：<b>90</b></li>
      -->
-
 </ul>
-
 <button id="sort-btn">排序</button>
-
 <script type="text/javascript">
-
     /**
      * getData方法
      * 读取id为source的列表，获取其中城市名字及城市对应的空气质量
@@ -38,7 +32,6 @@
         /*
          coding here
          */
-
         /*
          data = [
          ["北京", 90],
@@ -46,24 +39,21 @@
          ……
          ]
          */
-        //定义一个空数组
-        var data = [];
-        //获取ul的li元素子节点
-        var lis = document.getElementById("source").childNodes;
-        //循环遍历ul的子节点将相应的值赋值给data数组
-        for(var i=0;i<lis.length;i++) {
-            //由于浏览器兼容问题，需要去除空节点
-            if(lis[i].innerHTML != undefined) {
-                //获取城市
-                var city = lis[i].innerHTML.substring(0,2);
-                //获取空气污染指数
-                var num =  lis[i].childNodes[1].innerHTML;
+        var source = document.getElementById("source");
+        var li = source.getElementsByTagName("li");
+        var data = [];  //定义一个空数组
+        for(i=0;i<li.length;i++){
+            //去除空节点
+            if(li[i].innerHTML != undefined) {
+                //获取城市,substring提取字符串中介于两个指定下标之间的字符
+                var city = li[i].innerHTML.substring(0,2);
+                //获取li的子元素b即空气质量
+                var num =  li[i].childNodes.item(1).innerHTML;
                 //将城市名字及城市对应的空气质量加入数组
                 data.push([city,num]);
             }
         }
         return data;
-
     }
 
     /**
@@ -83,18 +73,14 @@
      * 格式见ul中的注释的部分
      */
     function render(data) {
-        //空气质量指数排名
-        var chineseRank=['一','二','三','四','五','六','七','八','九','十'];
-
+        var rank=['一','二','三','四','五','六','七','八','九','十'];
         for(var i=0;i < data.length;i++) {
-            var li=document.createElement("li");
-            li.innerHTML = "第"+chineseRank[i]+"名："+data[i][0]+"空气质量：";
-            var b=document.createElement("b");
-            b.innerHTML = data[i][1];
-            li.appendChild(b);
+            var resort = document.getElementById("resort");
+            var li = document.createElement("li");
+            resort.appendChild(li);
+            var txt = document.createTextNode("第"+rank[i]+"名："+data[i][0]+"空气质量："+data[i][1]);
+            li.appendChild(txt);
 
-            var element=document.getElementById("resort");
-            element.appendChild(li);
         }
     }
 
@@ -103,18 +89,12 @@
         aqiData = sortAqiData(aqiData);
         render(aqiData);
     }
-
     function init() {
-
+        var sortBtn = document.getElementById("sort-btn");
+        sortBtn.addEventListener("click",btnHandle,false);
         // 在这下面给sort-btn绑定一个点击事件，点击时触发btnHandle函数
-        document.getElementById("sort-btn").onclick = function() {
-            btnHandle();
-        }
-
     }
-
     init();
-
 </script>
 </body>
 </html>
