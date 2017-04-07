@@ -2,72 +2,137 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>IFE JavaScript Task 04</title>
-    <style>
-        li{
-            background: red;
-            padding:6px 10px;
-            color:#fff;
-            float: left;
-            list-style-type: none;
-            margin-left: 3px;
+    <title></title>
+    <style type="text/css">
+        .numbox {
+            display: inline-block;
+            background-color: red;
+            border:1px solid #ccc;
+            margin-top: 20px;
+            margin-left:10px;
+            padding:0 4px;
+            vertical-align: bottom;
+        }
+        #list{
+            color: #fff;
+            padding:0 10px;
         }
     </style>
 </head>
 <body>
-<input type="text" name="num" id="txt" />
-<input type="button" value="左侧入" id="leftIn"/>
-<input type="button" value="右侧入" id="rightIn"/>
-<input type="button" value="左侧出" id="leftOut"/>
-<input type="button" value="右侧出" id="rightOut"/>
-<ul id="number">
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-    <li>4</li>
-    <li>5</li>
-    <li>6</li>
-</ul>
-<script>
-    window.onload=function() {
-        var LIn = document.getElementById("leftIn");
-        var RIn = document.getElementById("rightIn");
-        var LOut = document.getElementById("leftOut");
-        var ROut = document.getElementById("rightOut");
-        var txt = document.getElementById("txt");
-        var number = document.getElementById("number");
-        LIn.addEventListener("click",function(){
-            if (!isNaN(txt.value)) {
-                var li = document.createElement("li");
-                li.innerHTML = txt.value;
-                number.insertBefore(li,number.firstChild);
+<div id ="numin">
+    <input type="text" id="num" placeholder="10-100之间" />
+    <button type="button" id="leftin" >左侧入</button>
+    <button type="button" id="rightin">右侧入</button>
+    <button type="button" id="leftout">左侧出</button>
+    <button type="button" id="rightout" >右侧出</button>
+    <button type="button" id="sort">排序</button>
+</div>
+<ul id="list"></ul>
+<script type="text/javascript">
+    var leftIn = document.getElementById("leftin");
+    var leftOut = document.getElementById("leftout");
+    var rightIn = document.getElementById("rightin");
+    var rightOut = document.getElementById("rightout");
+    var valueNum = document.getElementById('num');
+    var valuearray = document.getElementById('list');
+    var sort = document.getElementById("sort");
+    var numarray =[];
+
+    leftIn.addEventListener("click",function(){
+        if(isNaN(valueNum.value)){
+            alert("请输入数字");
+        } else if (valueNum.value<10||valueNum.value>100) {
+            alert("请输入10~100以内的数字")
+        }
+        else {
+            if(valuearray.childNodes.length>59){
+                alert("已经超过60个数据了")
+            }else {
+                numarray.push(valueNum.value);
+                var addbox = document.createElement('div');
+                addbox.className = 'numbox';
+                var addtext = document.createElement('p');
+                addtext.className = 'numtext';
+                addtext.innerHTML = valueNum.value;
+                addbox.appendChild(addtext);
+                addbox.style.height = parseInt(valueNum.value)+40+'px';
+                valuearray.insertBefore(addbox,valuearray.childNodes[0]);//左侧输入
             }
-            else {
-                alert("Error input!");
+        }
+    },false);
+    rightIn.addEventListener("click",function(){
+        if(isNaN(valueNum.value)){
+            alert("请输入数字，谢谢~");
+        } else if (valueNum.value>100||valueNum.value<10) {
+            alert("请输入10~100以内的数字，谢谢~")
+        }
+        else {
+            //输入总量判定
+            if(valuearray.childNodes.length>59){
+                alert("抱歉，仅支持输入60个数据哦~")
+            }else {
+                numarray.push(valueNum.value);
+                var addbox1 = document.createElement('div');
+                addbox1.className = 'numbox';
+                var addtext1 = document.createElement('p');
+                addtext1.className = 'numtext';
+                addtext1.innerHTML = valueNum.value;
+                addbox1.appendChild(addtext1);
+                addbox1.style.height = parseInt(valueNum.value)+40+'px';
+                valuearray.appendChild(addbox1); //右侧输入
             }
-        },false);
-        RIn.addEventListener("click", function () {
-                    //isNaN() 函数用于检查其参数是否是非数字值
-                    if (!isNaN(txt.value)) {
-                        var li = document.createElement("li");
-                        li.innerHTML = txt.value;
-                        number.appendChild(li);
+        }
+    },false);
+    leftOut.addEventListener("click",function(){
+        alert(valuearray.firstChild.innerText);
+        valuearray.removeChild(valuearray.firstChild);//删除左边元素
+
+    },false);
+    rightOut.addEventListener("click",function(){
+        alert(valuearray.lastChild.innerText);
+        valuearray.removeChild(valuearray.lastChild);//删除右边元素
+    },false);
+
+
+    sort.addEventListener("click",function(){
+        function bubbleSort(numarray) {
+            var i = numarray.length, j;
+            var tempExchangVal;
+            while (i > 0) {
+                for (j = 0; j < i - 1; j++) {
+                    if (numarray[j] > numarray[j + 1]) {
+                        tempExchangVal = numarray[j];
+                        numarray[j] = numarray[j + 1];
+                        numarray[j + 1] = tempExchangVal;
                     }
-                    else {
-                        alert("Error input!");
-                    }
-                },
-                false);
-//      直接用lastchild和firstchild需要点击按钮两下
-        ROut.addEventListener("click",function(){
-            var li = number.getElementsByTagName("li");
-            number.removeChild(li[li.length-1]);
-        },false);
-        LOut.addEventListener("click",function(){
-            var li = number.getElementsByTagName("li");
-            number.removeChild(li[0]);
-        },false);
-    }
+                }
+                i--;
+            }
+            return numarray;
+        }
+        //冒泡排序
+        var arrSorted = bubbleSort(numarray);
+        valuearray.innerHTML="";
+        for(i=0;i<arrSorted.length;i++){
+            var addbox = document.createElement('div');
+            addbox.className = 'numbox';
+            var addtext = document.createElement('p');
+            addtext.className = 'numtext';
+            addtext.innerHTML = arrSorted[i];
+            addbox.appendChild(addtext);
+            addbox.style.height = parseInt(arrSorted[i])+40+'px';
+            valuearray.appendChild(addbox);
+        }
+    },false);
+
+    //点击元素本身删除功能
+    valuearray.addEventListener("click",function(){
+        if(event.target.nodeName.toLowerCase()=="div"){
+            valuearray.removeChild(event.target);
+        }
+    });
+
 </script>
 </body>
 </html>
