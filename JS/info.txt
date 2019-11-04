@@ -1,0 +1,49 @@
+* 原型/构造函数/实例
+  https://www.cnblogs.com/Tiboo/p/11296979.html
+
+* 作用域，作用域链
+  看书即可，了解概念，然后实际操作得出结论
+
+* 闭包
+  1 闭包就是能够读取其他函数内部变量的函数
+  2 定义在一个函数内部的函数
+  http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html
+
+* 回收机制  
+  高级程序设计（看书了解概念）
+
+* this的指向练习，以及通过函数执行改变this指向知识点
+  https://github.com/YvetteLau/Blog/issues/6
+
+* 对象拷贝
+  浅拷贝: 以赋值的形式拷贝引用对象，仍指向同一个地址，修改时原对象也会受到影响(Object.assign)
+  深拷贝: 完全拷贝一个新对象，修改时原对象不再受到任何影响
+  https://juejin.im/post/5b5dcf8351882519790c9a2e#heading-4
+ 
+* new运算符的执行过程 
+  1 创建一个新对象
+  2 将构造函数的作用域赋给新对象（因此this就指向了这个新对象）
+  3 执行构造函数中的代码（为这个新对象添加属性）
+  4 返回新对象
+
+* 类型转换
+  显式类型转换
+  隐式类型转换 (可大量训练特殊值，了解规则)
+  https://juejin.im/post/5b6906b46fb9a04fcb5b8771
+
+* 模块化
+  https://juejin.im/post/5aaa37c8f265da23945f365c
+
+* 防抖与节流
+  https://www.cnblogs.com/Tiboo/p/11795788.html
+
+* AST(抽象语法树) & babel编译原理
+  https://juejin.im/post/5ab9f2f3f265da239b4174f0#heading-9
+
+* 函数柯里化
+
+* 数组(array)
+
+* 关于promise，以及手写一个promise 
+
+

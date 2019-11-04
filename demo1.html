@@ -3,32 +3,45 @@
 <head>
     <meta charset="utf-8">
     <title>IFE JavaScript Task 01</title>
+    <style>
+        .box {
+            border: 1px solid red;
+            overflow: hidden;
+        }
+        .box1 {
+            float: left;
+            background: pink;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+        }
+        .box2 {
+            background: #ccc;
+            width: 200px;
+            height: 200px;
+            float: left;
+        }
+    </style>
 </head>
 <body>
-<label>请输入北京今天空气质量：<input id="aqi-input" type="text"></label>
-<button id="button">确认填写</button>
-<div>您输入的值是：<span id="aqi-display">尚无录入</span></div>
+<div class="box">
+<div class="box1"><span>34</span></div>
+    <div class="box2">2</div>
+</div>
 <script type="text/javascript">
-    (function() {
-        /*
-         在注释下方写下代码
-         给按钮button绑定一个点击事件
-         在事件处理函数中
-         获取aqi-input输入的值，并显示在aqi-display中
-         */
-        var txt = document.getElementById("aqi-input");
-        var button1 = document.getElementById("button");
-        var display = document.getElementById("aqi-display");
-        button1.addEventListener("click",function(){
-                 var x;
-                 x = txt.value;
-                 if(x == ''){
-                     alert("输入为空");
-                 }
-                 display.innerHTML = x;
-        });
-    })();
+   var apple = {
+     color: 'red',
+     size: 'big'
+   }
+   var orange = {
+     age: '1年'
+   }
+
+   var apple1 = Object.assign({}, apple)
+   var apple2 = orange;
+   apple2.age = '2年'
+   console.log(apple1, apple, apple2)
 
 </script>
-</body>
+</body> 
 </html>

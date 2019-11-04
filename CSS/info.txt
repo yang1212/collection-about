@@ -1,0 +1,14 @@
+* 盒模型
+    https://www.zhangxinxu.com/wordpress/2016/09/talking-about-css-margin-box/
+  
+* BFC
+    https://juejin.im/post/5a4dbe026fb9a0452207ebe6
+
+* 居中布局
+    https://www.cnblogs.com/Tiboo/p/7617453.html
+
+* CSS动画处理考虑的性能问题
+    1 兼容性问题
+    2 过多DOM操作导致的动画卡顿
+
+    
