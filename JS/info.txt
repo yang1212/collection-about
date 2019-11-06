@@ -41,9 +41,9 @@
   https://juejin.im/post/5ab9f2f3f265da239b4174f0#heading-9
 
 * 函数柯里化
-
-* 数组(array)
+  https://www.cnblogs.com/Tiboo/p/10633469.html  
 
 * 关于promise，以及手写一个promise 
+  https://www.cnblogs.com/Tiboo/p/10072963.html
 
 
