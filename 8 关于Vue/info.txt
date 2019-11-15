@@ -1,0 +1,21 @@
+* vue 
+    1 98道vue经典面试题
+      https://segmentfault.com/a/1190000016351284?utm_source=tag-newest
+
+    2 原理
+      https://github.com/Andraw-lin/about-Vue
+
+* vue-router
+    1 vue-router常用路由
+      https://router.vuejs.org/zh/guide/essentials/nested-routes.html
+
+    2 路由两种模式实现原理
+      https://www.cnblogs.com/Tiboo/p/11588022.html
+
+* vuex
+    1 什么是vuex?
+    Vuex是一个专为Vue.js应用程序开发的状态管理模式。
+    采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化。
+
+    2 应用场景
+    vuex只能用于单个页面中不同组件（例如兄弟组件）的数据流通

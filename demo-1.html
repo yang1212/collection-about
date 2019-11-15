@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>同步操作，且then只能调用一次</title>
+</head>
+<body>
+
+<div id="box">
+  <p>如果你觉得很难，一定是哪个简单的地方卡住了，找出那个最简单的地方，你就赢了</p>
+  <br/>
+  <p>1 创建一个构造函数，构造函数接受一个参数为函数，此函数拥有两个参数，两参数均为函数</p>
+  <p>2 在构造函数原型上定义then方法</p>
+  <p>3 then方面里面再次定义一个实例，并返回新的实例</p>
+</div>
+
+<script>
+    function Promise(exector) {
+      this.status = 'pending';
+      this.value = undefined;
+      this.reason = undefined;
+      let self = this;
+      function resolve(value) {
+        if (self.status === 'pending') {
+          self.status = 'resolve'
+          self.value = value
+        }
+      }
+      function reject(reason) {
+        if (self.status === 'pending') {
+            self.status = 'reject'
+            self.reason = reason
+        }
+      }
+      exector(resolve, reject)
+    }
+
+    Promise.prototype.then = function(onfullResolve, onfullReject) {
+      let self = this; // 不是很明白此处为什么要将this赋给一个变量，为什么不直接使用
+      if (this.status === 'resolve') { 
+        onfullResolve(self.value)
+      }
+
+      if (this.status === 'reject') {
+        onfullReject(self.reason)
+      }
+
+    }
+
+    var promise1 = new Promise(function(resolve, reject) {
+        resolve('haha')
+    })
+
+    promise1.then(function(data) {
+      console.log(data)
+    }, function(err) {
+      console.log(err)
+    })
+
+    
+</script>
+</body>
+</html>

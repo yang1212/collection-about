@@ -1,0 +1,17 @@
+* 关于TCP三次握手，以及为啥是三次握手
+  https://juejin.im/post/5ce39af36fb9a07ed136a9bc
+
+* 安全
+  https://zhuanlan.zhihu.com/p/25486768?group_id=820705780520079360
+  https://www.tuicool.com/articles/7Ff2EbZ
+
+* 为什么说http协议是无状态协议
+  无状态是指协议对于事务处理没有记忆功能。缺少状态意味着，假如后面的处理需要前面的信息，则前面的信息必须重传，
+  这样可能导致每次连接传送的数据量增大。另一方面，在服务器不需要前面信息时，应答就较快。直观地说，就是每个请求都是独立的，与前面的请求和后面的请求都是没有直接联系的。
+  https://www.cnblogs.com/Jadie/p/6877392.html
+
+* HTTP协议包含哪几个部分
+  http://caibaojian.com/http.html  
+
+* 理解Https？
+  https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA

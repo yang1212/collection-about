@@ -11,4 +11,11 @@
     1 兼容性问题
     2 过多DOM操作导致的动画卡顿
 
+* CSS3动画与JS动画的区别？
+    https://www.cnblogs.com/shuaishuaidejun/p/7444711.html
+
+* 关于移动端适配的问题
+
+* HMTL5知识考点是否有遗漏    
+
     

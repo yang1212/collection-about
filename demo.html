@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>异步操作，且then能调用多次</title>
+</head>
+<body>
+
+<div id="box">
+  <p>如果你觉得很难，一定是哪个简单的地方卡住了，找出那个最简单的地方，你就赢了</p>
+  <br/>
+  <p>1 创建一个构造函数，构造函数接受一个参数为函数，此函数拥有两个参数，两参数均为函数</p>
+  <p>2 在构造函数原型上定义then方法</p>
+  <p>3 then方面里面再次定义一个实例，并返回新的实例</p>
+
+</div>
+<script>
+    function Promise(exector) {  // 创建一个构造构造函数
+      let self = this;
+      this.value = undefined;
+      this.reason = undefined;
+      this.status = 'pending';
+      this.successCallBack = [];
+      this.failCallBack = [];
+      function resolve(value) { 
+        if (self.status === 'pending') {
+          self.value = value;
+          self.status = 'resolved';
+          self.successCallBack.forEach((fn) => { fn() }) // 遍历then中成功的所有回调函数
+        }
+      }
+      function reject(reason) {
+        if (self.status === 'pending') {
+          self.reason = reason;
+          self.status = 'rejected';
+          self.failCallBack.forEach((fn) => { fn() }) // 遍历then中失败的所有回调函数
+        }
+      }
+      try {
+        exector(resolve, reject)
+      } catch(e) {
+        reject(e)
+      }
+    }
+    
+    function resolvePromise(newPromise, x, resolve, reject) {
+      if (newPromise === x) {
+        return reject(new TypeError('test error'))
+      }
+      if (x !== null && (typeof x === 'object' || typeof x === 'function')) {
+        try {
+          let then = x.then;
+          if (typeof then === 'function') {
+            then.call(function(x, y) {
+              resolvePromise(newPromise, y, resolve, reject)
+            }, err => {
+              reject(err)
+            })
+          } else {
+            resolve(x)
+          }
+        } catch(e) {
+          reject(e)
+        }
+      } else {
+        resolve(x)
+      }
+    }
+
+    Promise.prototype.then = function(onFulfilled, onRejected) {  // then方法添加到构造函数的原型上
+      let self = this;
+      let newPromise = new Promise((resolve, reject) => {
+        if (this.status === 'resolved') { // 公共状态用this, 私有状态用self
+          try {
+            let x = onFulfilled(self.value)
+            console.log(x)
+            resolvePromise(newPromise, x, resolve, reject)
+          } catch(e) {
+            reject(e)
+          }
+        }
+        if (this.status === 'rejected') {
+          try {
+            let x = onRejected(self.reason)
+            resolvePromise(newPromise, x, resolve, reject)
+          } catch(e) {
+            reject(e)
+          }
+        }
+        if (this.status === 'pending') {
+          this.successCallBack.push(() => {
+            try {
+              let x = onFulfilled(self.value)
+              resolvePromise(newPromise, x, resolve, reject)
+            } catch(e) {
+              reject(e)
+            }
+          })
+          this.failCallBack.push(() => {
+            try {
+              let x = onRejected(self.reason)
+              resolvePromise(newPromise, x, resolve, reject)
+            } catch(e) {
+              reject(e)
+            }
+          })
+        }
+      })
+      
+      if (this.status === 'resolved') {
+        onFulfilled(self.value)
+      }
+      if (this.status === 'rejected') {
+        onRejected(self.reason)
+      }
+      if (this.status === 'pending') {
+        this.successCallBack.push(() => {
+          onFulfilled(self.value)
+        })
+        this.failCallBack.push(() => {
+          onRejected(self.reason)
+        })
+      }
+      return newPromise;
+    }
+     
+    let promise1 = new Promise((resolve, reject) => { // 调用构造函数里面的方法
+      setTimeout(() => {
+        resolve('成功');
+      }, 1000)
+    })
+ 
+    promise1.then(data => { // 调用原型上面的方法
+      console.log('success', data)
+    }, err=> {
+      console.log('error', err);
+    }).then(data => {
+      console.log('success1', data)
+    })
+    
+    
+</script>
+</body>
+</html>

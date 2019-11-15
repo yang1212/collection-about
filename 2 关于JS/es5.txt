@@ -1,0 +1,65 @@
+* 原型/构造函数/实例
+  https://www.cnblogs.com/Tiboo/p/11296979.html
+
+* 闭包
+  1 闭包就是能够读取其他函数内部变量的函数
+  2 定义在一个函数内部的函数
+  http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html
+
+* this的指向练习，以及通过函数执行改变this指向知识点
+  https://github.com/YvetteLau/Blog/issues/6
+ 
+* new运算符的执行过程 
+  1 创建一个新对象
+  2 将构造函数的作用域赋给新对象（因此this就指向了这个新对象）
+  3 执行构造函数中的代码（为这个新对象添加属性）
+  4 返回新对象
+
+* 类型转换
+  显式类型转换
+  隐式类型转换 (可大量训练特殊值，了解规则)
+  https://juejin.im/post/5b6906b46fb9a04fcb5b8771
+
+* 防抖与节流
+  https://www.cnblogs.com/Tiboo/p/11795788.html
+
+* AST(抽象语法树) & babel编译原理
+  https://juejin.im/post/5ab9f2f3f265da239b4174f0#heading-9
+
+* 函数柯里化
+  https://www.cnblogs.com/Tiboo/p/10633469.html  
+
+* 跨域
+  1 跨域调用接口，并写入cookie值
+      基于跨域资源共享（CORS)
+      运维设置：Access-Control-Allow-Credentials为true, Access-Control-Allow-Origin 字段必须指定域名
+               （Access-Control-Allow-Credentials: 该字段可选。它的值是一个布尔值，表示是否允许发送Cookie）
+               （发送Cookie，Access-Control-Allow-Origin就不能设为星号，必须指定明确的、与请求网页一致的域名）  
+
+      前端设置：CORS请求默认不发送Cookie和HTTP认证信息。如果要把Cookie发到服务器，一方面要服务器同意，
+               指定Access-Control-Allow-Credentials字段。另一方面，开发者必须在AJAX请求中打开withCredentials属性。
+               即设置：axios.defaults.withCredentials = true(基于Vue)
+
+  2 跨域调用第三方接口数据
+      node作为中间层实现跨域，因为服务器之间是不存在跨域问题的
+      https://juejin.im/post/5a2f92c65188253e2470f16d
+      
+
+* 数组去重的几种方式 (性能由差到好)
+  1） 双重 for 循环
+  2） Array.filter() + indexOf
+  3） Array.sort()
+  4） new Set()
+  5） for...of + Object
+  https://www.cnblogs.com/wisewrong/p/9642264.html
+
+* 前端安全
+  1） XSS攻击(跨站脚本攻击)
+  2） CSRF攻击(跨站请求伪造)
+  3） 网络劫持攻击
+  4） 控制台注入代码
+  5） 钓鱼
+  https://tech.meituan.com/2018/09/27/fe-security.html
+  https://segmentfault.com/a/1190000006672214
+
+    

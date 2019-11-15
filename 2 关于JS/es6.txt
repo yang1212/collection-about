@@ -1,0 +1,39 @@
+* 通过 20 个棘手的ES6面试问题来提高咱们的 JS 技能
+  https://juejin.im/post/5dc8a231f265da4d40712f8a
+
+* 模块化
+  https://juejin.im/post/5aaa37c8f265da23945f365c
+
+* 关于promise，以及手写一个promise 
+  https://www.cnblogs.com/Tiboo/p/10072963.html
+
+* 可以解释一下 ES5 和ES6的区别吗
+  1） 从概念的什么时候被定义成规划
+  2） 从增加的新特性（可举常用）
+
+* 何时在 ES6 中使用箭头函数？
+  1）倒不如解释哪些场景不能用
+     这些场景包括：定义对象字面量方法、定义原型方法、定义构造函数、定义事件回调函数
+     实际场景：Vue data不可以使用箭头函数问题
+     https://zhuanlan.zhihu.com/p/26540168
+
+* ES6 类和 ES5 函数构造函数有什么区别？
+  主要区别在于使用继承,在 ES5 中使用继承要复杂得多，而且 ES6 版本更容易理解和记住
+
+* 详解Object.create(null)
+  https://juejin.im/post/5acd8ced6fb9a028d444ee4e
+
+* 解释一下 Object.freeze() 和 const 的区别
+  Object.freeze() 适用于对象值，它使对象不可变，即不能更改其属性。
+  const 声明一个只读的变量，一旦声明，常量的值就不可改变：
+
+* JS 的提升是什么  
+  提升是指 JS 解释器将所有变量和函数声明移动到当前作用域顶部的操作，提升有两种类型, 变量提升/函数提升
+
+* 对象拷贝
+  浅拷贝: 以赋值的形式拷贝引用对象，仍指向同一个地址，修改时原对象也会受到影响(Object.assign)
+  深拷贝: 完全拷贝一个新对象，修改时原对象不再受到任何影响（当object只有一层的时候，是深拷贝）
+  https://juejin.im/post/5b5dcf8351882519790c9a2e#heading-4
+
+* 关于新增的Symbol数据类型
+  
