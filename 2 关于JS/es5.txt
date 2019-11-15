@@ -62,4 +62,18 @@
   https://tech.meituan.com/2018/09/27/fe-security.html
   https://segmentfault.com/a/1190000006672214
 
+* Ajax
+  AJAX 是一种在无需重新加载整个网页的情况下，能够更新部分网页的技术。
+  readyState状态：0: 请求未初始化 1: 服务器连接已建立 2: 请求已接收 3: 请求处理中 4: 请求已完成，且响应已就绪
+
+  var url = "http://yapi.demo.qunar.com/mock/37644/testDat";
+  var a = new XMLHttpRequest();
+  a.open("get", url);
+  a.send(); 
+  a.onreadystatechange = function () {
+    if (a.readyState === 4 && a.status == 200) {
+      console.log(a, a.responseText)
+    }
+  }  
+
     
