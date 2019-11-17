@@ -24,10 +24,15 @@
       this.successCallBack = [];
       this.failCallBack = [];
       function resolve(value) { 
+        if(value instanceof Promise) {
+          return value.then(resolve, reject);
+        }
         if (self.status === 'pending') {
           self.value = value;
           self.status = 'resolved';
-          self.successCallBack.forEach((fn) => { fn() }) // 遍历then中成功的所有回调函数
+          self.successCallBack.forEach((fn) => { 
+            fn() 
+          }) // 遍历then中成功的所有回调函数
         }
       }
       function reject(reason) {
@@ -45,9 +50,6 @@
     }
     
     function resolvePromise(newPromise, x, resolve, reject) {
-      if (newPromise === x) {
-        return reject(new TypeError('test error'))
-      }
       if (x !== null && (typeof x === 'object' || typeof x === 'function')) {
         try {
           let then = x.then;
@@ -70,11 +72,16 @@
 
     Promise.prototype.then = function(onFulfilled, onRejected) {  // then方法添加到构造函数的原型上
       let self = this;
+      onFulfilled =
+        typeof onFulfilled === "function" ? onFulfilled : value => value;
+      onRejected =
+        typeof onRejected === "function" ? onRejected : reason => {
+            throw reason;
+        };
       let newPromise = new Promise((resolve, reject) => {
-        if (this.status === 'resolved') { // 公共状态用this, 私有状态用self
+        if (this.status === 'resolved') { 
           try {
             let x = onFulfilled(self.value)
-            console.log(x)
             resolvePromise(newPromise, x, resolve, reject)
           } catch(e) {
             reject(e)
@@ -107,21 +114,6 @@
           })
         }
       })
-      
-      if (this.status === 'resolved') {
-        onFulfilled(self.value)
-      }
-      if (this.status === 'rejected') {
-        onRejected(self.reason)
-      }
-      if (this.status === 'pending') {
-        this.successCallBack.push(() => {
-          onFulfilled(self.value)
-        })
-        this.failCallBack.push(() => {
-          onRejected(self.reason)
-        })
-      }
       return newPromise;
     }
      
@@ -132,11 +124,10 @@
     })
  
     promise1.then(data => { // 调用原型上面的方法
-      console.log('success', data)
-    }, err=> {
-      console.log('error', err);
-    }).then(data => {
       console.log('success1', data)
+      return '12'
+    }).then(data => {
+      console.log('success2', data)
     })
     
     

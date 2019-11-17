@@ -5,6 +5,7 @@
   https://juejin.im/post/5aaa37c8f265da23945f365c
 
 * 关于promise，以及手写一个promise 
+  概念：异步编程的一个解决方案
   https://www.cnblogs.com/Tiboo/p/10072963.html
 
 * 可以解释一下 ES5 和ES6的区别吗
