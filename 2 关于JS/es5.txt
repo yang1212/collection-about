@@ -52,6 +52,7 @@
   4） new Set()
   5） for...of + Object
   https://www.cnblogs.com/wisewrong/p/9642264.html
+  https://www.cnblogs.com/Tiboo/p/11846316.html
 
 * 前端安全
   1） XSS攻击(跨站脚本攻击)
@@ -61,6 +62,8 @@
   5） 钓鱼
   https://tech.meituan.com/2018/09/27/fe-security.html
   https://segmentfault.com/a/1190000006672214
+  https://zhuanlan.zhihu.com/p/25486768?group_id=820705780520079360
+  https://www.tuicool.com/articles/7Ff2EbZ
 
 * Ajax
   AJAX 是一种在无需重新加载整个网页的情况下，能够更新部分网页的技术。

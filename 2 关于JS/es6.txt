@@ -36,5 +36,16 @@
   深拷贝: 完全拷贝一个新对象，修改时原对象不再受到任何影响
   https://juejin.im/post/5b5dcf8351882519790c9a2e#heading-4
 
-* 关于新增的Symbol数据类型
-  
+* ES6新的特性有哪些？
+  1) 新增了块级作用域(let, const)
+     不存在变量提升/暂时性死区/不允许重复声明
+  2) 新增了一种基本数据类型(Symbol)
+     由于 Symbol 值不是对象，所以不能添加属性。基本它是一种类似于字符串的数据类型  
+  3) 提供了定义类的语法糖(class)/类的继承
+     类必须使用new调用，否则会报错   
+
+* 关于宏任务与promise的执行顺序
+  宏任务： setTimeout, setInterval
+  微任务： promise 
+  https://juejin.im/post/5b498d245188251b193d4059
+  https://www.cnblogs.com/gaoht/p/10838898.html     

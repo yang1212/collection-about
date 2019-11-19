@@ -25,7 +25,16 @@
   <span class="content">突破自己</span>
 </div>
 <script>
+  function test() {
+    console.log('先执行这里');
+    setTimeout(() => {
+        console.log('执行啦')
+    },0);
 
+    //代码2
+    console.log('先执行这里');
+  }
+  test()
 </script>
 </body>
 </html>
