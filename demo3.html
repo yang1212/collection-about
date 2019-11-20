@@ -25,16 +25,35 @@
   <span class="content">突破自己</span>
 </div>
 <script>
-  function test() {
-    console.log('先执行这里');
-    setTimeout(() => {
-        console.log('执行啦')
-    },0);
+   function getValueType(value) {
+     return Object.prototype.toString.call(value).slice(8, -1)
+   }
+   function clone(value) {
+     let valueType = getValueType(value)
+     let result;
+     if (valueType === 'Object') {
+       result = {}
+     } else if (valueType === 'Array') {
+       result = []
+     } else {
+       return value
+     }
+     for (let i in value) {
+       if (getValueType(value[i]) === 'Object' || getValueType(value[i]) === 'Array') {
+          result[i] = clone(value[i])
+       } else {
+          result[i] = value[i]
+       }
+     } 
+     return result
+   }
 
-    //代码2
-    console.log('先执行这里');
-  }
-  test()
+   var apple = {
+     name: 'yang',
+     list: [1, 2, 3, 4]
+   }
+   var newApple = clone(apple)
+
 </script>
 </body>
 </html>

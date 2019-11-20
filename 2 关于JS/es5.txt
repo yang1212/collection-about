@@ -79,4 +79,38 @@
     }
   }  
 
+* 判断值
+  1) 是否为数组
+     instanceof/contructor 常用，偶尔不准确？/假定一个全局环境，iframe引入后
+     Array.isArray(value) 兼容性不够强大
+     Object.prototype.toString.call(o) 最稳
+     https://juejin.im/post/5be52b1ae51d450b3647e766#heading-2
+  2) 是否为对象
+     instanceof
+     Object.prototype.toString.call(o) 最稳
+  3) 是否为function
+     instanceof
+     Object.prototype.toString.call(o) 最稳
+  4) 是否为基本类型
+     Object.prototype.toString.call(o) 最稳
+     除了null, typeof可判断剩下的基本数据类型
+
+* 什么是高阶函数
+  JavaScript的函数其实都指向某个变量。既然变量可以指向函数，函数的参数能接收变量，
+  那么一个函数就可以接收另一个函数作为参数，这种函数就称之为高阶函数  
+
+* 静态作用域&动态作用域
+  静态：静态作用域（即词法作用域）中的 函数 遇到既不是形参也不是函数内部定义的局部变量的变量时，会去函数 定义 时的环境中查询。
+  eg:
+    function foo(){ console.log(a) }
+    function bar(){
+      var a = 3;
+      function fn() { console.log(a) }
+      return fn()
+    }
+    var a = 2;
+    bar();
+  动态：动态作用域中的 函数 遇到既不是形参也不是函数内部定义的局部变量的变量时，到函数 调用 时的环境中查。
+    
+
     
