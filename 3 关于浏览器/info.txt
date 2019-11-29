@@ -49,3 +49,6 @@
 
     补充还可以做哪些事：
     https://www.cnblogs.com/xiaohuochai/p/9178390.html
+
+* 浏览器的多进程到JS的单线程
+  https://segmentfault.com/a/1190000012925872

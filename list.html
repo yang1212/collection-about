@@ -25,18 +25,47 @@
   <span class="content">突破自己</span>
 </div>
 <script>
-
-  function parseURL(url) {
-    let splitString = url.split('?'),
-      arr = [];
-    arr[0] = splitString[0].split('#')[1].replace(/\//g,'');
-    splitString[1].split('&').forEach((item) => {
-      arr.push(item.split('=')[0] + ' ' + item.split('=')[1])
-    })
-    console.log(arr)
-    return arr
+  let url = 'http://163.com/role/search/#page?pageSize=20&pageNumber=10'
+  function find(str, cha, num){ // 获取一段字符串某个字符n次出现位置
+    var x = str.indexOf(cha);
+    for(var i = 1; i < num; i++) {
+      x = str.indexOf(cha, x+1);
+    }
+    return x;
   }
-  parseURL('http://163.com/role/search/#page?pageSize=20&pageNumber=10')
+  function parseURL(url) {
+    if (!url) { return }
+    let splitString = url.split('?');
+    let findIndexValue = find(splitString[0].split(':')[1], '/', 3);
+    let parseUrlValue = { protocol: splitString[0].split(':')[0] }
+    if (findIndexValue !== -1) { // url含有具体路径
+      parseUrlValue.host = splitString[0].split(':')[1].slice(2, findIndexValue);
+      parseUrlValue.path = splitString[0].split(':')[1].slice(findIndexValue)
+    } else { 
+      parseUrlValue.host = splitString[0].split(':')[1].slice(2);
+    }
+      
+    // arr[0] = splitString[0].split('#')[1].replace(/\//g,'');
+    // splitString[1].split('&').forEach((item) => {
+    //   arr.push(item.split('=')[0] + ' ' + item.split('=')[1])
+    // })
+    return parseUrlValue
+  }
+  // {
+  //     protocol: "http",
+  //     host: "www.xiyanghui.com",
+  //     path: "/product/list",
+  //     query: {
+  //         id: "123456",
+  //         sort: "discount"
+  //     },
+  //     hash: "title"
+  // }
+
+  parseURL('http://www.xiyanghui.com/com/sit?id=123456&sort=discount#title')
+  
+  // http://163.com/role/search/#page?pageSize=20&pageNumber=10
+  // http://163.com/role/search/#/page?pageSize=20&pageNumber=10
 
 
 </script>

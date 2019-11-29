@@ -5,6 +5,15 @@
     2 原理
       https://github.com/Andraw-lin/about-Vue
 
+* vue渐进式框架的理解    
+  blog.csdn.net/wandoumm/article/details/80253681
+
+* vue data为什么是函数？而不是对象
+  https://www.imqianduan.com/vue/192.html  
+
+* 谈谈对虚拟DOM的认识  
+  https://juejin.im/post/5d36cc575188257aea108a74#heading-14
+  
 * vue-router
     1 vue-router常用路由
       https://router.vuejs.org/zh/guide/essentials/nested-routes.html

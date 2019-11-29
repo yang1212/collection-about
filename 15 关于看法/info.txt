@@ -1,0 +1,12 @@
+* 谈谈对三大框架的区别
+  对开发者而言：
+  上手难易程度：Vue > React > Angular
+
+  对需求业务而言：
+  Angular是面向整体应用开发的
+  Vue, React面向前端页面
+  
+  相通关注点:
+  单页应用/组件/数据流/状态管理/模板化/数据绑定/后端API调用
+  https://www.bilibili.com/read/cv3786010/
+  justcode.ikeepstudying.com/2019/09/javascript框架：angular-react-vue三大前端框架大比拼/

@@ -4,56 +4,36 @@
 <meta charset="utf-8">
 <title>菜鸟教程(runoob.com)</title>
 <style>
-  .box {
-    height: 500px;
-    position: relative;
-    background: greenyellow;
-  }
-  .content {
-    width: 400px;
-    background: pink;
-    color:#fff;
-    position: absolute;
-    top:50%;
-    transform: translate(-50%, 50%);
-    left: 50%;
-  }
+    .box {
+     
+    }
+   .panel-left {
+     float: right;
+     width: 200px;
+     background: red;
+   }
+   .panel-right {
+     background: yellow;
+     margin-right: 200px;
+   }
 </style>
 </head>
 <body>
-<div class="box">
-  <span class="content">突破自己</span>
-</div>
+  <div class="box">
+    <div class="panel-left">1123 21323 132312
+      <p>122</p>
+    </div>
+    <div class="panel-right">2 <p>122</p></div>
+  </div>
 <script>
-   function getValueType(value) {
-     return Object.prototype.toString.call(value).slice(8, -1)
+   for (var i = 1; i <=5; i++) {
+     console.log(i); // 执行性函数前面的语句一定要加分号;
+     (function(j) {
+       setTimeout( function timer() {
+         console.log(j)
+       }, 1000)
+     })(i)
    }
-   function clone(value) {
-     let valueType = getValueType(value)
-     let result;
-     if (valueType === 'Object') {
-       result = {}
-     } else if (valueType === 'Array') {
-       result = []
-     } else {
-       return value
-     }
-     for (let i in value) {
-       if (getValueType(value[i]) === 'Object' || getValueType(value[i]) === 'Array') {
-          result[i] = clone(value[i])
-       } else {
-          result[i] = value[i]
-       }
-     } 
-     return result
-   }
-
-   var apple = {
-     name: 'yang',
-     list: [1, 2, 3, 4]
-   }
-   var newApple = clone(apple)
-
 </script>
 </body>
 </html>

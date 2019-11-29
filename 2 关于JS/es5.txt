@@ -8,6 +8,7 @@
 
 * this的指向练习，以及通过函数执行改变this指向知识点
   https://github.com/YvetteLau/Blog/issues/6
+  https://www.cnblogs.com/Tiboo/p/11370325.html
  
 * new运算符的执行过程 
   1 创建一个新对象
@@ -64,6 +65,7 @@
   https://segmentfault.com/a/1190000006672214
   https://zhuanlan.zhihu.com/p/25486768?group_id=820705780520079360
   https://www.tuicool.com/articles/7Ff2EbZ
+  https://www.cnblogs.com/hyddd/archive/2009/04/09/1432744.html
 
 * Ajax
   AJAX 是一种在无需重新加载整个网页的情况下，能够更新部分网页的技术。
@@ -96,21 +98,49 @@
      除了null, typeof可判断剩下的基本数据类型
 
 * 什么是高阶函数
-  JavaScript的函数其实都指向某个变量。既然变量可以指向函数，函数的参数能接收变量，
-  那么一个函数就可以接收另一个函数作为参数，这种函数就称之为高阶函数  
+   .JavaScript的函数其实都指向某个变量。既然变量可以指向函数，函数的参数能接收变量
+   .那么一个函数就可以接收另一个函数作为参数，这种函数就称之为高阶函数  
 
 * 静态作用域&动态作用域
+  事实上JavaScript并不具有动态作用域，它只有词法作用域，简单明了，但是this机制某种程度上很像动态作用域
   静态：静态作用域（即词法作用域）中的 函数 遇到既不是形参也不是函数内部定义的局部变量的变量时，会去函数 定义 时的环境中查询。
   eg:
     function foo(){ console.log(a) }
     function bar(){
       var a = 3;
-      function fn() { console.log(a) }
-      return fn()
+      return foo()
     }
     var a = 2;
     bar();
   动态：动态作用域中的 函数 遇到既不是形参也不是函数内部定义的局部变量的变量时，到函数 调用 时的环境中查。
-    
+  
 
-    
+* 容易忽略的原生方法
+  1) indexOf
+     从数组/字符串中搜索一个指定的元素首次出现位置
+     value.indexOf(item,start)
+     item: 必须，查找的元素
+     start： 可选参数, 规定在数组中从哪开始检索的位置 
+
+  2) slice
+     从已有的数组/字符串中返回选定的元素
+     该方法并不会修改数组/字符串，而是返回一个子数组/新串
+     arrayObject.slice(start,end)
+     start：必须, 规定从何处开始选取,如果是负数，那么它规定从数组尾部开始算起的位置。
+            也就是说，-1 指最后一个元素，-2 指倒数第二个元素
+            eg: str = '123456' str.slice(2) = '3456'  str.slice(-3) = '456'       
+     end:   可选，规定从何处结束选取,该参数是数组片断结束处的数组下标
+            如果这个参数是负数，那么它规定的是从数组尾部开始算起的元素。
+            eg: str = '123456' str.slice(2, 4) = '34'  str.slice(2,-1) = '345' 
+
+  3) findIndex
+     数组常用方法，返回符合条件的元素的索引位置，之后的值不会再调用执行函数  
+     eg:  var ages = [3, 10, 18, 20];
+          function myFunction() {
+            let temp = ages.findIndex(function((item) => {
+              return itme > 10
+            }));
+            console.log(temp) // 2
+          }   
+
+ * 单线程（页面定时器停止）              
