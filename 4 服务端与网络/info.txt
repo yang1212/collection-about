@@ -6,8 +6,15 @@
   这样可能导致每次连接传送的数据量增大。另一方面，在服务器不需要前面信息时，应答就较快。直观地说，就是每个请求都是独立的，与前面的请求和后面的请求都是没有直接联系的。
   https://www.cnblogs.com/Jadie/p/6877392.html
 
-* HTTP协议包含哪几个部分
+* HTTP协议包含哪几个部分&常见响应码
   http://caibaojian.com/http.html  
 
 * 理解Https？
   https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA
+
+* 反向代理Nginx  
+  https://juejin.im/entry/57fb07b0816dfa0056c0ada8
+
+* node中间层可转发给服务器，为什么还需要反向代理，其中有什么故事
+  https://juejin.im/post/5bacbd395188255c8d0fd4b2
+  https://juejin.im/post/5ca2012d51882543d43f3550

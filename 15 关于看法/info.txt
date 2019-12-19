@@ -10,3 +10,6 @@
   单页应用/组件/数据流/状态管理/模板化/数据绑定/后端API调用
   https://www.bilibili.com/read/cv3786010/
   justcode.ikeepstudying.com/2019/09/javascript框架：angular-react-vue三大前端框架大比拼/
+
+* 实现前后端分离的心得
+  segmentfault.com/a/1190000017047151

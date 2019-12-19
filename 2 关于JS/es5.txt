@@ -31,6 +31,7 @@
   https://www.cnblogs.com/Tiboo/p/10633469.html  
 
 * 跨域
+  https://juejin.im/post/5c23993de51d457b8c1f4ee1
   1 跨域调用接口，并写入cookie值
       基于跨域资源共享（CORS)
       运维设置：Access-Control-Allow-Credentials为true, Access-Control-Allow-Origin 字段必须指定域名

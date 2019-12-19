@@ -1,39 +1,31 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>菜鸟教程(runoob.com)</title>
-<style>
-    .box {
-     
-    }
-   .panel-left {
-     float: right;
-     width: 200px;
-     background: red;
-   }
-   .panel-right {
-     background: yellow;
-     margin-right: 200px;
-   }
-</style>
-</head>
-<body>
-  <div class="box">
-    <div class="panel-left">1123 21323 132312
-      <p>122</p>
-    </div>
-    <div class="panel-right">2 <p>122</p></div>
-  </div>
-<script>
-   for (var i = 1; i <=5; i++) {
-     console.log(i); // 执行性函数前面的语句一定要加分号;
-     (function(j) {
-       setTimeout( function timer() {
-         console.log(j)
-       }, 1000)
-     })(i)
-   }
-</script>
-</body>
+    <head>
+    <meta charset="utf-8" />
+    <title>浮动</title>
+    <style>
+      .test2 {
+          width: 100px;
+          height: 100px;
+          background: yellow;
+      }
+    </style>
+    </head>
+    <body>
+      <ul id="box">
+        <li>列表一</li>
+        <li>列表二</li>
+        <li>列表三</li>
+        <li>列表四</li>
+      </ul>
+      <script>
+        var box = document.getElementById('box')
+        box.onclick = function(event) { // DOM0级事件处理程序
+          var target = event.target;
+          if (target.nodeName === 'LI') {
+            console.log(target.innerHTML)
+          }
+        }
+      </script>
+    </body>
 </html>
