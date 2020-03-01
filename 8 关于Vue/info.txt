@@ -13,6 +13,9 @@
 
 * 谈谈对虚拟DOM的认识  
   https://juejin.im/post/5d36cc575188257aea108a74#heading-14
+
+* Vue双向数据绑定原理
+  https://juejin.im/post/5cebd5ae6fb9a07ed2244cef  
   
 * vue-router
     1 vue-router常用路由

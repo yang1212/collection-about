@@ -5,9 +5,9 @@
     <title>浮动</title>
     <style>
       .test2 {
-          width: 100px;
-          height: 100px;
-          background: yellow;
+        width: 100px;
+        height: 100px;
+        background: yellow;
       }
     </style>
     </head>
@@ -19,13 +19,28 @@
         <li>列表四</li>
       </ul>
       <script>
-        var box = document.getElementById('box')
-        box.onclick = function(event) { // DOM0级事件处理程序
-          var target = event.target;
-          if (target.nodeName === 'LI') {
-            console.log(target.innerHTML)
+        function getDataType(value) {
+          return Object.prototype.toString.call(value).slice(8, -1)
+        }
+        function clone(value) {
+          let result;
+          let type = getDataType(value)
+          if (type === 'Object') {
+            result = {};
+          } else if (type === 'Array') {
+            result = [];
+          } else {
+            return value;
           }
+          for(let i in value) {
+            if(getDataType(value[i]) === 'Object' || getDataType(value[i]) === 'Array') {
+              result[i] = clone(value[i])
+            } else {
+              result[i] = value[i]
+            }
+          }
+          return result
         }
       </script>
     </body>
-</html>
+</html> 

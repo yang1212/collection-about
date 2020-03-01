@@ -9,4 +9,5 @@
    一种新的 JS 方言 JSX，将原始 HTML 模板嵌入到 JS 代码中。JSX 代码本身不能被浏览器读取，
    必须使用Babel和webpack等工具将其转换为传统的JS。
 
-   
+* React性能优化方案之PureRenderMixin(react-addons-pure-render-mixin)
+  https://juejin.im/post/5b10dcc35188257d367e53cc   
