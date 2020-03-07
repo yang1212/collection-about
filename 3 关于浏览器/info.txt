@@ -9,11 +9,7 @@
     https://blog.csdn.net/Summer_15/article/details/71249203
 
 * 从输入 url 到展示的过程  
-    1 DNS 解析
-    2 TCP 三次握手
-    3 发送请求，分析 url，设置请求报文(头，主体)
-    4 服务器返回请求的文件 (html)
-    5 浏览器渲染  
+    https://www.cnblogs.com/Tiboo/p/12317123.html
 
 * 重绘与回流
     https://www.cnblogs.com/Tiboo/p/10505613.html

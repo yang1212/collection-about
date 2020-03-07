@@ -33,6 +33,6 @@
   
 
 * 关于移动端适配的问题
-* HMTL5知识考点是否有遗漏    
+  https://www.cnblogs.com/Tiboo/p/12273842.html    
 
     

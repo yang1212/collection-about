@@ -35,6 +35,7 @@
 * 对象拷贝
   浅拷贝: 以赋值的形式拷贝引用对象，仍指向同一个地址，修改时原对象也会受到影响(Object.assign)
   深拷贝: 完全拷贝一个新对象，修改时原对象不再受到任何影响
+  https://www.cnblogs.com/Tiboo/p/12306442.html
   https://juejin.im/post/5b5dcf8351882519790c9a2e#heading-4
 
 * ES6新的特性有哪些？

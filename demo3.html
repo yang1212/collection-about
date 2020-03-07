@@ -19,28 +19,12 @@
         <li>列表四</li>
       </ul>
       <script>
-        function getDataType(value) {
-          return Object.prototype.toString.call(value).slice(8, -1)
-        }
-        function clone(value) {
-          let result;
-          let type = getDataType(value)
-          if (type === 'Object') {
-            result = {};
-          } else if (type === 'Array') {
-            result = [];
-          } else {
-            return value;
-          }
-          for(let i in value) {
-            if(getDataType(value[i]) === 'Object' || getDataType(value[i]) === 'Array') {
-              result[i] = clone(value[i])
-            } else {
-              result[i] = value[i]
-            }
-          }
-          return result
-        }
+         let apple = {
+           color:'red',
+           size: 'small'
+         }
+         let { color, size, value } = apple
+         console.log(color, size, value)
       </script>
     </body>
 </html> 
