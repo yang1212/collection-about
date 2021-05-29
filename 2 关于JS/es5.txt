@@ -47,13 +47,28 @@
       https://juejin.im/post/5a2f92c65188253e2470f16d
       
 
-* 数组去重的几种方式 (性能由差到好)
-  1） 双重 for 循环
-  2） Array.filter() + indexOf
-  3） Array.sort()
-  4） new Set()
-  5） for...of + Object
-  https://www.cnblogs.com/wisewrong/p/9642264.html
+* 数组去重的几种方式
+  1、 一维数组[]去重
+
+  for (let i in arr) {
+    if (!obj[arr[i]]) {
+      temp.push(arr[i])
+      obj[arr[i]] = 1
+    }
+  }
+
+  let list = new Set(arr)
+  let temp = Array.from(list)
+
+
+  2、一维数组对象[{}]去重
+
+  for (let i in arr) {
+    if (!obj[arr[i].id]) {
+      obj[arr[i].id] = 1
+      temp.push(arr[i])
+    }
+  }
   https://www.cnblogs.com/Tiboo/p/11846316.html
 
 * 前端安全
@@ -116,7 +131,7 @@
   动态：动态作用域中的 函数 遇到既不是形参也不是函数内部定义的局部变量的变量时，到函数 调用 时的环境中查。
   
 
-* 容易忽略的原生方法
+* 折腾数据
   1) indexOf
      从数组/字符串中搜索一个指定的元素首次出现位置
      value.indexOf(item,start)
@@ -142,5 +157,12 @@
               return itme > 10
             }));
             console.log(temp) // 2
-          }   
+          } 
+
+  4) for/ for in -> break  every/some -> return： 中断本次大循环  
+
+  5) 迭代方法
+     map：根据最终的返回值决定数组的结构
+     filter： 可返回满足条件的数据
+     some/every： 布尔值       
               
