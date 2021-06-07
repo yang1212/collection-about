@@ -24,3 +24,9 @@
 
 * 如何在vue项目中实现按需加载？  
    Element出品的babel-plugin-component安装以上插件后,在.babelrc配置, 即可实现组件按需加载了。
+
+
+
+> AST(抽象语法树) & babel编译原理
+
+[参考](https://juejin.im/post/5ab9f2f3f265da239b4174f0#heading-9)
