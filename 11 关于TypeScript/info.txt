@@ -1,2 +1,0 @@
-* 关于typeScript核心知识点
-  
