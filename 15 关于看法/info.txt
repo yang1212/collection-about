@@ -1,5 +1,0 @@
-* 谈谈对三大框架
-  https://www.cnblogs.com/Tiboo/p/12383720.html
-
-* 实现前后端分离的心得
-  segmentfault.com/a/1190000017047151
