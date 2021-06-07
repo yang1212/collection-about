@@ -7,7 +7,7 @@
 
 ### 函数:
 
-1）入参为数组：Array<number>代表数组组成的值类型为number
+1）入参为数组：`Array<number>`代表数组组成的值类型为number
 ````
 function missValue(nums: Array<number>): number {
   for (let i = 0; i < nums.length; i++) {
@@ -70,7 +70,7 @@ testFn({label: 'temp2Label'})
 
 ### 泛型：
 
-能够支持当前的数据类型，同时也能支持未来的数据类型, 并使得返回的值类型与入参类型一致。使得大型应用在应用的可重用性方面有更好的拓展
+能够支持当前的数据类型，同时也能支持未来的数据类型, 并使得返回的值类型与入参类型一致,使得大型应用在可重用性方面有更好的拓展
 ````
 function missValueT<T>(nums: T) : T {
   return nums
