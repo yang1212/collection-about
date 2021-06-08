@@ -137,6 +137,36 @@
 
 <br/>
 
+> 重绘与回流
+
+[参考](https://www.cnblogs.com/Tiboo/p/10505613.html)
+
+<br/>
+
 > 关于宏任务与微任务
 
 [参考](https://github.com/yang1212/collection-about/issues/4)
+
+<br/>
+
+> 存储
+
+[参考](https://www.cnblogs.com/Tiboo/p/10355955.html)
+
+<br/>
+
+> 内存泄露
+
+  内存泄露是指new了一块内存，但无法被释放或者被垃圾回收, 造成内存泄露的可能会有以下几种情况：
+
+  1）监听在window/body等事件没有解绑
+
+  2）绑在EventBus的事件没有解绑
+
+  3）Vuex的$store watch了之后没有unwatch
+
+  4）模块形成的闭包内部变量使用完后没有置成null
+
+  5）使用第三方库创建，没有调用正确的销毁函数  
+
+  [参考]((https://juejin.im/post/5b2fd09ee51d45588576f429))      
