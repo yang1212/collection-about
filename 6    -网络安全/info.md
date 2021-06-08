@@ -1,23 +1,35 @@
-* 关于TCP三次握手，以及为啥是三次握手
-  https://juejin.im/post/5ce39af36fb9a07ed136a9bc
+> 关于TCP三次握手，以及为啥是三次握手
 
-* 为什么说http协议是无状态协议
-  无状态是指协议对于事务处理没有记忆功能。缺少状态意味着，假如后面的处理需要前面的信息，则前面的信息必须重传，
-  这样可能导致每次连接传送的数据量增大。另一方面，在服务器不需要前面信息时，应答就较快。直观地说，就是每个请求都是独立的，与前面的请求和后面的请求都是没有直接联系的。
-  https://www.cnblogs.com/Jadie/p/6877392.html
+[参考](https://juejin.im/post/5ce39af36fb9a07ed136a9bc)
 
-* HTTP协议包含哪几个部分&常见响应码
-  http://caibaojian.com/http.html  
+<br/>
 
-* 理解Https？
-  https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA
+> 为什么说http协议是无状态协议
 
-* 反向代理Nginx  
-  https://juejin.im/entry/57fb07b0816dfa0056c0ada8
+无状态是指协议对于事务处理没有记忆功能。缺少状态意味着，假如后面的处理需要前面的信息，则前面的信息必须重传，
+这样可能导致每次连接传送的数据量增大。另一方面，在服务器不需要前面信息时，应答就较快。直观地说，就是每个请求都是独立的，与前面的请求和后面的请求都是没有直接联系的。
 
-* node中间层可转发给服务器，为什么还需要反向代理，其中有什么故事
-  https://juejin.im/post/5bacbd395188255c8d0fd4b2
-  https://juejin.im/post/5ca2012d51882543d43f3550
+[参考](https://www.cnblogs.com/Jadie/p/6877392.html)
+
+<br/>
+
+> HTTP协议包含哪几个部分&常见响应码
+
+[参考](http://caibaojian.com/http.html) 
+
+<br/>
+
+> 理解Https？
+
+[参考](https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA)
+
+<br/>
+
+> 反向代理Nginx  
+
+[参考](https://juejin.im/entry/57fb07b0816dfa0056c0ada8)
+
+<br/>
 
 
 > 跨域
@@ -39,8 +51,9 @@
   [参考1](https://juejin.im/post/5a2f92c65188253e2470f16d)、
   [参考2](https://juejin.im/post/5c23993de51d457b8c1f4ee1)  
 
+<br/>
 
-  > 前端安全
+> 前端安全
 
   1） XSS攻击(跨站脚本攻击)
 
@@ -52,8 +65,8 @@
 
   5） 钓鱼
 
-  [参考](https://tech.meituan.com/2018/09/27/fe-security.html)、
-  [参考](https://segmentfault.com/a/1190000006672214)、
-  [参考](https://zhuanlan.zhihu.com/p/25486768?group_id=820705780520079360)、
-  [参考](https://www.tuicool.com/articles/7Ff2EbZ)、
-  [参考](https://www.cnblogs.com/hyddd/archive/2009/04/09/1432744.html)
+  [参考1](https://tech.meituan.com/2018/09/27/fe-security.html)、
+  [参考2](https://segmentfault.com/a/1190000006672214)、
+  [参考3](https://zhuanlan.zhihu.com/p/25486768?group_id=820705780520079360)、
+  [参考4](https://www.tuicool.com/articles/7Ff2EbZ)、
+  [参考5](https://www.cnblogs.com/hyddd/archive/2009/04/09/1432744.html)
