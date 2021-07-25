@@ -4,7 +4,7 @@
 [2、谈谈对虚拟DOM的认识](https://juejin.im/post/5d36cc575188257aea108a74#heading-14) 
 
 拓展：
-* [浏览器渲染引擎工作流程]()
+* [浏览器渲染引擎工作流程](https://segmentfault.com/a/1190000010298038)
 * [深度优先遍历DOM树](https://github.com/yang1212/collection-about/issues/9)
 * [两棵树是否相等](https://leetcode-cn.com/problems/same-tree/submissions/)
 * [diff 算法](https://juejin.cn/post/6844903767473651720)
