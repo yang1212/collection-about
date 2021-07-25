@@ -8,6 +8,7 @@
 * [深度优先遍历DOM树](https://github.com/yang1212/collection-about/issues/9)
 * [两棵树是否相等](https://leetcode-cn.com/problems/same-tree/submissions/)
 * [diff 算法](https://juejin.cn/post/6844903767473651720)
+* [vue、react中的虚拟DOM]()
 
 [3、vue data为什么是函数？而不是对象](https://www.imqianduan.com/vue/192.html )
 
