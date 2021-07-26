@@ -1,9 +1,16 @@
-### Vue
+## Vue
+### 基础概要
+[1、父子组件生命周期执行顺序](https://juejin.cn/post/6844904113914773518)
+
+[2、数据通信](https://www.cnblogs.com/Tiboo/p/12593666.html)
+
+
+### 原理理解
 [1、vue渐进式框架的理解](blog.csdn.net/wandoumm/article/details/80253681)
 
-[2、谈谈对虚拟DOM的认识](https://juejin.im/post/5d36cc575188257aea108a74#heading-14) 
+[2、谈谈对虚拟DOM的认识](https://juejin.im/post/5d36cc575188257aea108a74#heading-14) （拓展如下）
 
-拓展：
+
 * [浏览器渲染引擎工作流程](https://segmentfault.com/a/1190000010298038)
 * [深度优先遍历DOM树](https://github.com/yang1212/collection-about/issues/9)
 * [两棵树是否相等](https://leetcode-cn.com/problems/same-tree/submissions/)
@@ -14,7 +21,7 @@
 
 [4、Vue双向数据绑定原理](https://juejin.im/post/5cebd5ae6fb9a07ed2244cef )
 
-  
+ 
 ### vue-router
     1 vue-router常用路由
       https://router.vuejs.org/zh/guide/essentials/nested-routes.html
