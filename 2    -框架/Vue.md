@@ -4,6 +4,8 @@
 
 [2、数据通信](https://www.cnblogs.com/Tiboo/p/12593666.html)
 
+[3、插槽(slot)](https://juejin.cn/post/6844903920037281805)
+
 
 ### 原理理解
 [1、vue渐进式框架的理解](blog.csdn.net/wandoumm/article/details/80253681)
