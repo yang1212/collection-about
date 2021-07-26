@@ -6,6 +6,14 @@
 
 [3、插槽(slot)](https://juejin.cn/post/6844903920037281805)
 
+[4、$nextTick](https://segmentfault.com/a/1190000012861862)
+
+[5、mixin](https://segmentfault.com/a/1190000015698391)
+
+[6、动态组件与异步组件](https://cn.vuejs.org/v2/guide/components-dynamic-async.html)
+
+[7、keep-alive](https://segmentfault.com/a/1190000023832423)
+
 
 ### 原理理解
 [1、vue渐进式框架的理解](blog.csdn.net/wandoumm/article/details/80253681)
