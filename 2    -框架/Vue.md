@@ -14,7 +14,7 @@
 
 [7、keep-alive](https://segmentfault.com/a/1190000023832423)
 
-[8、EventBus]()
+[8、EventBus](https://juejin.cn/post/6861572888420581390)
 
 
 ### 原理理解
