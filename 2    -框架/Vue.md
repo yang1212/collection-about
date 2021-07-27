@@ -2,7 +2,7 @@
 ### 基础概要
 [1、父子组件生命周期执行顺序](https://juejin.cn/post/6844904113914773518)
 
-[2、数据通信](https://www.cnblogs.com/Tiboo/p/12593666.html)
+[2、数据通信](https://www.cnblogs.com/Tiboo/p/12593666.html)(关联[EventBus](https://juejin.cn/post/6861572888420581390))
 
 [3、插槽(slot)](https://segmentfault.com/a/1190000018441566)
 
@@ -14,7 +14,6 @@
 
 [7、keep-alive](https://segmentfault.com/a/1190000023832423)
 
-[8、EventBus](https://juejin.cn/post/6861572888420581390)
 
 
 ### 原理理解
