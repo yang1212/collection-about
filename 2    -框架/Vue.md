@@ -18,7 +18,17 @@
 ### 原理理解
 [1、vue渐进式框架的理解](blog.csdn.net/wandoumm/article/details/80253681)
 
-[2、谈谈对虚拟DOM的认识](https://juejin.im/post/5d36cc575188257aea108a74#heading-14) （拓展如下）
+[2、MVVM](https://juejin.cn/post/6844903929298288647)
+
+3、实现数据绑定的几种做法
+
+[脏值检查]()
+
+[数据劫持]()
+
+[发布-订阅模式]()（附带了解另外一种模式：[观察者模式]()）
+
+[4、谈谈对虚拟DOM的认识](https://juejin.im/post/5d36cc575188257aea108a74#heading-14) （拓展如下）
 
 
 * [浏览器渲染引擎工作流程](https://segmentfault.com/a/1190000010298038)
@@ -27,9 +37,9 @@
 * [diff 算法](https://juejin.cn/post/6844903767473651720)
 * [vue、react中的虚拟DOM]()
 
-[3、vue data为什么是函数？而不是对象](https://www.imqianduan.com/vue/192.html )
+[5、vue data为什么是函数？而不是对象](https://www.imqianduan.com/vue/192.html )
 
-[4、Vue双向数据绑定原理](https://juejin.im/post/5cebd5ae6fb9a07ed2244cef )
+[6、Vue双向数据绑定原理](https://juejin.im/post/5cebd5ae6fb9a07ed2244cef )
 
  
 ### vue-router
