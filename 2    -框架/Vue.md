@@ -58,11 +58,3 @@
     2 应用场景
     vuex只能用于单个页面中不同组件（例如兄弟组件）的数据流通
 
-
-vue 
-
-    1 98道vue经典面试题
-      https://segmentfault.com/a/1190000016351284?utm_source=tag-newest
-
-    2 原理
-      https://github.com/Andraw-lin/about-Vue    
