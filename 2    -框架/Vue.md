@@ -4,7 +4,7 @@
 
 [2、数据通信](https://www.cnblogs.com/Tiboo/p/12593666.html)
 
-[3、插槽(slot)](https://juejin.cn/post/6844903920037281805)
+[3、插槽(slot)](https://segmentfault.com/a/1190000018441566)
 
 [4、$nextTick](https://segmentfault.com/a/1190000012861862)
 
