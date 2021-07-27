@@ -14,6 +14,8 @@
 
 [7、keep-alive](https://segmentfault.com/a/1190000023832423)
 
+[8、EventBus]()
+
 
 ### 原理理解
 [1、vue渐进式框架的理解](blog.csdn.net/wandoumm/article/details/80253681)
