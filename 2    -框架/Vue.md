@@ -2,7 +2,7 @@
 ### 基础概要
 [1、父子组件生命周期执行顺序](https://juejin.cn/post/6844904113914773518)
 
-[2、数据通信](https://www.cnblogs.com/Tiboo/p/12593666.html)(关联[EventBus](https://juejin.cn/post/6861572888420581390))
+[2、数据通信](https://www.cnblogs.com/Tiboo/p/12593666.html)([EventBus](https://juejin.cn/post/6861572888420581390))
 
 [3、插槽(slot)](https://segmentfault.com/a/1190000018441566)
 
@@ -21,16 +21,20 @@
 
 [2、MVVM](https://juejin.cn/post/6844903929298288647)
 
-3、实现数据绑定的几种做法
+3、Vue 2.x双向数据绑定
+* 数据劫持: 在访问或者修改对象的某个属性时，通过一段代码拦截这个行为，进行额外的操作或者修改返回结果
+* 经典案例：Vue 2.x双向数据绑定
+* 核心API: object.defineproperty
 
-* [脏值检查]()
+4、实现数据绑定的几种做法
 
-* [数据劫持]()
+* [脏值检查](https://www.mopsky.com/2018/02/01/1eab7ae3ea/)
+
+* 数据劫持
 
 * [发布-订阅模式]()（附带了解另外一种模式：[观察者模式](https://juejin.cn/post/6844903921211670536)）
 
-[4、谈谈对虚拟DOM的认识](https://juejin.im/post/5d36cc575188257aea108a74#heading-14) （拓展如下）
-
+[5、谈谈对虚拟DOM的认识](https://juejin.im/post/5d36cc575188257aea108a74#heading-14) （拓展如下）
 
 * [浏览器渲染引擎工作流程](https://segmentfault.com/a/1190000010298038)
 * [深度优先遍历DOM树](https://github.com/yang1212/collection-about/issues/9)
@@ -38,19 +42,19 @@
 * [diff 算法](https://juejin.cn/post/6844903767473651720)
 * [vue、react中的虚拟DOM]()
 
-[5、vue data为什么是函数？而不是对象](https://www.imqianduan.com/vue/192.html )
+[6、vue data为什么是函数？而不是对象](https://www.imqianduan.com/vue/192.html )
 
-[6、Vue双向数据绑定原理](https://juejin.im/post/5cebd5ae6fb9a07ed2244cef )
+[7、Vue双向数据绑定原理](https://juejin.im/post/5cebd5ae6fb9a07ed2244cef )
 
  
-### vue-router
+## vue-router
     1 vue-router常用路由
       https://router.vuejs.org/zh/guide/essentials/nested-routes.html
 
     2 路由两种模式实现原理
       https://www.cnblogs.com/Tiboo/p/11588022.html
 
-### vuex
+## vuex
     1 什么是vuex?
     Vuex是一个专为Vue.js应用程序开发的状态管理模式。
     采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化。
