@@ -1,6 +1,6 @@
 ## Vue
 ### 基础概要
-[1、父子组件生命周期执行顺序](https://juejin.cn/post/6844904113914773518)
+1、[父子组件生命周期执行顺序](https://juejin.cn/post/6844904113914773518)
 
 [2、数据通信](https://www.cnblogs.com/Tiboo/p/12593666.html)(关联[EventBus](https://juejin.cn/post/6861572888420581390))
 
