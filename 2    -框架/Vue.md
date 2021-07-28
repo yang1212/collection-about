@@ -22,17 +22,18 @@
 [2、MVVM](https://juejin.cn/post/6844903929298288647)
 
 3、Vue 2.x双向数据绑定
+* 核心API: 基于[object.defineproperty](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty) 进行数据劫持
+
 * 数据劫持: 在访问或者修改对象的某个属性时，通过一段代码拦截这个行为，进行额外的操作或者修改返回结果
-* 经典案例：Vue 2.x双向数据绑定
-* 核心API: object.defineproperty
+
+* 核心设计模式：[发布-订阅模式](https://juejin.cn/post/6844903921211670536)
 
 4、实现数据绑定的几种做法
 
 * [脏值检查](https://www.mopsky.com/2018/02/01/1eab7ae3ea/)
 
-* 数据劫持
+* 数据劫持 + 发布订阅
 
-* [发布-订阅模式]()（附带了解另外一种模式：[观察者模式](https://juejin.cn/post/6844903921211670536)）
 
 [5、谈谈对虚拟DOM的认识](https://juejin.im/post/5d36cc575188257aea108a74#heading-14) （拓展如下）
 
@@ -44,9 +45,7 @@
 
 [6、vue data为什么是函数？而不是对象](https://www.imqianduan.com/vue/192.html )
 
-[7、Vue双向数据绑定原理](https://juejin.im/post/5cebd5ae6fb9a07ed2244cef )
 
- 
 ## vue-router
     1 vue-router常用路由
       https://router.vuejs.org/zh/guide/essentials/nested-routes.html
