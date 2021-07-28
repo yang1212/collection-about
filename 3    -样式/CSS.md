@@ -1,4 +1,6 @@
-> 盒模型
+### 概念理解
+
+[1、盒模型](https://www.zhangxinxu.com/wordpress/2016/09/talking-about-css-margin-box/)
 
   盒模型分为IE盒模型和W3C标准盒模型：
 
@@ -6,19 +8,15 @@
 
   W3C标准盒模型： width = 内容的宽度
 
-  [参考内容](https://www.zhangxinxu.com/wordpress/2016/09/talking-about-css-margin-box/)
-  
-<br/>
-
-> BFC
+[2、BFC](https://juejin.im/post/5a4dbe026fb9a0452207ebe6)
 
   BFC（Block Formatting Context）直译为“块级格式化上下文”
 
-  [参考内容](https://juejin.im/post/5a4dbe026fb9a0452207ebe6)
-
 <br/>
 
-> 布局
+### 布局&适配 
+
+1、[布局](https://www.cnblogs.com/Tiboo/p/7617453.html)
 
   常用水平居中：
 
@@ -43,28 +41,22 @@
   absolute + transform
   flex + justify-content + align-items
   ````  
-  [参考内容](https://www.cnblogs.com/Tiboo/p/7617453.html)
+
+2、[关于移动端适配的问题](https://www.cnblogs.com/Tiboo/p/12273842.html)
 
 <br/>
 
-> 关于移动端适配的问题
+### 其他
 
-  [参考内容](https://www.cnblogs.com/Tiboo/p/12273842.html)  
-<br/>     
+1、CSS动画处理考虑的性能问题
 
-> CSS动画处理考虑的性能问题
+* 兼容性问题
 
-  1 兼容性问题
+* 过多DOM操作导致的动画卡顿
 
-  2 过多DOM操作导致的动画卡顿
+* 移动端要想动画性能流畅，应该使用3d硬件加速
 
-  3 移动端要想动画性能流畅，应该使用3d硬件加速
 
-<br/>   
-
-> CSS3动画与JS动画的区别？
-
-  [参考内容](https://www.cnblogs.com/shuaishuaidejun/p/7444711.html)
-    
+2、[CSS3动画与JS动画的区别](https://www.cnblogs.com/shuaishuaidejun/p/7444711.html)
 
     
