@@ -1,4 +1,4 @@
-### React
+## React
 1、什么是 JSX 
 
 * 一种新的 JS 方言 JSX，将原始 HTML 模板嵌入到 JS 代码中。JSX 代码本身不能被浏览器读取，必须使用Babel和webpack等工具将其转换为传统的JS
@@ -7,7 +7,7 @@
 
 <br/>
 
-### react-router
+## react-router
 [1、react-router-dom && react-router的区别](https://hexuanzhang.github.io/2018/03/01/react-router/)：
 
 * react-router-dom 是在 react-router 基础上添加了一些在浏览器环境下的特定功能，如 Link、BrowserRouter 、HashRouter 等
@@ -18,5 +18,5 @@
 
 <br/>
 
-### react-redux
+## react-redux
 [1、案例基础用法](https://github.com/yang1212/collection-about/issues/7)
