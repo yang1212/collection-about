@@ -2,11 +2,11 @@
 ### 基础概要
 [1、父子组件生命周期执行顺序](https://juejin.cn/post/6844904113914773518)
 
-[2、数据通信](https://www.cnblogs.com/Tiboo/p/12593666.html)([EventBus](https://juejin.cn/post/6861572888420581390))
+[2、数据通信](https://www.cnblogs.com/Tiboo/p/12593666.html)
 
-[3、插槽(slot)](https://segmentfault.com/a/1190000018441566)
+[3、$nextTick](https://segmentfault.com/a/1190000012861862)
 
-[4、$nextTick](https://segmentfault.com/a/1190000012861862)
+[4、插槽(slot)](https://segmentfault.com/a/1190000018441566)
 
 [5、mixin](https://segmentfault.com/a/1190000015698391)
 
@@ -21,21 +21,7 @@
 
 [2、MVVM](https://juejin.cn/post/6844903929298288647)
 
-3、Vue 2.x双向数据绑定
-* 核心API: 基于[object.defineproperty](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty) 进行数据劫持
-
-* 数据劫持: 在访问或者修改对象的某个属性时，通过一段代码拦截这个行为，进行额外的操作或者修改返回结果
-
-* 核心设计模式：[发布-订阅模式](https://juejin.cn/post/6844903921211670536)
-
-4、实现数据绑定的几种做法
-
-* [脏值检查](https://www.mopsky.com/2018/02/01/1eab7ae3ea/)
-
-* 数据劫持 + 发布订阅
-
-
-[5、谈谈对虚拟DOM的认识](https://juejin.im/post/5d36cc575188257aea108a74#heading-14) （拓展如下）
+[3、谈谈对虚拟DOM的认识](https://juejin.im/post/5d36cc575188257aea108a74#heading-14) （拓展如下）
 
 * [浏览器渲染引擎工作流程](https://segmentfault.com/a/1190000010298038)
 * [深度优先遍历DOM树](https://github.com/yang1212/collection-about/issues/9)
@@ -43,7 +29,24 @@
 * [diff 算法](https://juejin.cn/post/6844903767473651720)
 * [vue、react中的虚拟DOM]()
 
-[6、vue data为什么是函数？而不是对象](https://www.imqianduan.com/vue/192.html )
+4、Vue 2.x双向数据绑定
+* 核心API: 基于[object.defineproperty](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty) 进行数据劫持
+
+* 数据劫持: 在访问或者修改对象的某个属性时，通过一段代码拦截这个行为，进行额外的操作或者修改返回结果
+
+* 核心设计模式：[发布-订阅模式](https://juejin.cn/post/6844903921211670536)
+
+* 监听数组的原理: 原型链的重写
+
+5、实现数据绑定的几种做法
+
+* [脏值检查](https://www.mopsky.com/2018/02/01/1eab7ae3ea/)
+
+* 数据劫持 + 发布订阅
+
+6、模板编译过程
+
+[7、vue data为什么是函数？而不是对象](https://www.imqianduan.com/vue/192.html )
 
 
 ## vue-router
