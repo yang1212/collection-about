@@ -2,7 +2,7 @@
 
 [1、Babel](https://my.oschina.net/vivotech/blog/4407304)
 
-javaScript编译器，用来把 ES6 的代码转化为浏览器或者其它环境支持的代码
+* javaScript编译器，用来把 ES6 的代码转化为浏览器或者其它环境支持的代码
 
 [2、手写简易Loader](https://zhuanlan.zhihu.com/p/104205895)
 
