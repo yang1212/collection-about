@@ -36,7 +36,7 @@
 
 * 核心设计模式：[发布-订阅模式](https://juejin.cn/post/6844903921211670536)
 
-* 监听数组的原理: 原型链的重写
+* 监听数组的原理: [原型链的重写](https://github.com/yang1212/collection-about/issues/11)
 
 5、实现数据绑定的几种做法
 
