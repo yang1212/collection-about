@@ -1,20 +1,28 @@
 ## 数据操作相关篇幅
 
 > [判断值](https://juejin.im/post/5be52b1ae51d450b3647e766#heading-2)
-  1) 是否为数组
-     Object.prototype.toString.call(o) 最稳
+> 
+  1) 是否为数组(每个对象都有一个 toString() 方法)
+
+     Object.prototype.toString.call(o) 
      
      Array.isArray(value) 兼容性不够强大
+     
   2) 是否为对象
-     Object.prototype.toString.call(o) 最稳
+
+     Object.prototype.toString.call(o) 
      
      instanceof
+     
   3) 是否为function
-     Object.prototype.toString.call(o) 最稳
+
+     Object.prototype.toString.call(o) 
      
      instanceof
+     
   4) 是否为基本类型
-     Object.prototype.toString.call(o) 最稳
+
+     Object.prototype.toString.call(o) 
      
      除了null, typeof可判断剩下的基本数据类型与function
  
