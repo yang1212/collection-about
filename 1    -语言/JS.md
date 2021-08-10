@@ -59,9 +59,11 @@
 
   4) for/ for in -> break  every/some -> return： 中断本次大循环  
 
-  5) 迭代方法
-     map：根据最终的返回值决定数组的结构
-     filter： 返回满足条件的数据项
+  5) 
+     map：根据最终的返回值决定得到的数据
+     
+     filter： 返回满足条件的数据项,不改变原数组
+     
      some/every： 布尔值
 
 ### 知识点   
