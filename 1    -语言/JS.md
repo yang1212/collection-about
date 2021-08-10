@@ -1,22 +1,23 @@
 ## 数据操作相关篇幅
 
-<br/>
-
-> 判断值 ([参考](https://juejin.im/post/5be52b1ae51d450b3647e766#heading-2)   )
+> [判断值](https://juejin.im/post/5be52b1ae51d450b3647e766#heading-2)
   1) 是否为数组
      Object.prototype.toString.call(o) 最稳
+     
      Array.isArray(value) 兼容性不够强大
   2) 是否为对象
      Object.prototype.toString.call(o) 最稳
+     
      instanceof
   3) 是否为function
      Object.prototype.toString.call(o) 最稳
+     
      instanceof
   4) 是否为基本类型
      Object.prototype.toString.call(o) 最稳
-     除了null, typeof可判断剩下的基本数据类型
-  
-<br/>
+     
+     除了null, typeof可判断剩下的基本数据类型与function
+ 
 
 > 折腾原生方法
   1) indexOf
@@ -55,7 +56,7 @@
      filter： 返回满足条件的数据项
      some/every： 布尔值
 
-<br/>     
+### 知识点   
 
 > 静态作用域&动态作用域
 
@@ -67,17 +68,20 @@
 
 <br/>
 
-> 闭包 ([参考](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html))
+> [闭包](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html)
 
   1 闭包就是能够读取其他函数内部变量的 **函数**
 
   2 定义在一个函数内部的函数
+  
+  3 作用域应用的特殊情况
+  
+  4 函数定义处
 
   <br/>
 
-> this的指向练习，以及通过函数执行改变this指向知识点
-
-  [参考1](https://github.com/YvetteLau/Blog/issues/6)、[参考2](https://www.cnblogs.com/Tiboo/p/11370325.html)
+> [this](https://www.cnblogs.com/Tiboo/p/11370325.html)
+  调用
 
 <br/>
 
@@ -90,29 +94,19 @@
 
 <br/>
 
-> 类型转换
+> [类型转换](https://juejin.im/post/5b6906b46fb9a04fcb5b8771)
+* 显式类型转换
+* 隐式类型转换
+* 拓展： '==' 与 '==='的应用场景
 
-  显式类型转换
+> [对象拷贝](https://juejin.im/post/5b5dcf8351882519790c9a2e#heading-4)
 
-  隐式类型转换 (可大量训练特殊值，了解规则)
-
- [参考](https://juejin.im/post/5b6906b46fb9a04fcb5b8771)
- 
-<br/> 
-
-> 对象拷贝 ([参考1](https://www.cnblogs.com/Tiboo/p/12306442.html)、[参考2](https://juejin.im/post/5b5dcf8351882519790c9a2e#heading-4))
-
-  浅拷贝: 以赋值的形式拷贝引用对象，仍指向同一个地址，修改时原对象也会受到影响(Object.assign)
-
-  深拷贝: 完全拷贝一个新对象，修改时原对象不再受到任何影响
+* 浅拷贝: 以赋值的形式拷贝引用对象，仍指向同一个地址，修改时原对象也会受到影响(Object.assign)
+* 深拷贝: 完全拷贝一个新对象，修改时原对象不再受到任何影响
   
-<br/> 
 
-> 数组去重的几种方式
+> [数组去重的几种方式](https://www.cnblogs.com/Tiboo/p/11846316.html)
 
- [参考](https://www.cnblogs.com/Tiboo/p/11846316.html)
-
-<br/>
 
 ## 其他
 
