@@ -95,21 +95,15 @@
 
     4 函数定义处
 
-  <br/>
-
 > [this](https://www.cnblogs.com/Tiboo/p/11370325.html)
  
   函数调用处
-
-<br/>
 
 > [哪些场景不能用箭头函数](https://zhuanlan.zhihu.com/p/26540168)
  
     定义对象字面量方法、定义原型方法、定义构造函数、定义事件回调函数
 
     实际场景：Vue data不可以使用箭头函数问题
-
-<br/>
 
 > [对象拷贝](https://juejin.im/post/5b5dcf8351882519790c9a2e#heading-4)
 ````
