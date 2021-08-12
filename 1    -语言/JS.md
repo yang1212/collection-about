@@ -83,8 +83,6 @@
 
     动态作用域：动态作用域中的 函数 遇到既不是形参也不是函数内部定义的局部变量的变量时，到函数 调用 时的环境中查。
 
-<br/>
-
 > [闭包](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html)
 
     1 闭包就是能够读取其他函数内部变量的 **函数**
@@ -95,7 +93,7 @@
 
     4 函数定义处
 
-> [this](https://www.cnblogs.com/Tiboo/p/11370325.html)
+> [This](https://www.cnblogs.com/Tiboo/p/11370325.html)
  
   函数调用处
 
