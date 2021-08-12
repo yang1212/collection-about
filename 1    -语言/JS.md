@@ -1,7 +1,14 @@
-## 数据操作相关篇幅
+### 数据操作
+
+> [类型转换](https://juejin.im/post/5b6906b46fb9a04fcb5b8771)
+````
+  * 显式类型转换
+  * 隐式类型转换
+  * 拓展： '==' 与 '==='的应用场景
+```` 
 
 > [判断值](https://juejin.im/post/5be52b1ae51d450b3647e766#heading-2)
-> 
+ 
   1) 是否为数组(每个对象都有一个 toString() 方法)
 
      Object.prototype.toString.call(o) 
@@ -72,21 +79,21 @@
 
   事实上JavaScript并不具有动态作用域，它只有词法作用域，简单明了，但是this机制某种程度上很像动态作用域
 
-  静态作用域：静态作用域（即词法作用域）中的 函数 遇到既不是形参也不是函数内部定义的局部变量的变量时，会去函数 定义 时的环境中查询。
-  
-  动态作用域：动态作用域中的 函数 遇到既不是形参也不是函数内部定义的局部变量的变量时，到函数 调用 时的环境中查。
+    静态作用域：静态作用域（即词法作用域）中的 函数 遇到既不是形参也不是函数内部定义的局部变量的变量时，会去函数 定义 时的环境中查询。
+
+    动态作用域：动态作用域中的 函数 遇到既不是形参也不是函数内部定义的局部变量的变量时，到函数 调用 时的环境中查。
 
 <br/>
 
 > [闭包](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html)
 
-  1 闭包就是能够读取其他函数内部变量的 **函数**
+    1 闭包就是能够读取其他函数内部变量的 **函数**
 
-  2 定义在一个函数内部的函数
-  
-  3 作用域应用的特殊情况
-  
-  4 函数定义处
+    2 定义在一个函数内部的函数
+
+    3 作用域应用的特殊情况
+
+    4 函数定义处
 
   <br/>
 
@@ -97,73 +104,40 @@
 <br/>
 
 > [哪些场景不能用箭头函数](https://zhuanlan.zhihu.com/p/26540168)
-> 
-  定义对象字面量方法、定义原型方法、定义构造函数、定义事件回调函数
+ 
+    定义对象字面量方法、定义原型方法、定义构造函数、定义事件回调函数
 
-  实际场景：Vue data不可以使用箭头函数问题
-
+    实际场景：Vue data不可以使用箭头函数问题
 
 <br/>
-
-> [类型转换](https://juejin.im/post/5b6906b46fb9a04fcb5b8771)
-* 显式类型转换
-* 隐式类型转换
-* 拓展： '==' 与 '==='的应用场景
 
 > [对象拷贝](https://juejin.im/post/5b5dcf8351882519790c9a2e#heading-4)
+````
+  浅拷贝: 以赋值的形式拷贝引用对象，仍指向同一个地址，修改时原对象也会受到影响(Object.assign)
 
-* 浅拷贝: 以赋值的形式拷贝引用对象，仍指向同一个地址，修改时原对象也会受到影响(Object.assign)
-* 深拷贝: 完全拷贝一个新对象，修改时原对象不再受到任何影响
-  
-
+  深拷贝: 完全拷贝一个新对象，修改时原对象不再受到任何影响
+````  
 > [数组去重的几种方式](https://www.cnblogs.com/Tiboo/p/11846316.html)
 
+> [关于宏任务与微任务](https://github.com/yang1212/collection-about/issues/4)
 
-## 其他
+> [关于promise，以及手写一个promise](https://www.cnblogs.com/Tiboo/p/10072963.html)
 
-<br/>
+### 影响性能的场景
 
-> 关于promise，以及手写一个promise
+> [防抖与节流](https://www.cnblogs.com/Tiboo/p/11795788.html)
 
-[参考](https://www.cnblogs.com/Tiboo/p/10072963.html)
+> [重绘与回流](https://www.cnblogs.com/Tiboo/p/10505613.html)
 
-<br/>
-
-> 防抖与节流
-
-[参考](https://www.cnblogs.com/Tiboo/p/11795788.html)
-
-<br/>
-
-> 重绘与回流
-
-[参考](https://www.cnblogs.com/Tiboo/p/10505613.html)
-
-<br/>
-
-> 关于宏任务与微任务
-
-[参考](https://github.com/yang1212/collection-about/issues/4)
-
-<br/>
-
-> 存储
-
-[参考](https://www.cnblogs.com/Tiboo/p/10355955.html)
-
-<br/>
+> [存储](https://www.cnblogs.com/Tiboo/p/10355955.html)
 
 > [内存泄露](https://juejin.im/post/5b2fd09ee51d45588576f429)
-
+ 
   内存泄露是指new了一块内存，但无法被释放或者被垃圾回收, 造成内存泄露的可能会有以下几种情况：
 
-  1）监听在window/body等事件没有解绑
+    1）监听在window/body等事件没有解绑
 
-  2）绑在EventBus的事件没有解绑
+    2）模块形成的闭包内部变量使用完后没有置成null
 
-  3）Vuex的$store watch了之后没有unwatch
-
-  4）模块形成的闭包内部变量使用完后没有置成null
-
-  5）使用第三方库创建，没有调用正确的销毁函数  
+    3）使用第三方库创建，没有调用正确的销毁函数  
 
