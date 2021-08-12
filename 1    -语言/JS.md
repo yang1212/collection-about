@@ -31,7 +31,7 @@
      
      除了null, typeof可判断剩下的基本数据类型与function
      
-  5) 拓展知识之：[toString 与 valueOf](https://juejin.cn/post/6844903967097356302)
+  5) 拓展知识之：[toString 与 valueOf](https://segmentfault.com/a/1190000010824347)
  
 
 > 折腾原生方法
