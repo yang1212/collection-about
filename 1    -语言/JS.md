@@ -107,7 +107,7 @@
     
     定义构造函数（这个有点奇怪，将代码直接运行在浏览器控制台会报错，但是基于编辑器运行后不会报错）
 
-    实际场景：Vue data不可以使用箭头函数问题
+    实际场景：Vue data不可以使用箭头函数问题（拓展之：[vue data为什么是函数？而不是对象](https://www.imqianduan.com/vue/192.html))
 
 > [对象拷贝](https://juejin.im/post/5b5dcf8351882519790c9a2e#heading-4)
 ````
