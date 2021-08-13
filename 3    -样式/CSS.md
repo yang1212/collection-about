@@ -1,4 +1,4 @@
-### 概念理解
+### 知识点
 
 [1、盒模型](https://www.zhangxinxu.com/wordpress/2016/09/talking-about-css-margin-box/)
 
@@ -6,17 +6,22 @@
 
   IE盒模型：width = border + padding + 内容的宽度
 
-  W3C标准盒模型： width = 内容的宽度
+  W3C标准盒模型： width = 内容的宽度 (box-sizing: border-box开启)
+  
+[2、清除浮动]()
 
-[2、BFC](https://juejin.im/post/5a4dbe026fb9a0452207ebe6)
+[3、BFC](https://juejin.im/post/5a4dbe026fb9a0452207ebe6)
 
   BFC（Block Formatting Context）直译为“块级格式化上下文”
+  
+[4、margin重叠]()
+  
 
 <br/>
 
-### 布局&适配 
+### 布局
 
-1、[布局](https://www.cnblogs.com/Tiboo/p/7617453.html)
+[1、居中](https://www.cnblogs.com/Tiboo/p/7617453.html)
 
   常用水平居中：
 
@@ -41,8 +46,11 @@
   absolute + transform
   flex + justify-content + align-items
   ````  
+[2、页面布局]()
 
-2、[关于移动端适配的问题](https://www.cnblogs.com/Tiboo/p/12273842.html)
+[3、字体适配]()
+
+[3、关于移动端适配的问题](https://www.cnblogs.com/Tiboo/p/12273842.html)
 
 <br/>
 
