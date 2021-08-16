@@ -12,9 +12,7 @@
 
 [3、BFC](https://juejin.im/post/5a4dbe026fb9a0452207ebe6)
 
-  BFC（Block Formatting Context）直译为“块级格式化上下文”
-  
-[4、margin重叠]()
+4、margin重叠
   
 
 <br/>
@@ -46,9 +44,16 @@
   absolute + transform
   flex + justify-content + align-items
   ````  
-[2、页面布局]()
+[2、常见PC页面布局-float](https://www.cnblogs.com/Tiboo/p/6817185.html)
 
-[3、字体适配]()
+3、字体适配
+* rem相对于根元素进行页面字体适配（缺陷是具有阶梯性）
+* vh: 网页视口高度的1/100， vw: 网页视口宽度的1/100
+````
+  window.screen.height        屏幕高度
+  window.innerHeight          网页视口高度
+  document.body.clientHeight  body高度
+````
 
 [3、关于移动端适配的问题](https://www.cnblogs.com/Tiboo/p/12273842.html)
 
