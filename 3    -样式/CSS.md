@@ -8,7 +8,7 @@
 
   W3C标准盒模型： width = 内容的宽度 (box-sizing: border-box开启)
   
-[2、清除浮动]()
+2、清除浮动
 
 [3、BFC](https://juejin.im/post/5a4dbe026fb9a0452207ebe6)
 
