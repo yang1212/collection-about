@@ -5,6 +5,10 @@
 
 [2、组件通信传值](https://github.com/yang1212/collection-about/issues)
 
+3、setState
+
+4、生命周期
+
 <br/>
 
 ## react-router
