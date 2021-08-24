@@ -1,6 +1,12 @@
 ### 数据操作
 
 包装类型
+````javaScript
+基本类型基于属性值赋值，最终得到的值为undefined
+let str = "person";
+str.name = "jeson";
+console.log(1, str.name)
+````
 * 拓展： 3.toString()报错
 
 > [类型转换](https://juejin.im/post/5b6906b46fb9a04fcb5b8771)
