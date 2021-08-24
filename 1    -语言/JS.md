@@ -6,6 +6,8 @@
 * 基本包装类型，和其他引用类型一样，拥有内置的方法可以对数据进行额外操作
 * 基本包装类型，和引用类型的区别就是生存期不同，在代码执行后就会销毁实例
 * 拓展： 3.toString()报错
+* https://juejin.cn/post/6923049481361424397
+* https://wiki.jikexueyuan.com/project/brief-talk-js/basic-type-of-packaging.html
 
 > [类型转换](https://juejin.im/post/5b6906b46fb9a04fcb5b8771)
   * 显式类型转换
