@@ -2,7 +2,7 @@
 ### 基础概要
 [1、父子组件生命周期执行顺序](https://juejin.cn/post/6844904113914773518)
 
-[2、数据通信](https://www.cnblogs.com/Tiboo/p/12593666.html)
+[2、组件之间数据通信](https://www.cnblogs.com/Tiboo/p/12593666.html)
 
 [3、$nextTick](https://segmentfault.com/a/1190000012861862)
 
@@ -33,9 +33,10 @@
 * [vue、react中的虚拟DOM]()
 
 4、Vue 2.x双向数据绑定
-* 核心API: 基于[object.defineproperty](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty) 进行数据劫持
 
 * 数据劫持: 在访问或者修改对象的某个属性时，通过一段代码拦截这个行为，进行额外的操作或者修改返回结果
+
+* 核心API: 基于[object.defineproperty](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty) 进行数据劫持
 
 * 核心设计模式：[发布-订阅模式](https://juejin.cn/post/6844903921211670536)
 
