@@ -129,6 +129,8 @@
 
 ### 影响性能的场景
 
+> 为什么操作DOM慢
+
 > [防抖与节流](https://www.cnblogs.com/Tiboo/p/11795788.html)
 
 > [重绘与回流](https://www.cnblogs.com/Tiboo/p/10505613.html)
