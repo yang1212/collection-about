@@ -10,6 +10,9 @@
 
 [5、mixin](https://segmentfault.com/a/1190000015698391)
 
+* 经常使用扩展组件的方式。当多个组件中有相同的业务逻辑，可将这些逻辑剥离出来，通过 mixins 混入代码，比如上拉下拉加载数据
+* 需要注意的是 mixins 混入的钩子函数会先于组件内的钩子函数执行，并且在遇到同名选项的时候也会有选择性的进行合并
+
 [6、动态组件与异步组件](https://cn.vuejs.org/v2/guide/components-dynamic-async.html)
 
 [7、keep-alive](https://segmentfault.com/a/1190000023832423)
@@ -48,19 +51,17 @@
 
 [7、vue data为什么是函数？而不是对象](https://www.imqianduan.com/vue/192.html )
 
+8、组件中 data 什么时候可以使用对象
+
+当我们使用 new Vue() 的方式的时候，无论我们将 data 设置为对象还是函数都是可以，因为 new Vue() 的方式是生成一个根组件，该组件不会复用，也就不存在共享 data 的情况了
+
 
 ## vue-router
-    1 vue-router常用路由
-      https://router.vuejs.org/zh/guide/essentials/nested-routes.html
+   [1、vue-router常用路由](https://router.vuejs.org/zh/guide/essentials/nested-routes.html)
 
-    2 路由两种模式实现原理
-      https://www.cnblogs.com/Tiboo/p/11588022.html
-
+   [2、路由两种模式实现原理](https://www.cnblogs.com/Tiboo/p/11588022.html)
+   
 ## vuex
-    1 什么是vuex?
-    Vuex是一个专为Vue.js应用程序开发的状态管理模式。
-    采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化。
-
-    2 应用场景
-    vuex只能用于单个页面中不同组件（例如兄弟组件）的数据流通
-
+   1 什么是vuex?
+   
+   Vuex是一个专为Vue.js应用程序开发的状态管理模式，采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化。
