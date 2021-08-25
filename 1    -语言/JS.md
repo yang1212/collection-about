@@ -104,8 +104,6 @@
 
 > [This](https://www.cnblogs.com/Tiboo/p/11370325.html)
  
-  函数调用处
-
 > [哪些场景不能用箭头函数](https://zhuanlan.zhihu.com/p/26540168)
 * 定义对象字面量方法
    
