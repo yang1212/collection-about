@@ -16,29 +16,29 @@
 
 > [判断值](https://juejin.im/post/5be52b1ae51d450b3647e766#heading-2)
  
-  1) 是否为数组(每个对象都有一个 toString() 方法)
+  1) 是否为数组 ( 每个对象都有一个 toString() 方法 )
 
-     Object.prototype.toString.call(o) 
+     * Object.prototype.toString.call(o) 
      
-     Array.isArray(value) 兼容性不够强大
+     * Array.isArray(value) 兼容性不够强大
      
   2) 是否为对象
 
-     Object.prototype.toString.call(o) 
+     * Object.prototype.toString.call(o) 
      
-     instanceof
+     * instanceof ( 通过原型链来判断: [] instanceof Array 为true, 是因为 👉 [].__proto__ === Array.prototype )
      
   3) 是否为function
 
-     Object.prototype.toString.call(o) 
+     * Object.prototype.toString.call(o) 
      
-     instanceof
+     * instanceof
      
   4) 是否为基本类型
 
-     Object.prototype.toString.call(o) 
+     * Object.prototype.toString.call(o) 
      
-     除了null, typeof可判断剩下的基本数据类型与function
+     * 除了null, typeof可判断剩下的基本数据类型与function
      
   5) 拓展知识之：[toString 与 valueOf](https://segmentfault.com/a/1190000010824347)
  
