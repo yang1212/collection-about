@@ -9,6 +9,23 @@
 
 4、生命周期
 
+* 挂载时
+  ```js
+  constructor
+  componentWillMount
+  componentDidMount
+  ```
+* 更新时
+  ```js
+  shouldCompontntUpdate
+  componentDidUpdate
+  ```
+* 卸载时
+  ```js
+  componentWillUnmount
+  componentDidUnmount
+  ```
+
 5、[函数组件和类组件的区别](https://juejin.cn/post/6867028553629138952)
 <br/>
 
