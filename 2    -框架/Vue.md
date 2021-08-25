@@ -17,6 +17,23 @@
 
 [7、keep-alive](https://segmentfault.com/a/1190000023832423)
 
+8、Vue常见性能优化方式
+```
+   1、合理使用v-show和v-if
+
+   2、合理使用compouted
+
+   3、v-for时加key
+   
+   4、自定义事件、dom事件及时销毁
+
+   5、合理使用异步组件
+
+   6、合理使用keep-alive
+
+   7、data层级不要太深
+```
+
 
 
 ### 原理理解
