@@ -6,4 +6,6 @@
 
 4、[深入解析ES Module](https://zhuanlan.zhihu.com/p/40733281)
 
+5、[模块化规范](https://github.com/yang1212/collection-about/issues/15)
+
 
