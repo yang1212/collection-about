@@ -4,9 +4,9 @@
 
   盒模型分为IE盒模型和W3C标准盒模型：
 
-  IE盒模型：width = border + padding + 内容的宽度
+  IE盒模型：width = border + padding + 内容的宽度 (box-sizing: content-box;)
 
-  W3C标准盒模型： width = 内容的宽度 (box-sizing: border-box开启)
+  W3C标准盒模型： width = 内容的宽度 (box-sizing: border-box)
   
 [2、清除浮动](https://github.com/YvetteLau/Step-By-Step/issues/32)
 

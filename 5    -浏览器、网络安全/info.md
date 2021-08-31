@@ -25,9 +25,24 @@
 
 5、[理解Https](https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA)
 
-6、[反向代理Nginx](https://juejin.im/entry/57fb07b0816dfa0056c0ada8)
+6、[Web Worker](http://www.ruanyifeng.com/blog/2018/07/web-worker.html)
 
-7、[Web Worker](http://www.ruanyifeng.com/blog/2018/07/web-worker.html)
+7、[keep-alive 与 多路复用](https://juejin.cn/post/6944639173621973005)
+   ```
+   Http1.0 一次连接只能对应一个请求
+   Http1.1 一次连接可对应多个请求，下一次的请求不需要等待上一个响应来之后再发送，但响应的顺序遵循先入先出，基于connection: keep-alive
+   Http2.0 一次连接可对应多个请求，无需有对应顺序，基于多路复用
+   ```
+
+   拓展：
+
+   浏览器发起的最大请求数为一般为6个
+
+   不同域名的请求不可共用一个TCP连接
+
+   [HTTP/2 相比 1.0 有哪些重大改进](https://www.zhihu.com/question/34074946/answer/75364178)
+   
+   多路复用/头部压缩/服务端推送
 
 <br/>
 
