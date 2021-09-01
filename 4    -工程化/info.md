@@ -45,7 +45,7 @@
 * 开启压缩
 
 * [Tree-Shaking](https://zhuanlan.zhihu.com/p/260724544)
-  用于移除 JavaScript 上下文中的未引用代码
+  借助 ES module 的静态分析能力来消除无用的 js 代码的
 
 * bableRc文件配置
 
