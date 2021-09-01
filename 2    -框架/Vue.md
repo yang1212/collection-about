@@ -6,6 +6,8 @@
 
 [3、$nextTick](https://segmentfault.com/a/1190000012861862)
 
+Vue 在修改数据后，视图不会立刻更新，而是等同一事件循环中的所有数据变化完成之后，再统一进行视图更新
+
 [4、插槽(slot)](https://segmentfault.com/a/1190000018441566)
 
 [5、mixin](https://segmentfault.com/a/1190000015698391)
