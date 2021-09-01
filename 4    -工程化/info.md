@@ -44,8 +44,8 @@
 
 * 开启压缩
 
-* [Tree-Shaking](https://juejin.cn/post/6844903544756109319)
-  用于描述移除 JavaScript 上下文中的未引用代码
+* [Tree-Shaking](https://zhuanlan.zhihu.com/p/260724544)
+  用于移除 JavaScript 上下文中的未引用代码
 
 * bableRc文件配置
 
