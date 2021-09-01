@@ -41,7 +41,6 @@ Vue 在修改数据后，视图不会立刻更新，而是等同一事件循环�
 
    7、data层级不要太深
 ```
-## [Vue3](https://juejin.cn/post/6968094627375087653)
 
 ## 原理理解
 [1、vue渐进式框架的理解](blog.csdn.net/wandoumm/article/details/80253681)
@@ -80,6 +79,12 @@ Vue 在修改数据后，视图不会立刻更新，而是等同一事件循环�
 
 当我们使用 new Vue() 的方式的时候，无论我们将 data 设置为对象还是函数都是可以，因为 new Vue() 的方式是生成一个根组件，该组件不会复用，也就不存在共享 data 的情况了
 
+## [Vue3](https://juejin.cn/post/6968094627375087653)
+
+* Tree-shaking support：支持摇树优化
+* Composition API：组合API
+* Fragment，Teleport，Suspense：新增的组件
+* Better TypeScript support：更好的TypeScript支持
 
 ## vue-router
    [1、vue-router常用路由](https://router.vuejs.org/zh/guide/essentials/nested-routes.html)
