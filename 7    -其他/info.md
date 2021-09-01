@@ -23,6 +23,7 @@
   * PV/UV:PV(page view)，即页面浏览量或点击量。UV:指访问某个站点或点击某条新闻的不同IP地址的人数
   * 前端监控可以分为三类：数据监控、性能监控和异常监控
   * 前端埋点方法分为三种：代码埋点、可视化埋点和无痕埋点
+  * [前端体系怎么搭建](https://github.com/closertb/closertb.github.io/issues/46)
    
 
 
