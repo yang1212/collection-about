@@ -25,5 +25,8 @@
   * 前端埋点方法分为三种：代码埋点、可视化埋点和无痕埋点
   * [前端埋点体系怎么搭建](https://github.com/closertb/closertb.github.io/issues/46)
    
+9、[MVC, MVVM](https://zhuanlan.zhihu.com/p/64257809)
+
+![DE](https://user-images.githubusercontent.com/17806205/132150743-2f8901e8-02c8-4c6f-b89a-2c6876c0f477.png)
 
 
