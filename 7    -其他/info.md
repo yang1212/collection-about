@@ -29,4 +29,4 @@
 
 ![DE](https://user-images.githubusercontent.com/17806205/132150743-2f8901e8-02c8-4c6f-b89a-2c6876c0f477.png)
 
-
+10、[npm与yarn的区别](https://zhuanlan.zhihu.com/p/27449990)
