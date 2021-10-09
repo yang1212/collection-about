@@ -32,3 +32,7 @@
 10、[npm与yarn的区别](https://zhuanlan.zhihu.com/p/27449990)
 
 11、[微前端](https://github.com/yang1212/micro-project)
+
+12、[lerna](https://github.com/yang1212/collection-about/issues/16)
+
+* 一个用来管理有多个包的JS项目的工具
