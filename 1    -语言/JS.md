@@ -41,6 +41,9 @@
      * 除了null, typeof可判断剩下的基本数据类型与function
      
   5) 拓展知识之：[toString 与 valueOf](https://segmentfault.com/a/1190000010824347)
+     
+     * toString: 返回对象的字符串表示
+     * valueOf: 返回对象的字符串，布尔，数值表示
  
 
 > 折腾原生方法
