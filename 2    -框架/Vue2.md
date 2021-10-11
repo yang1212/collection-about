@@ -23,6 +23,9 @@ Vue 在修改数据后，视图不会立刻更新，而是等同一事件循环�
 
 [6、动态组件与异步组件](https://cn.vuejs.org/v2/guide/components-dynamic-async.html)
 
+* 动态组件：让多个组件使用同一个挂载点，并动态切换
+* 异步组件：将应用分割成小一些的代码块，并且只在需要的时候才从服务器加载一个模块
+
 [7、keep-alive](https://segmentfault.com/a/1190000023832423)
 
 8、Vue常见性能优化方式
