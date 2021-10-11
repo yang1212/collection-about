@@ -9,7 +9,7 @@
 
 2、框架
 
-* [Vue](https://github.com/yang1212/collection-about/blob/master/2%20%20%20%20-%E6%A1%86%E6%9E%B6/Vue.md)
+* [Vue2](https://github.com/yang1212/collection-about/blob/master/2%20%20%20%20-%E6%A1%86%E6%9E%B6/Vue2.md)
 * [React](https://github.com/yang1212/collection-about/blob/master/2%20%20%20%20-%E6%A1%86%E6%9E%B6/React.md)
 
 [3、样式](https://github.com/yang1212/collection-about/blob/master/3%20%20%20%20-%E6%A0%B7%E5%BC%8F/CSS.md)
