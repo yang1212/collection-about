@@ -2,11 +2,21 @@
 
 [1、盒模型](https://www.zhangxinxu.com/wordpress/2016/09/talking-about-css-margin-box/)
 
-  盒模型分为IE盒模型和W3C标准盒模型：
-
-  IE盒模型：width = border + padding + 内容的宽度 (box-sizing: content-box;)
-
-  W3C标准盒模型： width = 内容的宽度 (box-sizing: border-box)
+  box-sizing： 最主要的用法是规定容器元素的尺寸计算方式
+  
+  它的3个值分别对应如下：
+  
+  content-box （默认值，W3C标准盒模型： width = 内容的宽度）
+  
+  border-box （IE模型： width = border + padding + 内容的宽度）
+  
+  inherit （继承父元素）
+  
+  防混淆理解：
+  
+  W3C认为CSS盒模型: 是用来控制排版的，所以规定宽高都是内容的宽高。 --》 既然是标准，那content-box就成为了默认值
+  
+  IE则以为CSS盒模型: 是用来控制布局的，所以和表格的宽高定义一样。  --》 宽度计算包含了border, padding值, 那么就对应的是border-box
   
 [2、清除浮动](https://github.com/YvetteLau/Step-By-Step/issues/32)
 
