@@ -1,22 +1,22 @@
 ### 知识点
 
 [1、盒模型](https://www.zhangxinxu.com/wordpress/2016/09/talking-about-css-margin-box/)
-
-  box-sizing： 最主要的用法是规定容器元素的尺寸计算方式
   
+  box-sizing： 规定容器元素的尺寸计算方式;
+   
   它的3个值分别对应如下：
   
-  content-box （默认值，W3C标准盒模型： width = 内容的宽度）
-  
-  border-box （IE模型： width = border + padding + 内容的宽度）
-  
-  inherit （继承父元素）
+    content-box （W3C标准盒模型： width = 内容的宽度; 默认值）
+
+    border-box  （IE模型： width = border + padding + 内容的宽度）
+
+    inherit （继承父元素）
   
   防混淆理解：
   
-  W3C认为CSS盒模型: 是用来控制排版的，所以规定宽高都是内容的宽高。 --》 既然是标准，那content-box就成为了默认值
+  W3C认为CSS盒模型是用来控制排版的，所以规定宽高都是内容的宽高。 --》 既然是标准，那content-box就成为了默认值
   
-  IE则以为CSS盒模型: 是用来控制布局的，所以和表格的宽高定义一样。  --》 宽度计算包含了border, padding值, 那对应的是border-box
+  IE则以为CSS盒模型是用来控制布局的，所以和表格的宽高定义一样。  --》 宽度计算包含了border, padding值, 那对应的是border-box
   
 [2、position](https://www.ruanyifeng.com/blog/2019/11/css-position.html)
 
