@@ -18,18 +18,21 @@
   
   IE则以为CSS盒模型是用来控制布局的，所以和表格的宽高定义一样。  --》 宽度计算包含了border, padding值, 那对应的是border-box
   
+<br/>
+
 [2、position](https://www.ruanyifeng.com/blog/2019/11/css-position.html)
 
-  容易忽视的点--》设置绝对定位的元素A： 
+  设置绝对定位的元素A（易忽视点）： 
 
   父元素设置了相对定位或绝对定位，元素A会相对于离自己最近的设置了相对或绝对定位的父元素进行定位,（或者说离自己最近的不是static的父元素进行定位，因为元素默认是static）
+
+<br/>
 
 [3、margin重叠](https://github.com/aermin/blog/issues/40)
 
 [4、BFC](https://juejin.im/post/5a4dbe026fb9a0452207ebe6)
 
 [5、清除浮动](https://github.com/YvetteLau/Step-By-Step/issues/32)
- 
 
 [6、居中](https://www.cnblogs.com/Tiboo/p/7617453.html)
 
@@ -53,6 +56,8 @@
     ````  
 
   * [常见PC页面布局-float](https://www.cnblogs.com/Tiboo/p/6817185.html)
+  
+<br/>
 
 7、适配
   * 字体适配
