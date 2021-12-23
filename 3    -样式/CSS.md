@@ -31,22 +31,22 @@
 
   * 常用水平居中：
 
-  ````
-  元素：          margin的auto
-  行内元素：      text-align:center;
-  flex布局：      justify-content: center
-  子元素宽度已知： absolute + margin-left(负值)
-  子元素宽度未知： absolute + transform(-50%)
-  ````
+    ````
+    元素：          margin的auto
+    行内元素：      text-align:center;
+    flex布局：      justify-content: center
+    子元素宽度已知： absolute + margin-left(负值)
+    子元素宽度未知： absolute + transform(-50%)
+    ````
   
   * 常用垂直居中：
   
-  ````
-  line-height 与 height 一致
-  flex布局：      align-items: center 
-  子元素高度已知： absolute + margin-top(负值)
-  子元素高度未知： absolute + transform(-50%)
-  ````  
+    ````
+    line-height 与 height 一致
+    flex布局：      align-items: center 
+    子元素高度已知： absolute + margin-top(负值)
+    子元素高度未知： absolute + transform(-50%)
+    ````  
 
   * [常见PC页面布局-float](https://www.cnblogs.com/Tiboo/p/6817185.html)
 
