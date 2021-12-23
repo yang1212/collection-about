@@ -16,22 +16,20 @@
   
   W3C认为CSS盒模型: 是用来控制排版的，所以规定宽高都是内容的宽高。 --》 既然是标准，那content-box就成为了默认值
   
-  IE则以为CSS盒模型: 是用来控制布局的，所以和表格的宽高定义一样。  --》 宽度计算包含了border, padding值, 那么就对应的是border-box
+  IE则以为CSS盒模型: 是用来控制布局的，所以和表格的宽高定义一样。  --》 宽度计算包含了border, padding值, 那对应的是border-box
   
-[2、清除浮动](https://github.com/YvetteLau/Step-By-Step/issues/32)
+[2、position](https://www.ruanyifeng.com/blog/2019/11/css-position.html)
 
-[3、BFC](https://juejin.im/post/5a4dbe026fb9a0452207ebe6)
+[3、margin重叠](https://github.com/aermin/blog/issues/40)
 
-[4、margin重叠](https://github.com/aermin/blog/issues/40)
-  
+[4、BFC](https://juejin.im/post/5a4dbe026fb9a0452207ebe6)
 
-<br/>
+[5、清除浮动](https://github.com/YvetteLau/Step-By-Step/issues/32)
+ 
 
-### 布局
+[6、居中](https://www.cnblogs.com/Tiboo/p/7617453.html)
 
-[1、居中](https://www.cnblogs.com/Tiboo/p/7617453.html)
-
-  常用水平居中：
+  * 常用水平居中：
 
   ````
   元素：          margin的auto
@@ -41,7 +39,7 @@
   子元素宽度未知： absolute + transform(-50%)
   ````
   
-  常用垂直居中：
+  * 常用垂直居中：
   
   ````
   line-height 与 height 一致
@@ -50,18 +48,19 @@
   子元素高度未知： absolute + transform(-50%)
   ````  
 
-[2、常见PC页面布局-float](https://www.cnblogs.com/Tiboo/p/6817185.html)
+  * [常见PC页面布局-float](https://www.cnblogs.com/Tiboo/p/6817185.html)
 
-3、字体适配
-* rem相对于根元素进行页面字体适配（缺陷是具有阶梯性）
-* vh: 网页视口高度的1/100， vw: 网页视口宽度的1/100
-````
-  window.screen.height        屏幕高度
-  window.innerHeight          网页视口高度
-  document.body.clientHeight  body高度
-````
+7、适配
+  * 字体适配
+    * rem相对于根元素进行页面字体适配（缺陷是具有阶梯性）
+    * vh: 网页视口高度的1/100， vw: 网页视口宽度的1/100
+    ````
+      window.screen.height        屏幕高度
+      window.innerHeight          网页视口高度
+      document.body.clientHeight  body高度
+    ````
 
-[3、关于移动端适配的问题](https://www.cnblogs.com/Tiboo/p/12273842.html)
+  * [关于移动端适配的问题](https://www.cnblogs.com/Tiboo/p/12273842.html)
 
 <br/>
 
