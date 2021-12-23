@@ -34,7 +34,7 @@
 
 [5、清除浮动](https://github.com/YvetteLau/Step-By-Step/issues/32)
 
-[6、居中](https://www.cnblogs.com/Tiboo/p/7617453.html)
+[6、布局相关](https://www.cnblogs.com/Tiboo/p/7617453.html)
 
   * 常用水平居中：
 
