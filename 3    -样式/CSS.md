@@ -2,17 +2,16 @@
 
 [1、盒模型](https://www.zhangxinxu.com/wordpress/2016/09/talking-about-css-margin-box/)
   
-  box-sizing： 规定容器元素的尺寸计算方式;
    
-  它的3个值分别对应如下：
+  box-sizing用来规定容器元素的尺寸计算方式，它的属性值分别对应如下：
   
-    content-box （W3C标准盒模型： width = 内容的宽度; 默认值）
+    content-box （W3C标准盒模型： width = 内容的宽度; 默认）
 
     border-box  （IE模型： width = border + padding + 内容的宽度）
 
     inherit （继承父元素）
   
-  防混淆理解：
+  防混淆：
   
   W3C认为CSS盒模型是用来控制排版的，所以规定宽高都是内容的宽高。 --》 既然是标准，那content-box就成为了默认值
   
