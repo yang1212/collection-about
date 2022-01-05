@@ -19,11 +19,11 @@
   
 <br/>
 
-[2、position](https://www.ruanyifeng.com/blog/2019/11/css-position.html)
+[2、position定位](https://www.ruanyifeng.com/blog/2019/11/css-position.html)
 
-  设置绝对定位的元素A（易忽视点）： 
-
-  父元素设置了相对定位或绝对定位，元素A会相对于离自己最近的设置了相对或绝对定位的父元素进行定位,（或者说离自己最近的不是static的父元素进行定位，因为元素默认是static）
+  * Attention
+  
+    绝对定位的元素A： 父元素设置了相对定位或绝对定位，元素A会相对于离自己最近的设置了相对或绝对定位的父元素进行定位,（或者说离自己最近的不是static的父元素进行定位，因为元素默认是static）
 
 <br/>
 
