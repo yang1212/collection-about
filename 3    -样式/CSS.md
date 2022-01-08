@@ -27,7 +27,7 @@
 
 <br/>
 
-[3、margin重叠](https://github.com/aermin/blog/issues/40)
+[3、margin重叠](https://github.com/yang1212/collection-about/issues/17)
 
 * 为什么会重叠
 
