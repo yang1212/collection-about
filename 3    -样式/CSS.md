@@ -29,12 +29,6 @@
 
 [3、margin重叠](https://github.com/yang1212/collection-about/issues/17)
 
-* 为什么会重叠
-
-* 什么场景会重叠
-
-* 如何解决重叠现象
-
 [4、BFC](https://juejin.im/post/5a4dbe026fb9a0452207ebe6)
 
 [5、清除浮动](https://github.com/YvetteLau/Step-By-Step/issues/32)
