@@ -30,9 +30,9 @@
 
 [3、margin重叠](https://github.com/yang1212/collection-about/issues/17)
 
-[4、BFC](https://juejin.im/post/5a4dbe026fb9a0452207ebe6)
+[4、浮动](https://github.com/yang1212/collection-about/issues/19)
 
-[5、清除浮动](https://github.com/YvetteLau/Step-By-Step/issues/32)
+[5、BFC](https://juejin.im/post/5a4dbe026fb9a0452207ebe6)
 
 [6、布局相关](https://www.cnblogs.com/Tiboo/p/7617453.html)
 
