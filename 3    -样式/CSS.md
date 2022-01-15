@@ -36,10 +36,6 @@
 
 [6、布局](https://github.com/yang1212/collection-about/issues/20)
 
-  * [常见PC页面布局-float](https://www.cnblogs.com/Tiboo/p/6817185.html)
-  
-<br/>
-
 7、适配
   * 字体适配
     * rem相对于根元素进行页面字体适配（缺陷是具有阶梯性）
