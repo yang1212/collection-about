@@ -34,7 +34,7 @@
 
 [5、BFC](https://juejin.im/post/5a4dbe026fb9a0452207ebe6)
 
-[6、布局](https://www.cnblogs.com/Tiboo/p/7617453.html)
+[6、布局](https://github.com/yang1212/collection-about/issues/20)
 
   * [常见PC页面布局-float](https://www.cnblogs.com/Tiboo/p/6817185.html)
   
