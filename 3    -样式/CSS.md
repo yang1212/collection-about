@@ -36,31 +36,6 @@
 
 [6、布局](https://www.cnblogs.com/Tiboo/p/7617453.html)
 
-  * 水平居中
-
-    ````
-    行内元素：     
-      text-align:center
-
-    块元素：
-      margin:         margin: 0 auto
-      flex布局：      justify-content: center (父)
-      子元素宽度已知： position:absolute + left:50% + margin-left：(-盒子width / 2)
-      子元素宽度未知： absolute + left:50% + transform: translate(-50%, 0) 
-    ````
-  
-  * 垂直居中
-  
-    ````
-     行内元素：     
-      line-height:   父元素设置行高，且与高度一致
-
-     块元素：
-      flex布局：      align-items: center (父)
-      子元素高度已知： position:absolute + top:50% + margin-top：(-盒子height / 2)
-      子元素高度未知： absolute + top:50% + transform: translate(0, -50%)
-    ````  
-
   * [常见PC页面布局-float](https://www.cnblogs.com/Tiboo/p/6817185.html)
   
 <br/>
