@@ -36,7 +36,7 @@
 
 [6、布局](https://github.com/yang1212/collection-about/issues/20)
 
-7、适配
+[7、适配](https://github.com/yang1212/collection-about/issues/21)
   * 字体适配
     * rem相对于根元素进行页面字体适配（缺陷是具有阶梯性）
     * vh: 网页视口高度的1/100， vw: 网页视口宽度的1/100
@@ -45,8 +45,6 @@
       window.innerHeight          网页视口高度
       document.body.clientHeight  body高度
     ````
-
-  * [关于移动端适配的问题](https://www.cnblogs.com/Tiboo/p/12273842.html)
 
 <br/>
 
