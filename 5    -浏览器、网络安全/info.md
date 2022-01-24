@@ -54,7 +54,7 @@
 
   1） [XSS攻击(跨站脚本攻击)](https://tech.meituan.com/2018/09/27/fe-security.html)
 
-  2） [CSRF攻击(跨站请求伪造)](https://www.cnblogs.com/hyddd/archive/2009/04/09/1432744.html)
+  2） [CSRF攻击(跨站请求伪造)](https://tech.meituan.com/2018/10/11/fe-security-csrf.html)
 
   3） 网络劫持攻击
 
