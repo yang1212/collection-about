@@ -54,7 +54,7 @@
 
   1） [XSS攻击(跨站脚本攻击)](https://tech.meituan.com/2018/09/27/fe-security.html)
 
-  2） CSRF攻击(跨站请求伪造)
+  2） [CSRF攻击(跨站请求伪造)](https://www.cnblogs.com/hyddd/archive/2009/04/09/1432744.html)
 
   3） 网络劫持攻击
 
@@ -63,7 +63,5 @@
   5） 钓鱼
 
   
-  [参考2](https://segmentfault.com/a/1190000006672214)、
-  [参考3](https://zhuanlan.zhihu.com/p/25486768?group_id=820705780520079360)、
-  [参考4](https://www.tuicool.com/articles/7Ff2EbZ)、
-  [参考5](https://www.cnblogs.com/hyddd/archive/2009/04/09/1432744.html)
+  [参考1](https://segmentfault.com/a/1190000006672214)、
+  [参考2](https://zhuanlan.zhihu.com/p/25486768?group_id=820705780520079360)
