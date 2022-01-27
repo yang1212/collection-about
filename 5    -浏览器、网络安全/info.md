@@ -52,15 +52,19 @@
 
 ## 安全
 
-  1） [XSS攻击(跨站脚本攻击)](https://tech.meituan.com/2018/09/27/fe-security.html)
+  1、[跨域](https://github.com/yang1212/collection-about/issues/22)
+  
+  2、前端安全
 
-  2） [CSRF攻击(跨站请求伪造)](https://tech.meituan.com/2018/10/11/fe-security-csrf.html)
+  * 1） [XSS攻击(跨站脚本攻击)](https://tech.meituan.com/2018/09/27/fe-security.html)
 
-  3） 网络劫持攻击
+  * 2） [CSRF攻击(跨站请求伪造)](https://tech.meituan.com/2018/10/11/fe-security-csrf.html)
 
-  4） 控制台注入代码
+  * 3） 网络劫持攻击
 
-  5） 钓鱼
+  * 4） 控制台注入代码
+
+  * 5） 钓鱼
 
   
   [参考1](https://segmentfault.com/a/1190000006672214)、
