@@ -1,10 +1,17 @@
 ## Vue2
 ### 用法与概念
-[1、父子组件生命周期执行顺序](https://juejin.cn/post/6844904113914773518)
+[1、生命周期](https://juejin.cn/post/6844904113914773518)
 
 [2、组件之间数据通信](https://www.cnblogs.com/Tiboo/p/12593666.html)
 
-[3、$nextTick](https://segmentfault.com/a/1190000012861862)
+[3、动态组件与异步组件](https://cn.vuejs.org/v2/guide/components-dynamic-async.html)
+
+* 动态组件：让多个组件使用同一个挂载点，并动态切换
+* 异步组件：将应用分割成小一些的代码块，并且只在需要的时候才从服务器加载一个模块
+
+[4、keep-alive](https://segmentfault.com/a/1190000023832423)
+
+[5、$nextTick](https://segmentfault.com/a/1190000012861862)
 ```
 事件循环:
 js处理异步主要有微任务（microTask）和 宏任务 （macroTask），而从开始执行一个宏任务–>执行完这个宏任务中所有同步代码—>
@@ -14,19 +21,13 @@ Vue异步更新:
 Vue 在修改数据后，视图不会立刻更新，而是等同一事件循环中的所有数据变化完成之后，再统一进行视图更新
 ```
 
-[4、插槽(slot)](https://segmentfault.com/a/1190000018441566)
+[6、插槽(slot)](https://segmentfault.com/a/1190000018441566)
 
-[5、mixin](https://segmentfault.com/a/1190000015698391)
+[7、mixin](https://segmentfault.com/a/1190000015698391)
 
 * 经常使用扩展组件的方式。当多个组件中有相同的业务逻辑，可将这些逻辑剥离出来，通过 mixins 混入代码，比如上拉下拉加载数据
 * 需要注意的是 mixins 混入的钩子函数会先于组件内的钩子函数执行，并且在遇到同名选项的时候也会有选择性的进行合并
 
-[6、动态组件与异步组件](https://cn.vuejs.org/v2/guide/components-dynamic-async.html)
-
-* 动态组件：让多个组件使用同一个挂载点，并动态切换
-* 异步组件：将应用分割成小一些的代码块，并且只在需要的时候才从服务器加载一个模块
-
-[7、keep-alive](https://segmentfault.com/a/1190000023832423)
 
 8、Vue常见性能优化方式
 ```
