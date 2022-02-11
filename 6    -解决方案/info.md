@@ -48,7 +48,7 @@
 > [npm](https://juejin.cn/post/6844904083241828360)
  
    * [package.json 中的browser、main 与 module](https://juejin.cn/post/6844903862977953806)
-   * 
+    
      ```
      browser : 定义 npm 包在 browser 环境下的入口文件
      main : 定义了 npm 包的入口文件，browser 环境和 node 环境均可使用
