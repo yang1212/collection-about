@@ -48,17 +48,16 @@
 > [npm](https://juejin.cn/post/6844904083241828360)
  
    * [package.json 中的browser、main 与 module](https://juejin.cn/post/6844903862977953806)
-   
+   * 
      ```
      browser : 定义 npm 包在 browser 环境下的入口文件
      main : 定义了 npm 包的入口文件，browser 环境和 node 环境均可使用
      module : 定义 npm 包的 ESM 规范的入口文件，browser 环境和 node 环境均可使用
-     ```
-   * web端加载优先级
+     
+     web端加载优先级:
+     browser > module > main 
+   * [npm install 原理分析](https://cloud.tencent.com/developer/article/1555982)   
    
-     ```
-     browser > module > main
-     ```
 > [lerna](https://github.com/yang1212/collection-about/issues/16)
 
 * 一个用来管理有多个包的JS项目的工具
