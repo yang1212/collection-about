@@ -1,6 +1,6 @@
 ### 目录
 
-* [【 Ts 】基础类型 ]()
+* [【 Ts 】基础类型 ](https://github.com/yang1212/collection-about/issues/25)
 
 * [【 Ts 】接口 ]()
 
