@@ -58,6 +58,3 @@
      browser > module > main 
    * [npm install 原理分析](https://cloud.tencent.com/developer/article/1555982)   
    
-> [lerna](https://github.com/yang1212/collection-about/issues/16)
-
-* 一个用来管理有多个包的JS项目的工具
