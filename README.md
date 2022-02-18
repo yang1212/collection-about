@@ -7,6 +7,10 @@
 
 [1、语言](https://github.com/yang1212/collection-about/blob/master/1%20%20%20%20-%E8%AF%AD%E8%A8%80/JS.md)
 
+* [JS](https://github.com/yang1212/collection-about/blob/master/1%20%20%20%20-%E8%AF%AD%E8%A8%80/JS.md)
+* [TS](https://github.com/yang1212/collection-about/blob/master/1%20%20%20%20-%E8%AF%AD%E8%A8%80/Ts.md)
+* [手写系列](https://github.com/yang1212/collection-about/blob/master/1%20%20%20%20-%E8%AF%AD%E8%A8%80/%E6%89%8B%E5%86%99%E7%B3%BB%E5%88%97.md)
+
 [2、框架](https://github.com/yang1212/collection-about/tree/master/2%20%20%20%20-%E6%A1%86%E6%9E%B6)
 
 * [Vue2](https://github.com/yang1212/collection-about/blob/master/2%20%20%20%20-%E6%A1%86%E6%9E%B6/Vue2.md)
