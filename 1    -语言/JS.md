@@ -145,12 +145,9 @@
 * 浅拷贝: 以赋值的形式拷贝引用对象，仍指向同一个地址，修改时原对象也会受到影响
 
 * 深拷贝: 完全拷贝一个新对象，修改时原对象不再受到任何影响
- 
-[6、数组去重的几种方式](https://www.cnblogs.com/Tiboo/p/11846316.html)
 
-[7、关于宏任务与微任务](https://github.com/yang1212/collection-about/issues/4)
+[6、关于宏任务与微任务](https://github.com/yang1212/collection-about/issues/4)
 
-[8、关于promise，以及手写一个promise](https://www.cnblogs.com/Tiboo/p/10072963.html)
 
 ## 影响性能的场景
 
