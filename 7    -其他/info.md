@@ -34,3 +34,8 @@
 11、[微前端](https://github.com/yang1212/micro-project)
 
 12、[nginx](https://juejin.cn/post/6844904129987526663)
+
+13、vsCode 调试
+
+    node版本过低将导致调试失效
+
