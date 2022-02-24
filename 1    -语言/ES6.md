@@ -5,3 +5,5 @@
 2、[promise](https://es6.ruanyifeng.com/#docs/promise)
 
 3、Set & Map
+
+4、[生成器函数](https://juejin.cn/post/6844903877221810183)
