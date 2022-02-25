@@ -38,4 +38,7 @@
 13、vsCode 调试
 
     node版本过低将导致调试失效
+    
+14、[DNS预读取](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/X-DNS-Prefetch-Control)    
+    
 
