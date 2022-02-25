@@ -148,6 +148,8 @@
 
 [6、关于宏任务与微任务](https://github.com/yang1212/collection-about/issues/4)
 
+[7、New操作符](https://juejin.cn/post/6844903789070123021)
+
 
 ## 影响性能的场景
 
