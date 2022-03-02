@@ -5,7 +5,7 @@
 
 [2、组件通信传值](https://github.com/yang1212/collection-about/issues)
 
-3、setState
+[3、setState](https://github.com/yang1212/collection-about/issues/12)
 
 4、生命周期
 
