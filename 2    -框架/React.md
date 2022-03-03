@@ -7,7 +7,7 @@
 
 [3、setState](https://github.com/yang1212/collection-about/issues/12)
 
-4、生命周期
+[4、生命周期](https://juejin.cn/post/6914112105964634119)
 
 * 挂载时
   ```js
