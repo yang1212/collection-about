@@ -13,21 +13,29 @@
   ```js
   constructor
   
+  -来初始化函数内部 state
+  
   componentDidMount
-  在组件挂载后 (插入DOM树后) 立即调用，componentDidMount() 是发送网络请求、启用事件监听方法的好时机
+  
+  -在组件挂载后 (插入DOM树后) 立即调用，是发送网络请求、启用事件监听方法的好时机
+    
   ```
 * 更新时
   ```js
   shouldCompontntUpdate
   
+  -在组件更新之前调用，可以控制组件是否进行更新
+  
   componentDidUpdate
-  在更新后会被立即调用，首次渲染不会执行
+  
+  -在更新后会被立即调用，首次渲染不会执行
+    
   ```
 * 卸载时
   ```js
   componentWillUnmount
-  在组件即将被卸载或销毁时进行调用，是取消网络请求、移除监听事件、清理 DOM 元素、清理定时器等操作的好时机
-  等同于Vue2: beforeDestroy
+  
+  -在组件即将被卸载或销毁时进行调用，是取消网络请求、移除监听事件、清理 DOM 元素、清理定时器等操作的好时机
   
   componentDidUnmount
   ```
