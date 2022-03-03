@@ -41,6 +41,8 @@
   ```
 
 5、[函数组件和类组件的区别](https://juejin.cn/post/6867028553629138952)
+
+6、[受控组件&非受控组件](https://juejin.cn/post/6858276396968951822#comment)
 <br/>
 
 ## react-router
