@@ -57,4 +57,5 @@
      web端加载优先级:
      browser > module > main 
    * [npm install 原理分析](https://cloud.tencent.com/developer/article/1555982)   
+   * 代码提交规范
    
