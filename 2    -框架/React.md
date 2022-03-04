@@ -24,7 +24,7 @@
   ```js
   shouldCompontntUpdate
   
-  -在组件更新之前调用，可以控制组件是否进行更新
+  -在组件更新之前调用，可以控制组件是否进行更新。默认返回为true（即默认渲染所有子组件）
   
   componentDidUpdate
   
@@ -45,6 +45,8 @@
 6、[受控组件&非受控组件](https://juejin.cn/post/6858276396968951822#comment)
 
 7、性能优化
+
+* 父组件更新，所有子组件无条件更新
 * [PureComponent](https://juejin.cn/post/6844903480369512455)
 * [React.memo](https://1349279985.github.io/%E4%BC%98%E5%8C%96React-memo%E6%B8%B2%E6%9F%93%E5%88%A4%E5%88%AB%E6%9C%BA%E5%88%B6%E5%8F%8A%E5%AE%9E%E6%88%98/)
 * ImmutableJS
