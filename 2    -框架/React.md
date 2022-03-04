@@ -50,6 +50,9 @@
 * [PureComponent](https://juejin.cn/post/6844903480369512455)
 * [React.memo](https://1349279985.github.io/%E4%BC%98%E5%8C%96React-memo%E6%B8%B2%E6%9F%93%E5%88%A4%E5%88%AB%E6%9C%BA%E5%88%B6%E5%8F%8A%E5%AE%9E%E6%88%98/)
 * ImmutableJS
+
+8、高阶组件-HOC
+
 <br/>
 
 ## react-router
