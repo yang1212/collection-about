@@ -34,7 +34,9 @@
 
 为了解决开发代码与实际运行代码不一致时帮助我们debug到原始开发代码的技术，[补充说明](https://segmentfault.com/a/1190000008315937)
 
-8、优化
+[8、webpack引入eslint](https://segmentfault.com/a/1190000012936029)
+
+9、优化
 
 * loader配置缓存，排除node_modules文件, 其他loader: thread-loader, cache-loader
 
