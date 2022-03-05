@@ -87,6 +87,11 @@ Vue 在修改数据后，视图不会立刻更新，而是等同一事件循环�
 
 当我们使用 new Vue() 的方式的时候，无论我们将 data 设置为对象还是函数都是可以，因为 new Vue() 的方式是生成一个根组件，该组件不会复用，也就不存在共享 data 的情况了
 
+9、渲染列表，为何使用key
+
+* diff算法通过tag和key来判断是否是同一个node节点
+* 减少渲染次数，提升渲染性能
+
 
 ## vue-router
    [1、vue-router常用路由](https://router.vuejs.org/zh/guide/essentials/nested-routes.html)
