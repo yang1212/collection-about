@@ -54,6 +54,9 @@
 8、高阶组件-HOC
 
 9、合成事件
+
+* React16事件绑定到document上
+* React17事件绑定到root组件上 （更改原因：有利于多个react版本并存，比如微前端场景）
 <br/>
 
 ## react-router
