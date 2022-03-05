@@ -68,3 +68,7 @@
 
 ## react-redux
 [1、案例基础用法](https://github.com/yang1212/collection-about/issues/7)
+
+2、异步action
+
+3、redux单向数据流
