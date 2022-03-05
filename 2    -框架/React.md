@@ -53,6 +53,7 @@
 
 8、高阶组件-HOC
 
+9、合成事件
 <br/>
 
 ## react-router
