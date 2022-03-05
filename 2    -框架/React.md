@@ -72,3 +72,5 @@
 2、异步action
 
 3、redux单向数据流
+
+4、redux中间件
