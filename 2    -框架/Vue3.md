@@ -1,5 +1,9 @@
 ## [Vue3](https://juejin.cn/post/6968094627375087653)
 
+生命周期
+
+调整
+
 * Tree-shaking support
 
     vue2很多方法都挂载在全局Vue对象上，如$nextTick, set等， vue3可按需引入，使得打包后的bundle更轻量~    
@@ -14,3 +18,5 @@
 
 * Fragment，Teleport，Suspense：新增的组件
 * Better TypeScript support：更好的TypeScript支持
+
+如何实现响应式
