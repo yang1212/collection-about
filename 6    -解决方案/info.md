@@ -57,5 +57,10 @@
      web端加载优先级:
      browser > module > main 
    * [npm install 原理分析](https://cloud.tencent.com/developer/article/1555982)   
-   * 代码提交规范
+  
+  > 代码提交规范
+
+  > 组件设计
+  * 从功能上拆分层次
+  * 容器组件（只管理数据）&& UI组件（只显示视图）
    
