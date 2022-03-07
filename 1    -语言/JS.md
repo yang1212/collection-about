@@ -21,26 +21,22 @@
  
   1) 是否为数组 ( 每个对象都有一个 toString() 方法 )
 
-     * Object.prototype.toString.call(o) 
-     
+     * Object.prototype.toString.call.slice(8, -1) (判断某个对象之属于哪种内置类型)
      * Array.isArray(value) 兼容性相对不强
      
   2) 是否为对象
 
-     * Object.prototype.toString.call(o) 
-     
-     * instanceof ( 通过原型链来判断: [] instanceof Array 为true, 是因为 👉 [].__proto__ === Array.prototype )
+     * Object.prototype.toString.call.slice(8, -1) 
+     * instanceof ( 通过原型链判断: [].__proto__ === Array.prototype, 所以 👉 [] instanceof Array 为true, )
      
   3) 是否为function
 
-     * Object.prototype.toString.call(o) 
-     
+     * Object.prototype.toString.call.slice(8, -1) 
      * instanceof
      
   4) 是否为基本类型
 
-     * Object.prototype.toString.call(o) 
-     
+     * Object.prototype.toString.call.slice(8, -1) 
      * 除了null, typeof可判断剩下的基本数据类型与function
      
   5) 拓展知识之：[toString 与 valueOf](https://segmentfault.com/a/1190000010824347)
@@ -59,7 +55,6 @@
 
         start：可选参数, 规定开始检索的位置 
 
-
   2) findIndex
 
   * 数组常用方法，返回符合条件的元素的索引位置，之后的值不会再调用执行函数
@@ -72,8 +67,7 @@
             }));
             console.log(temp) // 2
           } 
-      ````      
-  
+      ````        
  3) slice
 
      * 从已有的 数组/字符串 中返回选定的元素, 该方法并不会修改数组/字符串，而是返回一个子数组/新串
@@ -91,8 +85,6 @@
             可选，不包含 下标值 的元素, 如果这个参数是负数，那么它规定的是从数组尾部开始算起的元素。
 
             eg: str = '123456' ==> str.slice(1, 2) === '2'  str.slice(2,-1) === '345'   
-
-
 
 4) 中断本次大循环  
    * for/ for in -> break  
