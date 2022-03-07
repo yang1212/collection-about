@@ -20,8 +20,8 @@
 2、[关于TCP三次握手，以及为啥是三次握手](https://juejin.im/post/5ce39af36fb9a07ed136a9bc)
 
 3、[为什么说http协议是无状态协议](https://www.cnblogs.com/Jadie/p/6877392.html)
-
-4、[HTTP协议包含哪几个部分&常见响应码](http://caibaojian.com/http.html)
+  * [content-type常见类型](https://www.jianshu.com/p/ba40da728806)
+  * [HTTP协议包含哪几个部分&常见响应码](http://caibaojian.com/http.html)
 
 5、[理解Https](https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA)
 
