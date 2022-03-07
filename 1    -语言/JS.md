@@ -6,11 +6,9 @@
 
 * 为了便于JS操作，提供了 3 个特殊引用类型：Boolean, Number, String， 他们也称之为基本包装类型
 
-* 基本包装类型与引用类型一样，拥有内置的方法可以对数据进行额外操作。区别就是生存期不同，在代码执行后就会销毁实例
- 
-* 关联拓展之执行 2.toString() 报错？
+* 🍄 执行 2.toString() 报错？
 
-  🍄 JS引擎无法确定 '.' 是浮点数还是 . 操作符, 恰当的做法是用括号包裹，如：(2).toString()
+  JS引擎无法确定 '.' 是浮点数还是 . 操作符, 恰当的做法是用括号包裹，如：(2).toString()
 
 [2、类型转换](https://juejin.im/post/5b6906b46fb9a04fcb5b8771)
   * 显式类型转换
@@ -19,10 +17,10 @@
 
 [3、判断值](https://juejin.im/post/5be52b1ae51d450b3647e766#heading-2)
  
-  1) 是否为数组 ( 每个对象都有一个 toString() 方法 )
+  1) 是否为数组
 
      * Object.prototype.toString.call.slice(8, -1) (判断某个对象之属于哪种内置类型)
-     * Array.isArray(value) 兼容性相对不强
+     * Array.isArray(value) 
      
   2) 是否为对象
 
@@ -89,7 +87,7 @@
 
 [2、闭包](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html)
 
-    1 闭包就是能够读取其他函数内部变量的 **函数**
+    1 闭包就是能够读取其他函数内部变量的函数
 
     2 定义在一个函数内部的函数
 
