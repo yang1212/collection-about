@@ -41,4 +41,5 @@
     
 14、[DNS预读取](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/X-DNS-Prefetch-Control)    
     
+15、设计模式    
 
