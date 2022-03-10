@@ -11,6 +11,7 @@
 * [ES6](https://github.com/yang1212/collection-about/blob/master/1%20%20%20%20-%E8%AF%AD%E8%A8%80/ES6.md)
 * [TS](https://github.com/yang1212/collection-about/blob/master/1%20%20%20%20-%E8%AF%AD%E8%A8%80/Ts.md)
 * [手写系列](https://github.com/yang1212/collection-about/blob/master/1%20%20%20%20-%E8%AF%AD%E8%A8%80/%E6%89%8B%E5%86%99%E7%B3%BB%E5%88%97.md)
+* [设计模式]()
 
 #### 2、框架
 
