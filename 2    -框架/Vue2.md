@@ -65,29 +65,28 @@ Vue 在修改数据后，视图不会立刻更新，而是等同一事件循环�
 
 4、[Vue 2.x双向数据绑定](https://juejin.cn/post/6844903917898186766)
 
-* 数据劫持: 在访问或者修改对象的某个属性时，通过一段代码拦截这个行为，进行额外的操作或者修改返回结果
-
 * 核心API: 基于[object.defineproperty](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty) 进行数据劫持
+   ```
+   存在的问题：
+   1、深度监听，需要一次性递归到底。故data层级不可嵌套过深
+   2、无法对新增、删除属性做监听
+   ```
+
 
 * 核心设计模式：[发布-订阅模式](https://juejin.cn/post/6844903921211670536)
 
 * 监听数组的原理: [原型链的重写](https://github.com/yang1212/collection-about/issues/11)
 
-5、实现数据绑定的几种做法
 
-* [脏值检查](https://www.mopsky.com/2018/02/01/1eab7ae3ea/)
-
-* 数据劫持 + 发布订阅
-
-6、模板编译过程
+5、模板编译过程
 
 [7、vue data为什么是函数？而不是对象](https://www.imqianduan.com/vue/192.html )
 
-8、组件中 data 什么时候可以使用对象
+6、组件中 data 什么时候可以使用对象
 
 当我们使用 new Vue() 的方式的时候，无论我们将 data 设置为对象还是函数都是可以，因为 new Vue() 的方式是生成一个根组件，该组件不会复用，也就不存在共享 data 的情况了
 
-9、渲染列表，为何使用key
+7、渲染列表，为何使用key
 
 * diff算法通过tag和key来判断是否是同一个node节点
 * 减少渲染次数，提升渲染性能
