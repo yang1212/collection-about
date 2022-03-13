@@ -61,7 +61,6 @@ Vue 在修改数据后，视图不会立刻更新，而是等同一事件循环�
 * [深度优先遍历DOM树](https://github.com/yang1212/collection-about/issues/9)
 * [两棵树是否相等](https://leetcode-cn.com/problems/same-tree/submissions/)
 * [diff 算法](https://juejin.cn/post/6844903767473651720)
-* vue、react中的虚拟DOM
 
 4、[Vue 2.x双向数据绑定](https://juejin.cn/post/6844903917898186766)
 
