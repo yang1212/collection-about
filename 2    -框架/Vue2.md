@@ -72,7 +72,7 @@ Vue 在修改数据后，视图不会立刻更新，而是等同一事件循环�
    ```
 
 
-* 核心设计模式：[发布-订阅模式](https://juejin.cn/post/6844903921211670536)
+* 核心设计模式：[发布-订阅模式](https://mp.weixin.qq.com/s/ehrBQkjtBTyyiuUo8KiBLg)
 
 * 监听数组的原理: [原型链的重写](https://github.com/yang1212/collection-about/issues/11)
 
