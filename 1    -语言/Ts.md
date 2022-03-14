@@ -1,6 +1,6 @@
 🌞 TypeScript 在运行前需要先编译为 JavaScript，在编译阶段就会进行类型检查，所以 TypeScript 是静态类型
 
-### 目录
+## 目录
 
 * [【 Ts 】基础类型 ](https://github.com/yang1212/collection-about/issues/25)
 
