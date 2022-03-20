@@ -1,4 +1,4 @@
-> 优化原则
+> **优化原则**
  
 * 多使用内存和缓存
 
@@ -43,7 +43,7 @@
      组件懒加载
   ```
 
-  > 组件
+> **组件**
   * 1）组件设计
   ```
   从功能上拆分层次
@@ -65,7 +65,7 @@
 
 <br/>
 
-> [模块化规范](https://github.com/yang1212/collection-about/issues/15)
+> **[模块化规范](https://github.com/yang1212/collection-about/issues/15)**
 * 1）[深入解析ES Module](https://zhuanlan.zhihu.com/p/40733281)
 * 2）[不要使用 export default {a, b, c}](https://zhuanlan.zhihu.com/p/40733281)
 * 3）require 与 import
