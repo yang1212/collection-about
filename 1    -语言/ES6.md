@@ -1,4 +1,11 @@
 1、[Set & Map](https://es6.ruanyifeng.com/#docs/set-map)
+  * map
+  
+    ```
+    1） 对于Object, 传统上只能用字符串当作键
+
+    2） Map 数据结构，类似于对象，也是键值对的集合。但是“键”的范围不限于字符串，各种类型的值（包括对象）都可以当作键
+    ```
 
 2、[promise](https://es6.ruanyifeng.com/#docs/promise)
 
