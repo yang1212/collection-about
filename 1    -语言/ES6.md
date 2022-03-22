@@ -1,5 +1,5 @@
 1、[Set & Map](https://es6.ruanyifeng.com/#docs/set-map)
-  * map
+  * Map
   
     ```
     1） 对于Object, 传统上只能用字符串当作键
