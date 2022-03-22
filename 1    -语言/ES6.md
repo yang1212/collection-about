@@ -1,4 +1,13 @@
 1、[Set & Map](https://es6.ruanyifeng.com/#docs/set-map)
+  * Set
+  
+    ```
+    1）类似于数组，但是成员的值都是唯一的
+
+    2）[...new Set('ababbc')] // ['a', 'b', 'c']
+
+    3）[...new Set([2, 3, 2])] // [2, 3]
+    ```
   * Map
   
     ```
