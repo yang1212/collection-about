@@ -68,7 +68,7 @@
 > **[模块化规范](https://github.com/yang1212/collection-about/issues/15)**
 * 1）[深入解析ES Module](https://zhuanlan.zhihu.com/p/40733281)
 * 2）[不要使用 export default {a, b, c}](https://zhuanlan.zhihu.com/p/40733281)
-* 3）[require 与 import](https://zhuanlan.zhihu.com/p/121770261)
+* 3）[require 与 import](https://github.com/yang1212/collection-about/issues/40)
 * 4）[MVC, MVVM](https://zhuanlan.zhihu.com/p/64257809)
   ![DE](https://user-images.githubusercontent.com/17806205/132150743-2f8901e8-02c8-4c6f-b89a-2c6876c0f477.png)
    
