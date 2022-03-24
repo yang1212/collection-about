@@ -46,6 +46,8 @@
    
 7、[Web Worker](http://www.ruanyifeng.com/blog/2018/07/web-worker.html)   
 
+8、[聊一聊cookie](https://segmentfault.com/a/1190000004556040)
+
 
 <br/>
 
