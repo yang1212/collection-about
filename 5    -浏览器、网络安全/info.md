@@ -27,6 +27,14 @@
 
 1、[HTTP协议包含哪几个部分&常见响应码](http://caibaojian.com/http.html)
  * [content-type常见类型](https://www.jianshu.com/p/ba40da728806)
+ * [keep-alive 与 多路复用](https://juejin.cn/post/6944639173621973005)
+    ```
+    浏览器发起的最大请求数为一般为6个
+
+    不同域名的请求不可共用一个TCP连接
+
+    多路复用/头部压缩/服务端推送
+    ```
 
 2、[理解HTTPS](https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA)
   * HTTPS（TLS over HTTP）是HTTP/2的必要条件。如果网站不是运行在HTTPS上，那就不算是HTTP/2
@@ -36,22 +44,6 @@
 
 4、[XMLHttpRequest](https://segmentfault.com/a/1190000004322487#articleHeader13)
 
-5、[HTTP/2 相比 1.0 有哪些重大改进](https://www.zhihu.com/question/34074946/answer/75364178)
-   * [keep-alive 与 多路复用](https://juejin.cn/post/6944639173621973005)
-   ```
-     Http1.0 一次连接只能对应一个请求
-     Http1.1 一次连接可对应多个请求，下一次的请求不需要等待上一个响应来之后再发送，但响应的顺序遵循先入先出，基于connection: keep-alive
-     Http2.0 一次连接可对应多个请求，无需有对应顺序，基于多路复用
-   ```
-
-   * 拓展
-   ```
-     浏览器发起的最大请求数为一般为6个
-
-     不同域名的请求不可共用一个TCP连接
-   
-     多路复用/头部压缩/服务端推送
-   ```
    
 [GitHub中的https与ssh](https://mjd507.github.io/2018/02/09/HTTPS-vs-SSH/)   
    
