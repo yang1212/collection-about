@@ -1,11 +1,8 @@
 ## 浏览器
 
 1、[浏览器渲染页面过程以及工作原理](https://segmentfault.com/a/1190000010298038) ( 相关拓展如下 )
-
 * [五大主流浏览器内核的源起](https://blog.csdn.net/Summer_15/article/details/71249203)
-
 * [DOMContentLoaded与load的区别](https://www.cnblogs.com/caizhenbo/p/6679478.html)
-
 * [浏览器的工作原理：新式网络浏览器幕后揭秘](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)
 
 2、[浏览器的多进程到JS的单线程](https://segmentfault.com/a/1190000012925872)
@@ -29,12 +26,12 @@
 ### HTTP
 
 1、[HTTP协议包含哪几个部分&常见响应码](http://caibaojian.com/http.html)
-
  * [content-type常见类型](https://www.jianshu.com/p/ba40da728806)
 
 2、[理解Https](https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA)
 
-3、[聊一聊cookie](https://segmentfault.com/a/1190000004556040)
+3、[跨域](https://github.com/yang1212/collection-about/issues/22)
+  * [聊一聊cookie](https://segmentfault.com/a/1190000004556040)
 
 4、[XMLHttpRequest](https://segmentfault.com/a/1190000004322487#articleHeader13)
 
@@ -63,10 +60,8 @@
 <br/>
 
 ## 安全
-
-  1、[跨域](https://github.com/yang1212/collection-about/issues/22)
   
-  2、前端安全
+  1、前端安全
 
   * 1） [XSS攻击(跨站脚本攻击)](https://tech.meituan.com/2018/09/27/fe-security.html)
 
