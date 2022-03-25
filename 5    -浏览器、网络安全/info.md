@@ -25,7 +25,7 @@
 
 ### HTTP
 
-1、[HTTP协议包含哪几个部分&常见响应码](http://caibaojian.com/http.html)
+1、[理解HTTP](http://caibaojian.com/http.html)
  * [content-type常见类型](https://www.jianshu.com/p/ba40da728806)
  * [keep-alive 与 多路复用](https://juejin.cn/post/6989985247836241957)
     ```
