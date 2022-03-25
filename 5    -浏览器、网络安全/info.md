@@ -20,7 +20,7 @@
 
 2、[关于TCP三次握手，以及为啥是三次握手](https://juejin.im/post/5ce39af36fb9a07ed136a9bc)
 
-3、[为什么说http协议是无状态协议](https://www.cnblogs.com/Jadie/p/6877392.html)
+3、[为什么说HTTP协议是无状态协议](https://www.cnblogs.com/Jadie/p/6877392.html)
    
 
 ### HTTP
@@ -28,7 +28,8 @@
 1、[HTTP协议包含哪几个部分&常见响应码](http://caibaojian.com/http.html)
  * [content-type常见类型](https://www.jianshu.com/p/ba40da728806)
 
-2、[理解Https](https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA)
+2、[理解HTTPS](https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA)
+  * HTTPS（TLS over HTTP）是HTTP/2的必要条件。如果网站不是运行在HTTPS上，那就不算是HTTP/2
 
 3、[跨域](https://github.com/yang1212/collection-about/issues/22)
   * [聊一聊cookie](https://segmentfault.com/a/1190000004556040)
