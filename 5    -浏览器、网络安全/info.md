@@ -14,16 +14,29 @@
 
 <br/>
 
+
 ## 网络
+
+### 协议
+
 1、[TCP 与 UDP](https://www.huaweicloud.com/articles/b49c0ecd9fc1d91730566082918b3d48.html)
 
 2、[关于TCP三次握手，以及为啥是三次握手](https://juejin.im/post/5ce39af36fb9a07ed136a9bc)
 
 3、[为什么说http协议是无状态协议](https://www.cnblogs.com/Jadie/p/6877392.html)
-  * [content-type常见类型](https://www.jianshu.com/p/ba40da728806)
-  * [HTTP协议包含哪几个部分&常见响应码](http://caibaojian.com/http.html)
+   
 
-4、[理解Https](https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA)
+### HTTP
+
+1、[HTTP协议包含哪几个部分&常见响应码](http://caibaojian.com/http.html)
+
+ * [content-type常见类型](https://www.jianshu.com/p/ba40da728806)
+
+2、[理解Https](https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA)
+
+3、[聊一聊cookie](https://segmentfault.com/a/1190000004556040)
+
+4、[XMLHttpRequest](https://segmentfault.com/a/1190000004322487#articleHeader13)
 
 5、[HTTP/2 相比 1.0 有哪些重大改进](https://www.zhihu.com/question/34074946/answer/75364178)
    * [keep-alive 与 多路复用](https://juejin.cn/post/6944639173621973005)
@@ -42,13 +55,9 @@
      多路复用/头部压缩/服务端推送
    ```
    
-6、[GitHub中的https与ssh](https://mjd507.github.io/2018/02/09/HTTPS-vs-SSH/)   
+[GitHub中的https与ssh](https://mjd507.github.io/2018/02/09/HTTPS-vs-SSH/)   
    
-7、[Web Worker](http://www.ruanyifeng.com/blog/2018/07/web-worker.html)   
-
-8、[聊一聊cookie](https://segmentfault.com/a/1190000004556040)
-
-9、[XMLHttpRequest](https://segmentfault.com/a/1190000004322487#articleHeader13)
+[Web Worker](http://www.ruanyifeng.com/blog/2018/07/web-worker.html)      
 
 
 <br/>
