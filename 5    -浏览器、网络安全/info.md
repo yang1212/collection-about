@@ -27,7 +27,7 @@
 
 1、[HTTP协议包含哪几个部分&常见响应码](http://caibaojian.com/http.html)
  * [content-type常见类型](https://www.jianshu.com/p/ba40da728806)
- * [keep-alive 与 多路复用](https://juejin.cn/post/6944639173621973005)
+ * [keep-alive 与 多路复用](https://juejin.cn/post/6989985247836241957)
     ```
     浏览器发起的最大请求数为一般为6个
 
