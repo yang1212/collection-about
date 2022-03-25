@@ -48,6 +48,8 @@
 
 8、[聊一聊cookie](https://segmentfault.com/a/1190000004556040)
 
+9、[XMLHttpRequest](https://segmentfault.com/a/1190000004322487#articleHeader13)
+
 
 <br/>
 
