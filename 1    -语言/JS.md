@@ -87,6 +87,8 @@
 
 [2、闭包](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html)
 
+* 本质就是上级作用域内变量的生命周期，因为被下级作用域内引用，而没有被释放。就导致上级作用域内的变量，等到下级作用域执行完以后才正常得到释放？
+
 [3、This](https://www.cnblogs.com/Tiboo/p/11370325.html)
 * setInterval()，setTimeout() 方法是浏览器 window 对象提供，所以this指向window对象，这跟变量的作用域有关
  
