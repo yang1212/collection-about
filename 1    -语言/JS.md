@@ -4,44 +4,30 @@
 
 [1、基本包装类型](https://juejin.cn/post/6923049481361424397)
 
-* 为了便于JS操作，提供了 3 个特殊引用类型：Boolean, Number, String， 他们也称之为基本包装类型
+为了便于JS操作，提供了 3 个特殊引用类型：Boolean, Number, String， 他们也称之为基本包装类型
 
-* 🍄 执行 2.toString() 报错？
-
-  JS引擎无法确定 '.' 是浮点数还是 . 操作符, 恰当的做法是用括号包裹，如：(2).toString()
+<br/>
 
 [2、类型转换](https://juejin.im/post/5b6906b46fb9a04fcb5b8771)
   * 显式类型转换
   * 隐式类型转换
-  * 拓展： '==' 与 '==='的应用场景
+  
+<br/>
 
 [3、判断值](https://juejin.im/post/5be52b1ae51d450b3647e766#heading-2)
+
+  通用： Object.prototype.toString.call.slice(8, -1) (判断某个对象之属于哪种内置类型)
  
-  1) 是否为数组
-
-     * Object.prototype.toString.call.slice(8, -1) (判断某个对象之属于哪种内置类型)
-     * Array.isArray(value) 
+  数组： Array.isArray(value) 
      
-  2) 是否为对象
-
-     * Object.prototype.toString.call.slice(8, -1) 
-     * instanceof ( 通过原型链判断: [].__proto__ === Array.prototype, 所以 👉 [] instanceof Array 为true, )
+  对象： instanceof ( 通过原型链判断: [].__proto__ === Array.prototype, 所以 👉 [] instanceof Array 为true, )
      
-  3) 是否为function
-
-     * Object.prototype.toString.call.slice(8, -1) 
-     * instanceof
+  function： instanceof
      
-  4) 是否为基本类型
-
-     * Object.prototype.toString.call.slice(8, -1) 
-     * 除了null, typeof可判断剩下的基本数据类型与function
-     
-  5) 拓展知识之：[toString 与 valueOf](https://segmentfault.com/a/1190000010824347)
-     
-     * toString: 返回对象的字符串表示
-     * valueOf: 返回对象的字符串，布尔，数值表示
+  基本类型： 除了null, typeof可判断剩下的基本数据类型与function
+  
  
+<br/>
 
 4、常用原生方法
   1) indexOf
@@ -140,3 +126,13 @@
 1、JS数据存放位置
 * 原始类型：值存储于栈中
 * 引用类型：指针存储于栈中，值存储于堆中
+
+
+2、执行 2.toString() 报错？
+
+JS引擎无法确定 '.' 是浮点数还是 . 操作符, 恰当的做法是用括号包裹，如：(2).toString()
+
+3、[toString 与 valueOf](https://segmentfault.com/a/1190000010824347)
+     
+     * toString: 返回对象的字符串表示
+     * valueOf: 返回对象的字符串，布尔，数值表示
