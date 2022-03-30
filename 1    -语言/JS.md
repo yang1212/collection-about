@@ -30,36 +30,23 @@
 <br/>
 
 4、常用原生方法
-  1) indexOf
+1) indexOf
      * value.indexOf(item,start)
      * 从 数组/字符串 找到一个给定元素的第一个**索引**，如果不存在，则返回-1
 
-  2) findIndex
-     * 数组常用方法，返回符合条件的元素的**索引**位置
-      ````
-          var ages = [3, 10, 18, 20];
-          function myFunction() {
-            let temp = ages.findIndex(function((item) => {
-              return itme > 10
-            }));
-            console.log(temp) // 2
-          } 
-      ````        
- 3) slice  
+2) slice  
      * 返回选定的元素, 该方法并不会修改原始数组/字符串
      * value(start, end)
        ```
        start 必须有：从0开始，包含 下标值 的元素
        eg: str = '123' ==> str.slice(1) === '23' 
        ```
-4) 中断循环  
-   * for/ for in -> break  
-   * every/some -> return
 
-5) 返回值
+3) 返回值
     * map：根据最终return决定得到的数据,不改变原数组
     * filter： 返回满足条件的数据项,不改变原数组
-    * find: 返回通过满足条件的第一个元素的值
+    * find: 返回满足条件的第一个元素的**值**
+    * findIndex: 返回满足条件的第一个元素的**索引位置**
     * some/every： 布尔值
 
 ## 知识点   
