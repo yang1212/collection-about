@@ -88,7 +88,7 @@
 [2、闭包](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html)
 
 [3、This](https://www.cnblogs.com/Tiboo/p/11370325.html)
-* setInterval()，setTimeout() 方法是浏览器 window 对象提供，所以第一个参数函数中的this指向window对象，这跟变量的作用域有关
+* setInterval()，setTimeout() 方法是浏览器 window 对象提供，所以this指向window对象，这跟变量的作用域有关
  
 [4、哪些场景不能用箭头函数](https://zhuanlan.zhihu.com/p/26540168)
 * 定义对象字面量方法
