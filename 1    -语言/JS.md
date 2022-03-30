@@ -87,14 +87,6 @@
 
 [2、闭包](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html)
 
-    1 闭包就是能够读取其他函数内部变量的函数
-
-    2 定义在一个函数内部的函数
-
-    3 作用域应用的特殊情况
-
-    4 函数定义处
-
 [3、This](https://www.cnblogs.com/Tiboo/p/11370325.html)
 * setInterval()，setTimeout() 方法是浏览器 window 对象提供，所以第一个参数函数中的this指向window对象，这跟变量的作用域有关
  
