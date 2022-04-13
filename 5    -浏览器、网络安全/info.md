@@ -21,6 +21,8 @@
 2、[关于TCP三次握手，以及为啥是三次握手](https://juejin.im/post/5ce39af36fb9a07ed136a9bc)
 
 3、[为什么说HTTP协议是无状态协议](https://www.cnblogs.com/Jadie/p/6877392.html)
+
+4、[IP地址](https://www.jianshu.com/p/ad7cd1d5be45)
    
 
 ### HTTP
