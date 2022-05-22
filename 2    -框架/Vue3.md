@@ -25,7 +25,8 @@ setup() {
 }
 ```
 
-* toRef(结构响应式)
+* toRef(解构响应式)
+如果作用于普通对象（非响应式对象），产出的结果不具备相应式
 <img width="626" alt="截屏2022-05-22 下午11 30 22" src="https://user-images.githubusercontent.com/17806205/169703259-fba61e27-5438-4aeb-a66e-9ee8f778f60a.png">
 
 
