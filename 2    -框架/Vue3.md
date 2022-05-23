@@ -4,7 +4,7 @@
 
 2、ref, reactive, toRef, toRefs
 
-* ref
+ref
 ```javascript
 定义值类型
 <div>{{nameRef}}</div>
@@ -25,9 +25,16 @@ setup() {
 }
 ```
 
-* toRef(解构响应式)
+toRef(解构响应式)
+
 如果作用于普通对象（非响应式对象），产出的结果不具备相应式
 <img width="626" alt="截屏2022-05-22 下午11 30 22" src="https://user-images.githubusercontent.com/17806205/169703259-fba61e27-5438-4aeb-a66e-9ee8f778f60a.png">
+
+toRefs
+
+将响应式对象转换为普通对象
+![截屏2022-05-22 下午11 52 04](https://user-images.githubusercontent.com/17806205/169704213-794a64fc-19e1-4913-a468-ffe40844cc4f.png)
+
 
 
 3、相对于vue2的调整
