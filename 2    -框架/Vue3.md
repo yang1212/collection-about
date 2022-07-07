@@ -67,3 +67,6 @@ defineEmits
 
 
 5、如何实现响应式
+
+6、[watch最佳实践](https://juejin.cn/post/6980987158710452231)
+
