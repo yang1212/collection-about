@@ -1,12 +1,43 @@
 🌞 JavaScript 是一门解释型语言，没有编译阶段，所以它是动态类型
 
+
+## 知识点   
+
+1、静态作用域&动态作用域
+
+  * 事实上JavaScript并不具有动态作用域，它只有词法作用域，简单明了，但是this机制某种程度上很像动态作用域
+
+  * 静态作用域：静态作用域（即词法作用域）中的 函数 遇到既不是形参也不是函数内部定义的局部变量的变量时，会去**函数定义** 时的环境中查询。
+
+  * 动态作用域：动态作用域中的 函数 遇到既不是形参也不是函数内部定义的局部变量的变量时，到**函数调用** 时的环境中查询。
+
+[2、This](https://www.cnblogs.com/Tiboo/p/11370325.html)
+* setInterval()，setTimeout() 方法是浏览器 window 对象提供，所以this指向window对象，这跟变量的作用域有关
+ 
+[3、哪些场景不能用箭头函数](https://zhuanlan.zhihu.com/p/26540168)
+* 定义对象字面量方法
+   
+* 定义原型方法
+    
+* 定义事件回调函数
+    
+* 定义构造函数（这个有点奇怪，将代码直接运行在浏览器控制台会报错，但是基于编辑器运行后不会报错）
+
+*  实际场景：Vue data不可以使用箭头函数问题。(关联拓展之: [vue data为什么是函数？而不是对象](https://www.imqianduan.com/vue/192.html))
+
+[4、闭包](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html)
+
+* 本质就是上级作用域内变量的生命周期，因为被下级作用域内引用，而没有被释放。就导致上级作用域内的变量，等到下级作用域执行完以后才正常得到释放？
+
+[5、New操作符](https://juejin.cn/post/6844903789070123021)
+
+[6、关于宏任务与微任务](https://github.com/yang1212/collection-about/issues/4)
+
 ## 数据操作
 
 [1、基本包装类型](https://juejin.cn/post/6923049481361424397)
 
 为了便于JS操作，提供了 3 个特殊引用类型：Boolean, Number, String， 他们也称之为基本包装类型
-
-<br/>
 
 [2、类型转换](https://juejin.im/post/5b6906b46fb9a04fcb5b8771)
 
@@ -28,7 +59,6 @@
     ```
     instanceof ( 通过原型链判断: [].__proto__ === Array.prototype, 所以 👉 [] instanceof Array 为true, )
     ```  
- 
 <br/>
 
 4、常用原生方法
@@ -54,43 +84,11 @@
  eg: str = '123' ==> str.slice(1) === '23' 
  ```
 
-## 知识点   
-
-1、静态作用域&动态作用域
-
-  * 事实上JavaScript并不具有动态作用域，它只有词法作用域，简单明了，但是this机制某种程度上很像动态作用域
-
-  * 静态作用域：静态作用域（即词法作用域）中的 函数 遇到既不是形参也不是函数内部定义的局部变量的变量时，会去**函数定义** 时的环境中查询。
-
-  * 动态作用域：动态作用域中的 函数 遇到既不是形参也不是函数内部定义的局部变量的变量时，到**函数调用** 时的环境中查询。
-
-[2、闭包](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html)
-
-* 本质就是上级作用域内变量的生命周期，因为被下级作用域内引用，而没有被释放。就导致上级作用域内的变量，等到下级作用域执行完以后才正常得到释放？
-
-[3、This](https://www.cnblogs.com/Tiboo/p/11370325.html)
-* setInterval()，setTimeout() 方法是浏览器 window 对象提供，所以this指向window对象，这跟变量的作用域有关
- 
-[4、哪些场景不能用箭头函数](https://zhuanlan.zhihu.com/p/26540168)
-* 定义对象字面量方法
-   
-* 定义原型方法
-    
-* 定义事件回调函数
-    
-* 定义构造函数（这个有点奇怪，将代码直接运行在浏览器控制台会报错，但是基于编辑器运行后不会报错）
-
-*  实际场景：Vue data不可以使用箭头函数问题。(关联拓展之: [vue data为什么是函数？而不是对象](https://www.imqianduan.com/vue/192.html))
-
 [5、对象拷贝](https://juejin.im/post/5b5dcf8351882519790c9a2e#heading-4)
 
 * 浅拷贝: 以赋值的形式拷贝引用对象，仍指向同一个地址，修改时原对象也会受到影响
 
 * 深拷贝: 完全拷贝一个新对象，修改时原对象不再受到任何影响
-
-[6、关于宏任务与微任务](https://github.com/yang1212/collection-about/issues/4)
-
-[7、New操作符](https://juejin.cn/post/6844903789070123021)
 
 
 ## 性能相关知识点
@@ -101,7 +99,7 @@
 
 [3、防抖与节流](https://www.cnblogs.com/Tiboo/p/11795788.html)
 
-[4、存储](https://www.cnblogs.com/Tiboo/p/10355955.html)
+[4、前端缓存](https://github.com/yang1212/collection-about/issues/41)
 
 [5、内存泄露](https://juejin.im/post/5b2fd09ee51d45588576f429)
  
