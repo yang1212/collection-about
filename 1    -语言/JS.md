@@ -93,13 +93,13 @@
 [7、New操作符](https://juejin.cn/post/6844903789070123021)
 
 
-## 影响性能的场景
+## 性能相关知识点
 
-1、为什么操作DOM慢
+[1、为什么操作DOM慢](https://segmentfault.com/a/1190000004114594)
 
-[2、防抖与节流](https://www.cnblogs.com/Tiboo/p/11795788.html)
+[2、重绘与回流](https://www.cnblogs.com/Tiboo/p/10505613.html)
 
-[3、重绘与回流](https://www.cnblogs.com/Tiboo/p/10505613.html)
+[3、防抖与节流](https://www.cnblogs.com/Tiboo/p/11795788.html)
 
 [4、存储](https://www.cnblogs.com/Tiboo/p/10355955.html)
 
