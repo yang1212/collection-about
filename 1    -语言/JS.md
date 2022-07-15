@@ -79,7 +79,7 @@
  eg: str = '123' ==> str.slice(1) === '23' 
  ```
 
-4、正则处理
+4、[前端正则](https://github.com/yang1212/collection-about/issues/42)
 
 [5、数组去重](https://www.cnblogs.com/Tiboo/p/11846316.html)
 
