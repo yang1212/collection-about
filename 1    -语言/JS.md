@@ -78,12 +78,13 @@
  start 必须有：从0开始，包含 下标值 的元素
  eg: str = '123' ==> str.slice(1) === '23' 
  ```
+[4、数值计算](https://github.com/yang1212/collection-about/issues/3)
 
-[4、前端正则](https://github.com/yang1212/collection-about/issues/42)
+[5、前端正则](https://github.com/yang1212/collection-about/issues/42)
 
-[5、数组去重](https://www.cnblogs.com/Tiboo/p/11846316.html)
+[6、数组去重](https://www.cnblogs.com/Tiboo/p/11846316.html)
 
-[6、对象拷贝](https://juejin.im/post/5b5dcf8351882519790c9a2e#heading-4)
+[7、对象拷贝](https://juejin.im/post/5b5dcf8351882519790c9a2e#heading-4)
 
 * 浅拷贝: 以赋值的形式拷贝引用对象，仍指向同一个地址，修改时原对象也会受到影响
 
