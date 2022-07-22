@@ -38,23 +38,19 @@
 [1、类型转换](https://juejin.im/post/5b6906b46fb9a04fcb5b8771)
 
 [2、判断值](https://juejin.im/post/5be52b1ae51d450b3647e766#heading-2)
+````javaScript
+// 通用
+Object.prototype.toString.call.slice(8, -1) (判断某个对象之属于哪种内置类型)
 
-  * 通用
-    ```
-    Object.prototype.toString.call.slice(8, -1) (判断某个对象之属于哪种内置类型)
-    ```
-  * 基本类型
-    ```
-    除了null, typeof可判断剩下的基本数据类型与function
-    ```
-  * 数组
-    ```
-    Array.isArray(value) 
-    ```
-  * 对象、function
-    ```
-    instanceof ( 通过原型链判断: [].__proto__ === Array.prototype, 所以 👉 [] instanceof Array 为true, )
-    ```  
+// 基本类型
+除了null, typeof可判断剩下的基本数据类型与function
+
+// 数组
+Array.isArray(value)
+ 
+// 对象、function
+instanceof ( 通过原型链判断: [].__proto__ === Array.prototype, 所以 👉 [] instanceof Array 为true)
+````
 
 3、常用原生方法
 
