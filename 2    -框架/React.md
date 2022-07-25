@@ -64,9 +64,12 @@
 
 * react-router-dom 是在 react-router 基础上添加了一些在浏览器环境下的特定功能，如 Link、BrowserRouter 、HashRouter 等
 
-* [说明了4.x相对于3.x的踩坑点](https://juejin.cn/post/6844903640839225358)
+2、react-router-dom
 
-* [说明了4.x嵌套路由的配置等案例](https://segmentfault.com/a/1190000020812860)
+* [v6 新特性解读及迁移指南](https://juejin.cn/post/6844904096059621389)
+* [v5 路由的配置等案例](https://segmentfault.com/a/1190000020812860)
+* [v4 相对于v3的踩坑点](https://juejin.cn/post/6844903640839225358)
+
 
 <br/>
 
