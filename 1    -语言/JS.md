@@ -45,38 +45,8 @@ Array.isArray(value)
 instanceof ( 通过原型链判断: [].__proto__ === Array.prototype, 所以 👉 [] instanceof Array 为true)
 ````
 
-3、常用原生方法
+[3、常用原生方法](https://github.com/yang1212/collection-about/issues/43)
 
-1）数组迭代
-````javaScript
-// map：根据最终return决定得到的数据,不改变原数组
-[1, 1].map((item) => { return 2 }) // [2, 2]
-
-// filter： 返回满足条件的数据项,不改变原数组
-[{num: 2}].filter((item) => { return item.num > 1 }) // [{num: 2}], 未找到为[]
-
-// find: 返回满足条件的第一个元素的值
-[{num: 2}].find((item) => { return item.num > 1 }) // {num: 2}, 未找到为undefined
-
-// findIndex: 返回满足条件的第一个元素的索引位置
-[{num: 2}].find((item) => { return item.num > 1 }) // 0, 未找到为-1
-
-// some/every： 布尔值 
-[2, 1].some((item) => { return item > 1 }) // true
-````
-
-2）indexOf
- * value.indexOf(item,start)
- * 从 数组/字符串 找到一个给定元素的第一个**索引**，如果不存在，则返回-1
-
-3）slice  
-
-* 返回选定的元素, 该方法并不会修改原始数组/字符串
-* value.slice(start, end)
- ```
- start 必须有：从0开始，包含 下标值 的元素
- eg: str = '123' ==> str.slice(1) === '23' 
- ```
 [4、数值计算](https://github.com/yang1212/collection-about/issues/3)
 
 [5、前端正则](https://github.com/yang1212/collection-about/issues/42)
