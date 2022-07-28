@@ -11,3 +11,5 @@
 * [【 Ts 】泛型 ](https://github.com/yang1212/collection-about/issues/28)
 
 * [【 Ts 】高级类型 ](https://github.com/yang1212/collection-about/issues/27)
+
+* [【 Ts 】 Qs](https://github.com/yang1212/collection-about/issues/44)
