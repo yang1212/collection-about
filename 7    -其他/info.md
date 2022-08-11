@@ -30,4 +30,4 @@ vsCode 调试
     
 [DNS预读取](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/X-DNS-Prefetch-Control)    
         
-
+[编辑器方式打开github](https://github1s.com/yang1212/Bill)
