@@ -30,7 +30,7 @@
 
   ```javascript
    <p>{{ageRef}}</p>
-   <p></p>
+   <p>{{state.name}}</p>
 
    import {ref, toRef, reactive} from 'vue'
    setup() {
@@ -48,8 +48,23 @@
    #### 3) toRefs
 
    将响应式对象转换为普通对象
-   ![截屏2022-05-22 下午11 52 04](https://user-images.githubusercontent.com/17806205/169704213-794a64fc-19e1-4913-a468-ffe40844cc4f.png)
+   ```javascript
+   <p>{{age}}</p>
+   <p>{{name}}</p>
 
+   import {toRefs, reactive} from 'vue'
+
+   setup() {
+       const state = reactive({
+           age: '20',
+           name: 'yf'
+       })
+       return {
+           ...toRefs(state)
+       }
+   }
+  ```
+  补充：[script setup中没有特别完美的...toRefs的解决方案](https://cloud.tencent.com/developer/article/1916168)
 
    #### 4) reactive
 
