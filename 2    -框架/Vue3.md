@@ -28,8 +28,23 @@
    #### 2) toRef(解构响应式)
 
    如果作用于普通对象（非响应式对象），产出的结果不具备相应式
-   <img width="626" alt="截屏2022-05-22 下午11 30 22" src="https://user-images.githubusercontent.com/17806205/169703259-fba61e27-5438-4aeb-a66e-9ee8f778f60a.png">
+  ````javaScript
+   <p>{{ageRef}}</p>
+   <p></p>
 
+   import {ref, toRef, reactive} from 'vue'
+   setup() {
+       const state = reactive({
+           age: '20',
+           name: 'yf'
+       })
+       const ageRef = toRef(state, 'age')
+       return {
+           state,
+           ageRef
+       }
+   }
+  ````
    #### 3) toRefs
 
    将响应式对象转换为普通对象
