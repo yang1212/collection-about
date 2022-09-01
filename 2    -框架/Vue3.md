@@ -66,19 +66,7 @@
   ```
   补充：[script setup中没有特别完美的...toRefs的解决方案](https://cloud.tencent.com/developer/article/1916168)
 
-   #### 4) reactive
-
-3、defineProps、defineEmits
-
-defineProps
-
-<img width="866" alt="截屏2022-05-23 下午11 32 17" src="https://user-images.githubusercontent.com/17806205/169855216-765bba14-0e9c-4fc2-92ae-b661bb3f9bfe.png">
-
-defineEmits
-
-<img width="877" alt="截屏2022-05-23 下午11 37 53" src="https://user-images.githubusercontent.com/17806205/169856196-22f9d7bc-7f29-4e29-95e9-1476c0e8e084.png">
 
 
-
-4、[watch最佳实践](https://juejin.cn/post/6980987158710452231)
+3、[watch最佳实践](https://juejin.cn/post/6980987158710452231)
 
