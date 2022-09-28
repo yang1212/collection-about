@@ -12,4 +12,4 @@
 
 * [【 Ts 】高级类型 ](https://github.com/yang1212/collection-about/issues/27)
 
-* [【 Ts 】日常实践疑惑记录](https://github.com/yang1212/collection-about/issues/44)
+* [【 Ts 】日常实践记录](https://github.com/yang1212/collection-about/issues/44)
