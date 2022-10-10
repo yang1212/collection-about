@@ -96,3 +96,9 @@ JS引擎无法确定 '.' 是浮点数还是 . 操作符, 恰当的做法是用�
      
      * toString: 返回对象的字符串表示
      * valueOf: 返回对象的字符串，布尔，数值表示
+     
+4、[模块化规范](https://github.com/yang1212/collection-about/issues/15)
+* 1）[深入解析ES Module](https://zhuanlan.zhihu.com/p/40733281)
+* 2）[不要使用 export default {a, b, c}](https://zhuanlan.zhihu.com/p/40733281)
+* 3）[require 与 import](https://github.com/yang1212/collection-about/issues/40)
+* 4）[MVC, MVVM](https://zhuanlan.zhihu.com/p/64257809)
