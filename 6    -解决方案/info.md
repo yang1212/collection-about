@@ -44,13 +44,13 @@
   ```
 
 > **组件**
-  * 1）组件设计
+  1）组件设计
   ```
   从功能上拆分层次
   
   容器组件（只管理数据）&& UI组件（只显示视图）
   ```
-  * 2）[package.json 中的browser、main 与 module](https://juejin.cn/post/6844903862977953806)
+  2）[package.json 中的browser、main 与 module](https://juejin.cn/post/6844903862977953806)
   
   ```
   browser : 定义 npm 包在 browser 环境下的入口文件
@@ -60,8 +60,8 @@
   web端加载优先级:
   browser > module > main 
   ```
-  * 3）[npm install 原理分析](https://cloud.tencent.com/developer/article/1555982) 
-  * 4）[npm与yarn的区别](https://zhuanlan.zhihu.com/p/27449990)
+  3）[npm install 原理分析](https://cloud.tencent.com/developer/article/1555982) 
+  4）[npm与yarn的区别](https://zhuanlan.zhihu.com/p/27449990)
 
 <br/>
 
