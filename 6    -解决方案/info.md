@@ -67,4 +67,8 @@
 
 <br/>
 
+[编辑器方式打开github](https://github1s.com/yang1212/Bill)
+
+vsCode 调试
+* node版本过低将导致调试失效
    
