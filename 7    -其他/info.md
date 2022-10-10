@@ -25,9 +25,7 @@ CDN
 
 [nginx](https://juejin.cn/post/6844904129987526663)
 
-vsCode 调试
-* node版本过低将导致调试失效
     
 [DNS预读取](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/X-DNS-Prefetch-Control)    
         
-[编辑器方式打开github](https://github1s.com/yang1212/Bill)
+
