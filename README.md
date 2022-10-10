@@ -34,6 +34,6 @@
 
 #### [6、解决方案](https://github.com/yang1212/collection-about/blob/master/6%20%20%20%20-%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/info.md)
 
-#### [7、其他](https://github.com/yang1212/collection-about/blob/master/7%20%20%20%20-%E5%85%B6%E4%BB%96/info.md)
+#### [7、懵里懵懂的名词](https://github.com/yang1212/collection-about/blob/master/7%20%20%20%20-%E5%85%B6%E4%BB%96/info.md)
 
 #### [8、books](https://github.com/yang1212/collection-about/tree/master/8%20%20%20%20-books)
