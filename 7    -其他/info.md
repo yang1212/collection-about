@@ -1,4 +1,14 @@
-[听过和没听过的技术名词](https://github.com/yang1212/collection-about/issues/8)
+## 版块一
+
+### [同构渲染](https://juejin.cn/post/6844903792836608008)
+
+### [微前端](https://tech.meituan.com/2020/02/27/meituan-waimai-micro-frontends-practice.html)
+
+### [serverless](https://cloud.tencent.com/developer/article/1672933)
+
+Rust
+
+Kubernetes
 
 [编译型语言与解释型语言的区别](https://www.tspweb.com/key/%E7%BC%96%E8%AF%91%E8%AF%AD%E8%A8%80.html)
 
@@ -27,5 +37,6 @@ CDN
 
     
 [DNS预读取](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/X-DNS-Prefetch-Control)    
+
         
 
