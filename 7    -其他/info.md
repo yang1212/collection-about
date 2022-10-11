@@ -1,7 +1,8 @@
 ## 版块一
 
-### [同构渲染](https://juejin.cn/post/6844903792836608008)
+### [同构渲染](https://juejin.cn/post/6844903512296390664)
 
+一套代码，浏览器能渲染，服务端能渲染
 ### [微前端](https://tech.meituan.com/2020/02/27/meituan-waimai-micro-frontends-practice.html)
 
 ### [serverless](https://cloud.tencent.com/developer/article/1672933)
