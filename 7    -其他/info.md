@@ -1,27 +1,30 @@
 ## 版块一
 
-### [同构渲染](https://juejin.cn/post/6844903512296390664)
+[1、同构渲染](https://juejin.cn/post/6844903512296390664)
 
-一套代码，浏览器能渲染，服务端能渲染
-### [微前端](https://tech.meituan.com/2020/02/27/meituan-waimai-micro-frontends-practice.html)
+* 一套代码，浏览器能渲染，服务端能渲染
 
-### [serverless](https://cloud.tencent.com/developer/article/1672933)
+[2、微前端](https://tech.meituan.com/2020/02/27/meituan-waimai-micro-frontends-practice.html)
 
-Rust
+[3、serverless](https://cloud.tencent.com/developer/article/1672933)
 
-Kubernetes
+[4、Rust](https://zhuanlan.zhihu.com/p/62057547)
 
-[前端监控和前端埋点方案设计](https://github.com/forthealllight/blog/issues/23) 
+* 编译型语言
+
+5、Kubernetes
+
+[6、前端监控和前端埋点方案设计](https://github.com/forthealllight/blog/issues/23) 
 
   * PV/UV:PV(page view)，即页面浏览量或点击量。UV:指访问某个站点或点击某条新闻的不同IP地址的人数
   * 前端监控可以分为三类：数据监控、性能监控和异常监控
   * 前端埋点方法分为三种：代码埋点、可视化埋点和无痕埋点
   * [前端埋点体系怎么搭建](https://github.com/closertb/closertb.github.io/issues/46)
 
-[nginx](https://juejin.cn/post/6844904129987526663)
+[7、nginx](https://juejin.cn/post/6844904129987526663)
 
     
-[DNS预读取](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/X-DNS-Prefetch-Control)    
+[8、DNS预读取](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/X-DNS-Prefetch-Control)    
 
 ## 版块二(概念)
 
