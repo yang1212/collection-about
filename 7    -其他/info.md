@@ -23,6 +23,10 @@
     
 [6、DNS预读取](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/X-DNS-Prefetch-Control)    
 
+[7、Flutter](https://www.jianshu.com/p/51e989500ca3)
+
+* 用于构建跨平台的手机App的SDK。写一份代码，在Android 和iOS平台上都可以运行。
+
 ## 版块二（概念）
 
 [编译型语言与解释型语言的区别](https://www.tspweb.com/key/%E7%BC%96%E8%AF%91%E8%AF%AD%E8%A8%80.html)
