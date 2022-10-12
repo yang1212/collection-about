@@ -47,4 +47,6 @@ CDN
 
 [2、Kubernetes](https://zhuanlan.zhihu.com/p/29232090)
 * 简称 k8s（k，8 个字符，s——明白了？）或者 “kube”，是一个开源的 Linux 容器自动化运维平台
+* [Docker](https://www.51cto.com/article/637679.html)
+* [Docker不香吗？为什么还要用K8s](https://www.51cto.com/article/622553.html)
 
