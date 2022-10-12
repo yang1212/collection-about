@@ -8,6 +8,8 @@
 
 [3、serverless](https://cloud.tencent.com/developer/article/1672933)
 
+* 无服务器架构，即在无需管理服务器等底层资源的情况下完成应用的开发和运行
+
 [4、Rust](https://zhuanlan.zhihu.com/p/62057547)
 
 * 编译型语言
