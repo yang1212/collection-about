@@ -1,3 +1,5 @@
+## 优化
+
 > **优化原则**
  
 * 多使用内存和缓存
@@ -67,8 +69,12 @@
 
 <br/>
 
+## 工具
+
 [编辑器方式打开github](https://github1s.com/yang1212/Bill)
 
 vsCode 调试
 * node版本过低将导致调试失效
+
+[nvm使用](https://www.cnblogs.com/Tiboo/p/12637602.html)
    
