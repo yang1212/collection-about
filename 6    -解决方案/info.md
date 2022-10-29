@@ -66,6 +66,8 @@
   3）[npm install 原理分析](https://cloud.tencent.com/developer/article/1555982) 
   
   4）[npm与yarn的区别](https://zhuanlan.zhihu.com/p/27449990)
+  
+### [微信登录](https://www.jianshu.com/p/322035a9f05d)
 
 <br/>
 
