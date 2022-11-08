@@ -30,3 +30,5 @@
 * 需基于小程序授权位置信息，获取经纬度，并通过路由参数将经纬度传给H5
 
 [8、小程序 webview 内嵌 h5 支付、路由跳转](https://developers.weixin.qq.com/community/develop/article/doc/0008e22ff80d088bcd9c8b42156c13)
+
+[9、微信公众号关注组件](https://developers.weixin.qq.com/miniprogram/dev/component/official-account.html)
