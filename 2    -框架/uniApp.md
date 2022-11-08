@@ -32,3 +32,5 @@
 [8、小程序 webview 内嵌 h5 支付、路由跳转](https://developers.weixin.qq.com/community/develop/article/doc/0008e22ff80d088bcd9c8b42156c13)
 
 [9、微信公众号关注组件](https://developers.weixin.qq.com/miniprogram/dev/component/official-account.html)
+
+[10、微信小程序获取手机号码](https://www.jianshu.com/p/9aceb1fcb3a0)
