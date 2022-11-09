@@ -34,3 +34,6 @@
 [9、微信公众号关注组件](https://developers.weixin.qq.com/miniprogram/dev/component/official-account.html)
 
 [10、微信小程序获取手机号码](https://www.jianshu.com/p/9aceb1fcb3a0)
+
+11、蓝牙
+* [经典蓝牙与低功耗蓝牙](https://zhuanlan.zhihu.com/p/149244010)
