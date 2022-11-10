@@ -39,3 +39,5 @@
 
 11、蓝牙
 * [经典蓝牙与低功耗蓝牙](https://zhuanlan.zhihu.com/p/149244010)
+* [小程序-支付宝](https://opendocs.alipay.com/mini/api/bluetooth-intro)
+* [小程序-微信](https://developers.weixin.qq.com/miniprogram/dev/framework/device/ble.html)([api](https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-ble/wx.writeBLECharacteristicValue.html))
