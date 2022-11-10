@@ -14,7 +14,7 @@
 ## 使用
 
 [1、小程序生命周期](https://blog.csdn.net/qq_37291064/article/details/87913066)
-* [小程序中onLoad、onReady的执行顺序， onLoad先于onReady](https://juejin.cn/post/6844903928400707591)
+* [小程序中onLoad、onReady的执行顺序， onLoad先于onReady，onReady在页面初次渲染完才调用。为啥就要另起炉灶与原生js不一样的命名含义了，wtm大雨。](https://juejin.cn/post/6844903928400707591)
 * 小程序执行顺序与原生js方法不一致，原生Js中：onReady代表文档结构加载完成、onLoad代表包含图片等在内的所有元素都加载完成。
 
 [2、webview](https://uniapp.dcloud.net.cn/component/web-view.html#web-view)
