@@ -14,6 +14,8 @@
 ## 使用
 
 [1、小程序生命周期](https://blog.csdn.net/qq_37291064/article/details/87913066)
+* [小程序中onLoad、onReady的执行顺序， onLoad先于onReady](https://juejin.cn/post/6844903928400707591)
+* 小程序执行顺序与原生js方法不一致，原生Js中：onReady代表文档结构加载完成、onLoad代表包含图片等在内的所有元素都加载完成。
 
 [2、webview](https://uniapp.dcloud.net.cn/component/web-view.html#web-view)
 * 一个页面只支持配置单个web-view, 可通过v-if控制页面的重载（销毁需要过程，故销毁与重载之间需添加适当的setTimeout, 否则页面会报错不支持多个web-view）
