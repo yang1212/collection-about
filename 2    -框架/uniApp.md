@@ -43,3 +43,8 @@
 * [小程序-微信](https://developers.weixin.qq.com/miniprogram/dev/framework/device/ble.html)([api](https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-ble/wx.writeBLECharacteristicValue.html))
 
 [12、支付宝小程序互跳](https://opendocs.alipay.com/mini/0090ty)
+
+
+## 踩坑记录
+1、The 'request' method of platform '支付宝小程序' does not support option 'responseType'
+* uniApp基于axios： 在微信中请求正常，在支付宝中报错。（替换为uni.request）
