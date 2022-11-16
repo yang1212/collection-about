@@ -3,13 +3,15 @@
 * openid：将用户信息录入数据库中，就得有一个唯一标记区分用户，这个标记就是openid。当一个用户使用了某个微信小程序，微信后台会产生一个openid，并且是唯一的，可以通过这个来区分用户。
 * UnionID:  简言之同一用户，对同一个微信开放平台下的不同应用，unionid是相同的
 
-
+<br/>
 
 ## 配置
 [1、小程序内嵌H5业务域名配置](https://www.abwuliu.com/news/99137.html)
 
 [2、微信小程序web-view组件使用及内嵌H5页面注意事项](https://blog.51cto.com/u_12849855/4714799)
 
+
+<br/>
 
 ## 使用
 
@@ -43,6 +45,8 @@
 * [小程序-微信](https://developers.weixin.qq.com/miniprogram/dev/framework/device/ble.html)([api](https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-ble/wx.writeBLECharacteristicValue.html))
 
 [12、支付宝小程序互跳](https://opendocs.alipay.com/mini/0090ty)
+
+<br/>
 
 
 ## 踩坑记录
