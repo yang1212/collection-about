@@ -52,3 +52,6 @@
 ## 踩坑记录
 1、The 'request' method of platform '支付宝小程序' does not support option 'responseType'
 * uniApp基于axios： 在微信中请求正常，在支付宝中报错。（替换为uni.request）
+
+2、uniApp选择默认模板无package.json下载依赖包
+* 在当前项目下执行命令： npm init -y
