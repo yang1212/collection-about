@@ -6,6 +6,9 @@
 
 3、vscode
 * 调试时：node版本过低将导致调试失效
+
+4、vscode插件
+
 **Browser Preview**
 * vscode内打开浏览器
 
