@@ -56,3 +56,10 @@
 
 2、uniApp选择默认模板无package.json下载依赖包
 * 在当前项目下执行命令： npm init -y
+
+3、蓝牙相关API
+
+1） onBLEConnectionStateChange 
+
+监听低功耗蓝牙连接的错误事件，包括设备丢失，连接异常断开等。支付宝对应api: onBLEConnectionStateChanged多1个d...
+
