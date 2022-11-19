@@ -31,7 +31,7 @@
 * [公共补充](https://github.com/yang1212/collection-about/blob/master/4%20%20%20%20-%E5%B7%A5%E7%A8%8B%E5%8C%96/%E5%85%B6%E4%BB%96.md)
 
 
-#### [5、浏览器 | 网络安全](https://github.com/yang1212/collection-about/blob/master/5%20%20%20%20-%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/info.md)
+#### [5、浏览器 | 网络安全](https://github.com/yang1212/collection-about/blob/master/5%20%20%20%20-%E6%B5%8F%E8%A7%88%E5%99%A8%20I%20%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/info.md)
 
 #### [6、场景 | 优化](https://github.com/yang1212/collection-about/blob/master/6%20%20%20%20-%E5%9C%BA%E6%99%AF%20I%20%E4%BC%98%E5%8C%96/info.md)
 
@@ -39,4 +39,4 @@
 
 #### [8、懵里懵懂的名词](https://github.com/yang1212/collection-about/blob/master/8%20%20%20%20-%E6%87%B5%E9%87%8C%E6%87%B5%E6%87%82%E7%9A%84%E5%90%8D%E8%AF%8D/info.md)
 
-#### [9、books](https://github.com/yang1212/collection-about/tree/master/8%20%20%20%20-books)
+#### [9、books](https://github.com/yang1212/collection-about/tree/master/9%20%20%20%20-books)
