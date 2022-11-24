@@ -39,4 +39,4 @@
 
 #### [8、懵里懵懂的名词](https://github.com/yang1212/collection-about/blob/master/8%20%20%20%20-%E6%87%B5%E9%87%8C%E6%87%B5%E6%87%82%E7%9A%84%E5%90%8D%E8%AF%8D/info.md)
 
-#### [9、books](https://github.com/yang1212/collection-about/tree/master/9%20%20%20%20-books)
+#### [9、books](https://github.com/yang1212/vue-about/blob/master/README.md)
