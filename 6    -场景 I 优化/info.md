@@ -71,3 +71,6 @@
 
 <br/>
 
+## 踩坑
+[1、Date.parse()获取时间戳iOS无法获取](https://blog.csdn.net/mayuko2012/article/details/78181484?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-78181484-blog-91863886.pc_relevant_3mothn_strategy_recovery&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-78181484-blog-91863886.pc_relevant_3mothn_strategy_recovery&utm_relevant_index=1)
+
