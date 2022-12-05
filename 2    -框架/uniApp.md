@@ -47,6 +47,8 @@
 
 [12、支付宝小程序互跳](https://opendocs.alipay.com/mini/0090ty)
 
+[13、自定义tabBar](https://developers.weixin.qq.com/miniprogram/dev/framework/ability/custom-tabbar.html)
+
 <br/>
 
 
