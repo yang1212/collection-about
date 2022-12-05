@@ -59,7 +59,5 @@
 
 3、蓝牙相关API
 
-1） onBLEConnectionStateChange 
-
-监听低功耗蓝牙连接的错误事件，包括设备丢失，连接异常断开等。支付宝对应api: onBLEConnectionStateChanged多1个d...
+* onBLEConnectionStateChange： 监听低功耗蓝牙连接的错误事件，包括设备丢失，连接异常断开等。支付宝对应api: onBLEConnectionStateChanged多1个d...
 
