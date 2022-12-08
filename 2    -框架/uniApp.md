@@ -56,6 +56,8 @@
 
 [14、uniApp scroll-view自定义下拉刷新](https://blog.csdn.net/houruoyu3/article/details/112481762)
 
+[15、微信小程序转发&分享朋友圈](https://developers.weixin.qq.com/miniprogram/dev/reference/api/Page.html#onShareAppMessage-Object-object)
+
 <br/>
 
 
