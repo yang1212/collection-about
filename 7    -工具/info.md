@@ -26,3 +26,8 @@
 
     **vscode-pdf**
     * 支持阅读pdf文件   
+
+## MAC
+[1、Mac如何创建隐藏文件和文件夹](https://zhuanlan.zhihu.com/p/489156224)
+
+[2、M1芯片Mac上安装Homebrew和nvm安装教程](https://juejin.cn/post/6985073338334838814)
