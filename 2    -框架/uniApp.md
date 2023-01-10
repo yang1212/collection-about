@@ -37,6 +37,7 @@ onLoad、onReady的执行顺序
 [10、uniApp scroll-view自定义下拉刷新](https://blog.csdn.net/houruoyu3/article/details/112481762)
 
 [11、微信小程序转发&分享朋友圈](https://developers.weixin.qq.com/miniprogram/dev/reference/api/Page.html#onShareAppMessage-Object-object)
+* [H5微信自定义分享只在对应场景才生效](https://developers.weixin.qq.com/community/develop/doc/00004c7ff500f8527f2d9656951800)
 
 <br/>
 
