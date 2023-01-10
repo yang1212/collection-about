@@ -102,3 +102,5 @@ JS引擎无法确定 '.' 是浮点数还是 . 操作符, 恰当的做法是用�
 * 2）[不要使用 export default {a, b, c}](https://zhuanlan.zhihu.com/p/40733281)
 * 3）[require 与 import](https://github.com/yang1212/collection-about/issues/40)
 * 4）[MVC, MVVM](https://zhuanlan.zhihu.com/p/64257809)
+
+5、[JavaScript实现千位分隔符](https://www.jianshu.com/p/928c68f92c0c)
