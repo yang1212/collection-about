@@ -1,15 +1,18 @@
 ## 使用
 
 [1、小程序生命周期](https://blog.csdn.net/qq_37291064/article/details/87913066)
-* [小程序中onLoad、onReady的执行顺序， onLoad先于onReady，onReady在页面初次渲染完才调用。为啥就要另起炉灶与原生js不一样的命名含义了，wtm大雨。](https://juejin.cn/post/6844903928400707591)
-* 小程序执行顺序与原生js方法不一致，原生Js中：onReady代表文档结构加载完成、onLoad代表包含图片等在内的所有元素都加载完成。
+
+onLoad、onReady的执行顺序
+
+* [小程序中： onLoad先于onReady，onReady在页面初次渲染完调用。为啥就要另起炉灶与原生JS不一样，wtm大雨。](https://juejin.cn/post/6844903928400707591)
+* 原生JS中： onReady先于onLoad, onReady代表文档结构加载完成、onLoad代表页面初次渲染完。
 
 [2、webview](https://uniapp.dcloud.net.cn/component/web-view.html#web-view)
 * 一个页面只支持配置单个web-view, 可通过v-if控制页面的重载（销毁需要过程，故销毁与重载之间需添加适当的setTimeout, 否则页面会报错不支持多个web-view）
-* [uni-app 中使用 web-view 微信小程序嵌套H5](https://www.aliyue.net/10218.html)
-* [微信小程序与web-view页面双向通信](https://juejin.cn/post/6920840441378275336)
-* [uniapp使用webview嵌套h5，在h5中使用小程序的api使用方法](https://juejin.cn/post/6844904061842653191)
-* [小程序 webview 内嵌 h5 支付、路由跳转](https://developers.weixin.qq.com/community/develop/article/doc/0008e22ff80d088bcd9c8b42156c13)
+* [webview -微信小程序嵌套H5](https://www.aliyue.net/10218.html)
+* [webview -与微信小程序双向通信](https://juejin.cn/post/6920840441378275336)
+* [webview -在h5中使用小程序的api使用方法](https://juejin.cn/post/6844904061842653191)
+* [webview -内嵌 h5 支付、路由跳转](https://developers.weixin.qq.com/community/develop/article/doc/0008e22ff80d088bcd9c8b42156c13)
 
 
 [3、uni-app 全局变量的几种实现方式](https://ask.dcloud.net.cn/article/35021)
@@ -39,7 +42,7 @@
 
 ## 概念理解
 [1、微信小程序：一文彻底搞懂openid和unionid](https://cloud.tencent.com/developer/article/1708827)
-* openid：将用户信息录入数据库中，就得有一个唯一标记区分用户，这个标记就是openid。当一个用户使用了某个微信小程序，微信后台会产生一个openid，并且是唯一的，可以通过这个来区分用户。
+* openid：将用户信息录入数据库中，就得有一个唯一标记区分用户，这个标记就是openid。
 * UnionID:  简言之同一用户，对同一个微信开放平台下的不同应用，unionid是相同的
 
 <br/>
