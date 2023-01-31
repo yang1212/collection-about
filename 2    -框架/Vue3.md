@@ -16,6 +16,9 @@
    <div>{{nameRef}}</div>
    setup() {
     const ageRef = ref('yf')
+    onMounted(() => {
+       console.log(ageRef.value)
+    })
     return {
       ageRef
     }
@@ -28,6 +31,9 @@
      onMounted(() => {
        console.log(chartRef.value)
      })
+     return {
+       chartRef
+     }
    }
    ```
 
@@ -35,8 +41,8 @@
    解构响应式(在所接触的项目中，目前很少使用它)
 
   ```javascript
-   <p>{{ageRef}}</p>
    <p>{{state.name}}</p>
+   <p>{{ageRef}}</p>
 
    import {ref, toRef, reactive} from 'vue'
    setup() {
@@ -59,7 +65,6 @@
    <p>{{name}}</p>
 
    import {toRefs, reactive} from 'vue'
-
    setup() {
        const state = reactive({
            age: '20',
