@@ -15,25 +15,25 @@
    // 定义基本类型
    <div>{{nameRef}}</div>
    setup() {
-    const ageRef = ref('yf')
-    onMounted(() => {
-       console.log(ageRef.value)
-    })
-    return {
-      ageRef
-    }
+       const ageRef = ref('yf')
+       onMounted(() => {
+          console.log(ageRef.value)
+       })
+       return {
+         ageRef
+       }
    }
 
    // 获取dom元素
    <div ref="chartRef">dom</div>
    setup() {
-     const chartRef = ref(null)
-     onMounted(() => {
-       console.log(chartRef.value)
-     })
-     return {
-       chartRef
-     }
+        const chartRef = ref(null)
+        onMounted(() => {
+          console.log(chartRef.value)
+        })
+        return {
+          chartRef
+        }
    }
    ```
 
@@ -125,7 +125,7 @@ import { defineEmits } from 'vue'
    });
 </script>
 
-父组件
+父组件：
 <template>
     <button @click="goSomePage">跳转</button>
     <Child ref="child" />
