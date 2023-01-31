@@ -81,3 +81,61 @@
 
 2、[watch最佳实践](https://juejin.cn/post/6980987158710452231)
 
+3、defineProps与defineEmits
+
+子组件接收父组件传值
+````javaScript
+<template>
+  <div>{{childProps}}</div>
+</template>
+
+<script setup>
+   // 获取父组件传入的props
+   const props = defineProps({
+     childProps: { type: String, default: 'a' }
+   });
+</script>
+
+````
+子组件向父组件触发事件
+````javaScript
+<template>
+ <button @click="sendMessage"></button>
+</template>
+
+import { defineEmits } from 'vue'
+<script setup>
+   // 定义emit
+   const emit = defineEmits(["acceptMessage"]);
+   const sendMessage = () => emit('acceptMessage', 'a')
+</script>
+
+````
+4、defineExpose
+在父组件中调用子组件方法。(vue2 中通常使用$ref去获取子组件)
+````javaScript
+子组件：
+<script setup>
+   const goSomePage = () => {
+       window.location.href = 'https://a.b.cn'
+   }
+   // 暴露给父组件
+   defineExpose({
+     goSomePage
+   });
+</script>
+
+父组件
+<template>
+    <button @click="goSomePage">跳转</button>
+    <Child ref="child" />
+</template>
+
+<script setup>
+   import { ref } from "vue"
+   import Child from "./Child.vue"
+
+   const child = ref("child");
+   const { goSomePage } = child.value;
+</script>
+````
