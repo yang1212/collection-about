@@ -13,6 +13,15 @@ onLoad、onReady的执行顺序
 * [webview -与微信小程序双向通信](https://juejin.cn/post/6920840441378275336)
 * [webview -在h5中使用小程序的api使用方法](https://juejin.cn/post/6844904061842653191)
 * [webview -内嵌 h5 支付、路由跳转](https://developers.weixin.qq.com/community/develop/article/doc/0008e22ff80d088bcd9c8b42156c13)
+* webview -跳H5链接
+
+    1）[跳转链接为微信公众号](https://developers.weixin.qq.com/community/develop/doc/0002e28d800ab084efad2e5c158400)
+    
+    * 去公众号后台关联小程序，小程序才能通过web-view访问关联公众号的文章(指定文章的链接)，没关联的访问不了
+  
+    2）[跳转链接为其它网页](https://www.abwuliu.com/news/99137.html)
+    
+    * 需登录小程序管理后台配置业务域名
 
 
 [3、uni-app 全局变量的几种实现方式](https://ask.dcloud.net.cn/article/35021)
