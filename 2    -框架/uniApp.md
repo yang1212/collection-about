@@ -35,9 +35,9 @@ onLoad、onReady的执行顺序
 
 7、蓝牙
 * [经典蓝牙与低功耗蓝牙](https://zhuanlan.zhihu.com/p/149244010)
-* [小程序-支付宝](https://opendocs.alipay.com/mini/api/bluetooth-intro)
-* [小程序-微信](https://developers.weixin.qq.com/miniprogram/dev/framework/device/ble.html)([api](https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-ble/wx.writeBLECharacteristicValue.html))
-* [小程序-uniApp](https://uniapp.dcloud.net.cn/api/system/bluetooth.html)
+* [蓝牙-支付宝](https://opendocs.alipay.com/mini/api/bluetooth-intro)
+* [蓝牙-微信](https://developers.weixin.qq.com/miniprogram/dev/framework/device/ble.html)([api](https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-ble/wx.writeBLECharacteristicValue.html))
+* [蓝牙-uniApp](https://uniapp.dcloud.net.cn/api/system/bluetooth.html)
 
 [8、支付宝小程序互跳](https://opendocs.alipay.com/mini/0090ty)
 
