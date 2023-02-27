@@ -15,6 +15,7 @@
 
     2） Map 数据结构，类似于对象，也是键值对的集合。但是“键”的范围不限于字符串，各种类型的值（包括对象）都可以当作键
     ```
+  * [WeakMap](https://www.zhangxinxu.com/wordpress/2021/08/js-weakmap-es6/)  
 
 2、[promise](https://es6.ruanyifeng.com/#docs/promise)
 
