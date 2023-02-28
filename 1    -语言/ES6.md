@@ -39,7 +39,16 @@
     
     2）对象的引用未手动删除时，垃圾回收就不会释放内存。而WeakMap键名所引用的对象都是弱引用, 垃圾回收机制不将该引用考虑在内，
     只要除该弱引用的其他引用被清除，内存就会被释放。
-    ```      
+    ```
+    使用规则：
+    ```javascript
+    // WeakMap只有四个方法可用：get()、set()、has()、delete()
+    const wm = new WeakMap();
+    const element = document.getElementById('example');
+
+    wm.set(element, 'some information');
+    wm.get(element) // "some information"
+    ```
 
 2、[promise](https://es6.ruanyifeng.com/#docs/promise)
 
