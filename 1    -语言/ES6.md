@@ -1,4 +1,4 @@
-1、[Set & Map](https://es6.ruanyifeng.com/#docs/set-map)
+[Set 与 WeakSet](https://es6.ruanyifeng.com/#docs/set-map)
   * Set
   
     ```
@@ -8,12 +8,30 @@
 
     3）[...new Set([2, 3, 2])] // [2, 3]
     ```
+    
+[Map](https://es6.ruanyifeng.com/#docs/set-map) 与 [WeakMap](https://www.zhangxinxu.com/wordpress/2021/08/js-weakmap-es6/)  
   * Map
   
     ```
-    1） 对于Object, 传统上只能用字符串当作键
+    1） 由于对象只接受字符串作为键名,为了解决这个问题，提出了Map数据结构
 
-    2） Map 数据结构，类似于对象，也是键值对的集合。但是“键”的范围不限于字符串，各种类型的值（包括对象）都可以当作键
+    2） 它类似于对象，也是键值对的集合。但是“键”的范围不限于字符串，各种类型的值（包括对象）都可以当作键
+    ```
+    使用规则：
+    ```javaScript
+    const map = new Map([
+      ['name', '张三'],
+      ['title', 'Author']
+    ]);
+    
+    map.set('test', 'aaa')
+    map.size // 3
+    map.has('name') // true
+    map.get('name') // "张三"
+    
+    [...map.keys()] // ['name', 'title', 'test']
+    [...map.values()] // ['张三', 'Author', 'aaa']
+    [...map] // [['name', '张三'], ['title', 'Author'],['test', 'aaa']]
     ```
   * [WeakMap](https://www.zhangxinxu.com/wordpress/2021/08/js-weakmap-es6/)  
     ```
