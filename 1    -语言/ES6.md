@@ -35,11 +35,10 @@
     ```
   * [WeakMap](https://www.zhangxinxu.com/wordpress/2021/08/js-weakmap-es6/)  
     ```
-    key只能是对象，不能是原始数据类型
-
-    可以更有效的垃圾回收、释放内存
-
-    适合用在在对象上临时缓存数据的场景
+    1）只接受对象作为键名（null除外），不接受其他类型的值作为键名
+    
+    2）对象的引用未手动删除时，垃圾回收就不会释放内存。而WeakMap键名所引用的对象都是弱引用, 垃圾回收机制不将该引用考虑在内，
+    只要除该弱引用的其他引用被清除，内存就会被释放。
     ```      
 
 2、[promise](https://es6.ruanyifeng.com/#docs/promise)
