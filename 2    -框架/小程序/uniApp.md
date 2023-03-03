@@ -39,13 +39,11 @@ onLoad、onReady的执行顺序
 * [蓝牙-微信](https://developers.weixin.qq.com/miniprogram/dev/framework/device/ble.html)([api](https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-ble/wx.writeBLECharacteristicValue.html))
 * [蓝牙-uniApp](https://uniapp.dcloud.net.cn/api/system/bluetooth.html)
 
-[8、支付宝小程序互跳](https://opendocs.alipay.com/mini/0090ty)
+[8、自定义tabBar](https://developers.weixin.qq.com/miniprogram/dev/framework/ability/custom-tabbar.html)
 
-[9、自定义tabBar](https://developers.weixin.qq.com/miniprogram/dev/framework/ability/custom-tabbar.html)
+[9、uniApp scroll-view自定义下拉刷新](https://blog.csdn.net/houruoyu3/article/details/112481762)
 
-[10、uniApp scroll-view自定义下拉刷新](https://blog.csdn.net/houruoyu3/article/details/112481762)
-
-[11、微信小程序转发&分享朋友圈](https://developers.weixin.qq.com/miniprogram/dev/reference/api/Page.html#onShareAppMessage-Object-object)
+[10、微信小程序转发&分享朋友圈](https://developers.weixin.qq.com/miniprogram/dev/reference/api/Page.html#onShareAppMessage-Object-object)
 * [H5微信自定义分享只在对应场景才生效](https://developers.weixin.qq.com/community/develop/doc/00004c7ff500f8527f2d9656951800)
 
 <br/>
@@ -75,10 +73,7 @@ onLoad、onReady的执行顺序
 1、The 'request' method of platform '支付宝小程序' does not support option 'responseType'
 * uniApp基于axios： 在微信中请求正常，在支付宝中报错。（替换为uni.request）
 
-2、uniApp选择默认模板无package.json下载依赖包
-* 在当前项目下执行命令： npm init -y
 
-3、蓝牙相关API
 
-* onBLEConnectionStateChange： 监听低功耗蓝牙连接的错误事件，包括设备丢失，连接异常断开等。支付宝对应api: onBLEConnectionStateChanged多1个d...
+
 
