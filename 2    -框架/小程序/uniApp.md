@@ -12,19 +12,21 @@ onLoad、onReady的执行顺序：
 * 原生JS中： onReady先于onLoad, onReady代表文档结构加载完成、onLoad代表页面初次渲染完。
 
 ### [3、webview](https://uniapp.dcloud.net.cn/component/web-view.html#web-view)
-* 一个页面只支持配置单个web-view, 可通过v-if控制页面的重载（销毁需要过程，故销毁与重载之间需添加适当的setTimeout, 否则页面会报错不支持多个web-view）
-* [webview -微信小程序嵌套H5](https://www.aliyue.net/10218.html)
-* [webview -与微信小程序双向通信](https://juejin.cn/post/6920840441378275336)
-* [webview -在h5中使用小程序的api使用方法](https://juejin.cn/post/6844904061842653191)
-* [webview -内嵌 h5 支付、路由跳转](https://developers.weixin.qq.com/community/develop/article/doc/0008e22ff80d088bcd9c8b42156c13)
-*  [webview -内嵌h5中包含腾讯地图](https://forum.alipay.com/mini-app/post/13701013)
-    *  包含腾讯地图定位接口，打开跳转显示页面访问受限，需基于小程序授权位置信息，获取经纬度，并通过路由参数将经纬度传给H5
-* webview -跳H5链接
+
+* [webview -嵌套H5](https://www.aliyue.net/10218.html)
+* [webview -在h5中使用小程序api](https://juejin.cn/post/6844904061842653191)
+* [webview -在h5中跳支付](https://developers.weixin.qq.com/community/develop/article/doc/0008e22ff80d088bcd9c8b42156c13)(登录&支付需基于原生才可)
+* webview -在h5中跳转链接
 
     [链接为微信公众号](https://developers.weixin.qq.com/community/develop/doc/0002e28d800ab084efad2e5c158400)
-    ： 去公众号后台关联小程序，小程序才能通过web-view访问关联公众号的文章(指定文章的链接)，没关联的访问不了
+    ： 去公众号后台关联小程序，小程序才能通过web-view访问关联公众号的文章(指定文章的链接)，没关联的访问不了。
   
     [链接为其它网页](https://www.abwuliu.com/news/99137.html)： 需登录小程序管理后台配置业务域名
+* webview -踩坑
+
+    web-view的销毁：通过v-if控制页面的重载, 而销毁需要过程，故销毁与重载之间需添加适当的setTimeout, 否则页面会报错不支持多个web-view。
+
+    [h5中包含腾讯地图报错](https://forum.alipay.com/mini-app/post/13701013)：打开跳转显示页面访问受限，需基于小程序授权位置信息，获取经纬度，并通过路由参数将经纬度传给H5。
 
 
 ### [4、全局变量实现](https://ask.dcloud.net.cn/article/35021)
