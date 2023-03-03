@@ -22,14 +22,17 @@ onLoad、onReady的执行顺序：
     ： 去公众号后台关联小程序，小程序才能通过web-view访问关联公众号的文章(指定文章的链接)，没关联的访问不了。
   
     [链接为其它网页](https://www.abwuliu.com/news/99137.html)： 需登录小程序管理后台配置业务域名
+    
+* [webview -h5开放平台业务域名配置]((https://www.abwuliu.com/news/99137.html)
+)
 * webview -踩坑
 
-    web-view的销毁：v-if控制页面的重载, 而销毁需要过程，故销毁与重载之间需添加适当的setTimeout, 否则页面会报错不支持多个web-view。
+    web-view的销毁：通过v-if控制页面的重载, 而销毁需要过程，故销毁与重载之间需添加适当的setTimeout, 否则页面会报错不支持多个web-view。
 
     [h5中包含腾讯地图报错](https://forum.alipay.com/mini-app/post/13701013)：打开跳转显示页面访问受限，需基于小程序授权位置信息，获取经纬度，并通过路由参数将经纬度传给H5。
 
 
-### [4、全局变量实现](https://ask.dcloud.net.cn/article/35021)
+### [4、全局变量](https://ask.dcloud.net.cn/article/35021)
 
 ### [5、微信公众号关注组件](https://developers.weixin.qq.com/miniprogram/dev/component/official-account.html)
 
@@ -55,14 +58,7 @@ onLoad、onReady的执行顺序：
 * openid：将用户信息录入数据库中，就得有一个唯一标记区分用户，这个标记就是openid。
 * UnionID:  简言之同一用户，对同一个微信开放平台下的不同应用，unionid是相同的
 
-<br/>
-
-## 配置
-### [1、小程序内嵌H5业务域名配置](https://www.abwuliu.com/news/99137.html)
-
-### [2、微信小程序web-view组件使用及内嵌H5页面注意事项](https://blog.51cto.com/u_12849855/4714799)
-
-### [3、微信公众号如何绑定/关联小程序](https://help.youzan.com/displaylist/detail_4_4-2-1056) 、[小程序与公众号如何关联](https://juejin.cn/post/6993622759175618590)
+### [2、小程序与公众号如何关联](https://juejin.cn/post/6993622759175618590)
 
 * 公众号可关联同一主体的10个小程序，不同主体的3个小程序；
 
