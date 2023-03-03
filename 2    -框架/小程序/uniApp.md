@@ -23,11 +23,10 @@ onLoad、onReady的执行顺序：
   
     [链接为其它网页](https://www.abwuliu.com/news/99137.html)： 需登录小程序管理后台配置业务域名
     
-* [webview -h5开放平台业务域名配置]((https://www.abwuliu.com/news/99137.html)
-)
+* [webview -开放平台业务域名配置](https://www.abwuliu.com/news/99137.html)
 * webview -踩坑
 
-    web-view的销毁：通过v-if控制页面的重载, 而销毁需要过程，故销毁与重载之间需添加适当的setTimeout, 否则页面会报错不支持多个web-view。
+    web-view的销毁：v-if控制页面的重载, 而销毁需要过程，故销毁与重载之间需添加setTimeout, 否则页面会报错不支持多个web-view。
 
     [h5中包含腾讯地图报错](https://forum.alipay.com/mini-app/post/13701013)：打开跳转显示页面访问受限，需基于小程序授权位置信息，获取经纬度，并通过路由参数将经纬度传给H5。
 
