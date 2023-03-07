@@ -64,6 +64,7 @@
 10、[模块联邦](https://jishuin.proginn.com/p/763bfbd640a6)
 
 11、devDependencies有什么意义？
+
 让他人使用你开发的库时，少安装一些不必要的依赖
 
 

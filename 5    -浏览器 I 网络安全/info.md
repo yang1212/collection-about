@@ -1,55 +1,50 @@
 ## 浏览器
 
-1、[浏览器渲染页面过程以及工作原理](https://segmentfault.com/a/1190000010298038) ( 相关拓展如下 )
+[浏览器渲染页面过程以及工作原理](https://segmentfault.com/a/1190000010298038)
 * [五大主流浏览器内核的源起](https://blog.csdn.net/Summer_15/article/details/71249203)
 * [DOMContentLoaded与load的区别](https://www.cnblogs.com/caizhenbo/p/6679478.html)
 * [浏览器的工作原理：新式网络浏览器幕后揭秘](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)
 
-2、[浏览器的多进程到JS的单线程](https://segmentfault.com/a/1190000012925872)
+[浏览器的多进程到JS的单线程](https://segmentfault.com/a/1190000012925872)
 
-3、[V8垃圾回收机制](https://juejin.im/post/5c8b89f55188257e8e232d99) 
+[V8垃圾回收机制](https://juejin.im/post/5c8b89f55188257e8e232d99) 
 
 <br/>
 
 
-## 网络
+## 网络安全
+### CDN
+
+* CDN（Content Delivery Network，内容分发网络）将源站的内容发布到接近用户的网络“边缘”，用户可以就近获取所需数据，不仅降低了网络的拥塞状况、提高请求的响应速度，也能够减少源站的负载压力。
 
 ### 协议
 
-1、[TCP 与 UDP](https://www.huaweicloud.com/articles/b49c0ecd9fc1d91730566082918b3d48.html)
-
-2、[关于TCP三次握手，以及为啥是三次握手](https://juejin.im/post/5ce39af36fb9a07ed136a9bc)
-
-3、[为什么说HTTP协议是无状态协议](https://www.cnblogs.com/Jadie/p/6877392.html)
-
-4、[IP地址](https://www.jianshu.com/p/ad7cd1d5be45)
+* [TCP 与 UDP](https://www.huaweicloud.com/artles/b49c0ecd9fc1d91730566082918b3d48.html)
+* [关于TCP三次握手，以及为啥是三次握手](https://juejin.im/post/5ce39af36fb9a07ed136a9bc)
+* [为什么说HTTP协议是无状态协议](https://www.cnblogs.com/Jadie/p/6877392.html)
+* [了解IP地址](https://www.jianshu.com/p/ad7cd1d5be45)
+* [GitHub中的https与ssh](https://mjd507.github.io/2018/02/09/HTTPS-vs-SSH/)  
    
 
 ### HTTP
 
-1、[理解HTTP](http://caibaojian.com/http.html)
- * [content-type常见类型](https://www.jianshu.com/p/ba40da728806)
- * [keep-alive 与 多路复用](https://juejin.cn/post/6989985247836241957)
-    ```
-    浏览器发起的最大请求数为一般为6个
+* [理解HTTP](http://caibaojian.com/http.html)
+  * [content-type常见类型](https://www.jianshu.com/p/ba40da728806)、 [keep-alive与多路复用](https://juejin.cn/post/6989985247836241957)
+  * 浏览器发起的最大请求数为一般为6个、不同域名的请求不可共用一个TCP连接；
+      
 
-    不同域名的请求不可共用一个TCP连接
+* [理解HTTPS](https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA)
+  * HTTPS（TLS over HTTP）是HTTP/2的必要条件。如果网站不是运行在HTTPS上，那就不算是HTTP/2。
+  
 
-    多路复用/头部压缩/服务端推送
-    ```
-
-2、[理解HTTPS](https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA)
-  * HTTPS（TLS over HTTP）是HTTP/2的必要条件。如果网站不是运行在HTTPS上，那就不算是HTTP/2
-
-3、[跨域](https://github.com/yang1212/collection-about/issues/22)
+### [跨域](https://github.com/yang1212/collection-about/issues/22)
   * [聊一聊cookie](https://segmentfault.com/a/1190000004556040)
+ 
 
-4、[XMLHttpRequest](https://segmentfault.com/a/1190000004322487#articleHeader13)
+### [Web Worker](http://www.ruanyifeng.com/blog/2018/07/web-worker.html)  
+* 为JavaScript 创造多线程环境，允许主线程创建Worker 线程。    
 
-   
-[GitHub中的https与ssh](https://mjd507.github.io/2018/02/09/HTTPS-vs-SSH/)   
-   
-[Web Worker](http://www.ruanyifeng.com/blog/2018/07/web-worker.html)      
+### [DNS预读取](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/X-DNS-Prefetch-Control) 
 
 
 <br/>
@@ -57,17 +52,7 @@
 ## 安全
   
   1、前端安全
-
-  * 1） [XSS攻击(跨站脚本攻击)](https://tech.meituan.com/2018/09/27/fe-security.html)
-
-  * 2） [CSRF攻击(跨站请求伪造)](https://tech.meituan.com/2018/10/11/fe-security-csrf.html)
-
-  * 3） 网络劫持攻击
-
-  * 4） 控制台注入代码
-
-  * 5） 钓鱼
-
-  
-  [参考1](https://segmentfault.com/a/1190000006672214)、
-  [参考2](https://zhuanlan.zhihu.com/p/25486768?group_id=820705780520079360)
+  * [XSS攻击(跨站脚本攻击)](https://tech.meituan.com/2018/09/27/fe-security.html)
+  * [CSRF攻击(跨站请求伪造)](https://tech.meituan.com/2018/10/11/fe-security-csrf.html)
+  * 网络劫持攻击
+  * 控制台注入代码
