@@ -33,10 +33,9 @@
 
 #### [5、浏览器 | 网络安全](https://github.com/yang1212/collection-about/blob/master/5%20%20%20%20-%E6%B5%8F%E8%A7%88%E5%99%A8%20I%20%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/info.md)
 
-#### [6、场景 | 优化](https://github.com/yang1212/collection-about/blob/master/6%20%20%20%20-%E5%9C%BA%E6%99%AF%20I%20%E4%BC%98%E5%8C%96/info.md)
 
-#### [7、工具](https://github.com/yang1212/collection-about/blob/master/7%20%20%20%20-%E5%B7%A5%E5%85%B7/info.md)
+#### [6、工具](https://github.com/yang1212/collection-about/blob/master/6%20%20%20%20-%E5%B7%A5%E5%85%B7/info.md)
 
-#### [8、懵里懵懂的名词](https://github.com/yang1212/collection-about/blob/master/8%20%20%20%20-%E6%87%B5%E9%87%8C%E6%87%B5%E6%87%82%E7%9A%84%E5%90%8D%E8%AF%8D/info.md)
+#### [7、其他](https://github.com/yang1212/collection-about/blob/master/7%20%20%20%20-%E5%85%B6%E4%BB%96/info.md)
 
-#### [9、books](https://github.com/yang1212/vue-about/blob/master/README.md)
+#### [8、books](https://github.com/yang1212/vue-about/blob/master/README.md)
