@@ -1,3 +1,10 @@
+## 有意思的周刊
+### [weekly-每周一篇](https://github.com/ruanyf/weekly)
+### [freecodecamp-英文版](https://www.freecodecamp.org/news/search)
+
+<br/>
+
+## 熟悉的名词
 ### [前端监控和前端埋点方案设计](https://github.com/forthealllight/blog/issues/23) 
 
   * PV/UV:PV(page view)，即页面浏览量或点击量。UV:指访问某个站点或点击某条新闻的不同IP地址的人数
@@ -29,8 +36,6 @@
 
 * [npm install 原理分析](https://cloud.tencent.com/developer/article/1555982) 
   
-  
-
 <br/>
 
 ## 懵懂的名词
