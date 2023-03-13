@@ -19,6 +19,9 @@
 * H5(支付宝): ap.tradePay
 * 小程序(微信):  wx.requestPayment
 
+### [WebSocket](https://www.ruanyifeng.com/blog/2017/05/websocket.html)
+
+
 <br/>
 
 ## 熟悉的名词
