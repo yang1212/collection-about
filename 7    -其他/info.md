@@ -4,6 +4,21 @@
 
 <br/>
 
+## 场景
+### 登录注册
+H5(微信、支付宝)：
+* -登录：跳转微信定向地址, url参数中包含回调地址
+* -手机号码：基于验证码绑定
+
+小程序(微信）
+* -登录：wx.getUserProfile获取用户信息后调用后端接口
+* -手机号码：open-type="getPhoneNumber"触发调用后端接口
+
+### 支付
+* -H5(微信):  window.WeixinJSBridge.invoke( 'getBrandWCPayRequest', ...）
+* -H5(支付宝): ap.tradePay
+* -小程序(微信):  wx.requestPayment
+
 ## 熟悉的名词
 ### [前端监控和前端埋点方案设计](https://github.com/forthealllight/blog/issues/23) 
 
