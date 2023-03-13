@@ -6,18 +6,20 @@
 
 ## 场景
 ### 登录注册
-H5(微信、支付宝)：
+1）H5(微信、支付宝)：
 * -登录：跳转微信定向地址, url参数中包含回调地址
 * -手机号码：基于验证码绑定
 
-小程序(微信）
+2）小程序(微信）
 * -登录：wx.getUserProfile获取用户信息后调用后端接口
 * -手机号码：open-type="getPhoneNumber"触发调用后端接口
 
 ### 支付
-* -H5(微信):  window.WeixinJSBridge.invoke( 'getBrandWCPayRequest', ...）
-* -H5(支付宝): ap.tradePay
-* -小程序(微信):  wx.requestPayment
+* H5(微信):  window.WeixinJSBridge.invoke( 'getBrandWCPayRequest', ...）
+* H5(支付宝): ap.tradePay
+* 小程序(微信):  wx.requestPayment
+
+<br/>
 
 ## 熟悉的名词
 ### [前端监控和前端埋点方案设计](https://github.com/forthealllight/blog/issues/23) 
@@ -34,22 +36,23 @@ H5(微信、支付宝)：
    * Base64编码的主要的作用不在于安全性，而在于让内容能在各个网关间无错的传输，这才是Base64编码的核心作用
 
 ### 组件设计
-* 优化原则
-  * 多使用内存和缓存
-  * 减少CPU计算量，减少网络耗时
-* 设计原则
-  * 从功能上拆分层次
-  * 容器组件（只管理数据）&& UI组件（只显示视图）
+1）优化原则
+  * -多使用内存和缓存
+  * -减少CPU计算量，减少网络耗时
   
-* [package.json: browser、main 与 module](https://juejin.cn/post/6844903862977953806)
+2）设计原则
+  * -从功能上拆分层次
+  * -容器组件（只管理数据）&& UI组件（只显示视图）
   
-  * browser : 定义 npm 包在 browser 环境下的入口文件；
-  * main : browser 环境和 node 环境均可使用，定义了 npm 包的入口文件；
-  * module : browser 环境和 node 环境均可使用，定义 npm 包的 ESM 规范的入口文件；
+3）[package.json: browser、main 与 module](https://juejin.cn/post/6844903862977953806)
+  
+  * -browser : 定义 npm 包在 browser 环境下的入口文件；
+  * -main : browser 环境和 node 环境均可使用，定义了 npm 包的入口文件；
+  * -module : browser 环境和 node 环境均可使用，定义 npm 包的 ESM 规范的入口文件；
      
-  * web端加载优先级: browser > module > main 
+  * -web端加载优先级: browser > module > main 
 
-* [npm install 原理分析](https://cloud.tencent.com/developer/article/1555982) 
+4）[npm install 原理分析](https://cloud.tencent.com/developer/article/1555982) 
   
 <br/>
 
