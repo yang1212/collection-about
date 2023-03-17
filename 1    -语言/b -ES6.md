@@ -55,6 +55,37 @@
 
 2）[async](https://es6.ruanyifeng.com/#docs/async)
 * Generator 函数的语法糖
+* 常规用法
+
+  ```javaScript
+  async fnName() {
+    try {
+      const res = await testUp({
+        isUp: 'yes',
+      })
+      if (res.code === '0000000') {
+        console.log('to do')
+        return
+      }
+      console.log('toast业务异常')
+    } catch (error) {
+      console.error('toast接口异常', error)
+    }
+  }
+
+  ```
+
+* async函数返回promise对象，可使用then方法添加回调函数
+  ```javaScript
+  let tempFn = async testFn() {
+    const res = await getEquipment()
+    console.log('to do res')
+    return 'newVal'
+  }
+  tempFn.then((res) => {
+    console.log(res) // newVal
+  })
+  ```
 
 3）[promise](https://es6.ruanyifeng.com/#docs/promise)
 * 一种异步编程的解决方案
