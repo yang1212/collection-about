@@ -29,6 +29,8 @@
 
 4、[Fiddler “抓包“最新详细教程](https://juejin.cn/post/6844904042422861831)
 
+[windows：命令行生成文件目录树](https://blog.csdn.net/u014151564/article/details/123297327)
+
 ## MAC
 [1、Mac如何创建隐藏文件和文件夹](https://zhuanlan.zhihu.com/p/489156224)
 
