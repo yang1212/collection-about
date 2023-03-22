@@ -31,7 +31,13 @@
 
 [windows：命令行生成文件目录树](https://blog.csdn.net/u014151564/article/details/123297327)
 
-## MAC
-[1、Mac如何创建隐藏文件和文件夹](https://zhuanlan.zhihu.com/p/489156224)
+## Git
+### 命令行
+* 查配置(非全局少个--global而已)：git config -l 
+* 查全局配置：git config --global -l 
+* 设置代理(全局): git config --global https.proxy http://127.0.0.1:1080
+* 取消代理(全局): git config --global --unset http.proxy
 
-[2、M1芯片Mac上安装Homebrew和nvm安装教程](https://juejin.cn/post/6985073338334838814)
+
+
+
