@@ -36,7 +36,9 @@
 * 查配置(非全局少个--global而已)：git config -l 
 * 查全局配置：git config --global -l 
 * 设置代理(全局): git config --global https.proxy http://127.0.0.1:1080
-* 取消代理(全局): git config --global --unset http.proxy
+* 取消代理(全局): git config --global --unset https.proxy
+* 清除凭证(清除后操作pull/push/fetch时需要手动输入密码): git config --system --unset credential.helper
+* 配置凭证(开启凭证助手，一次输入密码认证成功后会被存储): git config --global credential.helper store
 
 
 
