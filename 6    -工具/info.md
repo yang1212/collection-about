@@ -23,7 +23,7 @@
 * **path-alias**: 一个可以解决路径别名提示，跳转的vscode插件
 * **vscode-pdf**: 支持阅读pdf文件 
 
-### 命令行
+### [命令行](https://juejin.cn/post/6844904000525959182#heading-4)
 * **查找文件路径**：Ctrl + p
 * **缩进**： Ctrl + tab
 * **选中相同的词**： Ctrl + d 
