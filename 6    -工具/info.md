@@ -28,7 +28,7 @@
 * **缩进**： Ctrl + tab
 * **选中相同的词**： Ctrl + d 
 * **折叠/收起代码**：Ctrl + Shift + [ / ]
-* **选中区块**：Ctrl + Shift + 光标
+* **选中区块**：Ctrl + Shift + ↑/↓ （选中当前行鼠标点3次）
 * **复制代码向上/向下**：Shift + Alt + Up/Down
 * **导航到特定的行**：Ctrl + g
 * **打开关闭侧边栏**：Ctrl + b
