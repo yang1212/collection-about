@@ -18,9 +18,8 @@
 
 * 相应的Plugin事件触发，如压缩等，进一步得到最后的chunk，运行结束
 
-4、webpack的热更新，以及原理(拓展)
+4、webpack的热更新，以及原理
 
-* 自动刷新与热更新区别
 
 [5、预设、transform、babel-polyfill 它们之间](https://www.jiangruitao.com/babel/babel-polyfill/)
 
@@ -38,34 +37,25 @@
 
 9、优化
 
-* loader配置缓存，排除node_modules文件, 其他loader: thread-loader, cache-loader
-
-* 抽离CSS
-
-* 抽离公共代码
-
-* 开启压缩
+* 抽离公共代码，按需引入第三方组件
 
 * [Tree-Shaking](https://zhuanlan.zhihu.com/p/260724544)
   借助 ES module 的静态分析能力来消除无用的 js 代码的
 
-* bableRc文件配置
+* 小图片基于base64：减少http请求；输出文件基于Hash, 命中缓存，开启压缩
 
-* 按需引入第三方组件
+* 路由懒加载、组件懒加载
 
-* 小图片基于base64：减少http请求
+* loader配置缓存，其他loader: thread-loader, cache-loader
 
-* 输出文件基于Hash, 命中缓存
+* [优化升级的心路历程](https://www.cnblogs.com/Tiboo/p/14385863.html)
 
-* 路由懒加载
-
-* 组件懒加载
 
 10、[模块联邦](https://jishuin.proginn.com/p/763bfbd640a6)
 
 11、devDependencies有什么意义？
 
-让他人使用你开发的库时，少安装一些不必要的依赖
+* 让他人使用你开发的库时，少安装一些不必要的依赖
 
 
 

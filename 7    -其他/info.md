@@ -1,30 +1,11 @@
 ## 有意思的周刊
-### [weekly-每周一篇](https://github.com/ruanyf/weekly)
-### [freecodecamp-英文版](https://www.freecodecamp.org/news/search)
-
-<br/>
-
-## 场景
-### 登录注册
-1）H5(微信、支付宝)：
-* -登录：跳转微信定向地址, url参数中包含回调地址
-* -手机号码：基于验证码绑定
-
-2）小程序(微信）
-* -登录：wx.getUserProfile获取用户信息后调用后端接口
-* -手机号码：open-type="getPhoneNumber"触发调用后端接口
-
-### 支付
-* H5(微信):  window.WeixinJSBridge.invoke( 'getBrandWCPayRequest', ...）
-* H5(支付宝): ap.tradePay
-* 小程序(微信):  wx.requestPayment
-
-
+### [1、weekly-每周一篇](https://github.com/ruanyf/weekly)
+### [2、freecodecamp-英文版](https://www.freecodecamp.org/news/search)
 
 <br/>
 
 ## 熟悉的名词
-### [前端监控和前端埋点方案设计](https://github.com/forthealllight/blog/issues/23) 
+### [监控和埋点方案设计](https://github.com/forthealllight/blog/issues/23) 
 
   * PV/UV:PV(page view)，即页面浏览量或点击量。UV:指访问某个站点或点击某条新闻的不同IP地址的人数
   * 前端监控可以分为三类：数据监控、性能监控和异常监控
@@ -39,12 +20,12 @@
 
 ### 组件设计
 1）优化原则
-  * -多使用内存和缓存
-  * -减少CPU计算量，减少网络耗时
+  * 多使用内存和缓存
+  * 减少CPU计算量，减少网络耗时
   
 2）设计原则
-  * -从功能上拆分层次
-  * -容器组件（只管理数据）&& UI组件（只显示视图）
+  * 从功能上拆分层次
+  * 容器组件（只管理数据）&& UI组件（只显示视图）
   
 3）[package.json: browser、main 与 module](https://juejin.cn/post/6844903862977953806)
   
@@ -59,33 +40,48 @@
 <br/>
 
 ## 懵懂的名词
+### [1、Flutter](https://www.jianshu.com/p/51e989500ca3)
 
-### [1、同构渲染](https://juejin.cn/post/6844903512296390664)
+* 用于构建跨平台的手机App的SDK。写一份代码，在Android 和iOS平台上都可以运行。
+
+### [2、同构渲染](https://juejin.cn/post/6844903512296390664)
 
 * 一套代码，浏览器能渲染，服务端能渲染
-
-### [2、微前端](https://tech.meituan.com/2020/02/27/meituan-waimai-micro-frontends-practice.html)
 
 ### [3、serverless](https://cloud.tencent.com/developer/article/1672933)
 
 * 无服务器架构，即在无需管理服务器等底层资源的情况下完成应用的开发和运行
 
+### [4、微前端](https://tech.meituan.com/2020/02/27/meituan-waimai-micro-frontends-practice.html)
 
-### [4、nginx](https://juejin.cn/post/6844904129987526663)
+
+### [5、nginx](https://juejin.cn/post/6844904129987526663)
    
-
-### [5、Flutter](https://www.jianshu.com/p/51e989500ca3)
-
-* 用于构建跨平台的手机App的SDK。写一份代码，在Android 和iOS平台上都可以运行。
-
 
 ### [6、编译型与解释型语言](https://www.tspweb.com/key/%E7%BC%96%E8%AF%91%E8%AF%AD%E8%A8%80.html)
 
 
 ### [7、Rust](https://zhuanlan.zhihu.com/p/62057547)
 
-* 编译型语言
 
+
+<br/>
+
+
+## 场景
+### 1、登录注册
+H5(微信、支付宝)：
+* -登录：跳转微信定向地址, url参数中包含回调地址
+* -手机号码：基于验证码绑定
+
+小程序(微信)：
+* -登录：wx.getUserProfile获取用户信息后调用后端接口
+* -手机号码：open-type="getPhoneNumber"触发调用后端接口
+
+### 2、支付
+* H5(微信):  window.WeixinJSBridge.invoke( 'getBrandWCPayRequest', ...）
+* H5(支付宝): ap.tradePay
+* 小程序(微信):  wx.requestPayment
 
 <br/>
 
