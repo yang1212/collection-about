@@ -5,20 +5,20 @@
 <br/>
 
 ## 熟悉的名词
-### [监控和埋点方案设计](https://github.com/forthealllight/blog/issues/23) 
+### [1、监控和埋点方案](https://github.com/forthealllight/blog/issues/23) 
 
   * PV/UV:PV(page view)，即页面浏览量或点击量。UV:指访问某个站点或点击某条新闻的不同IP地址的人数
   * 前端监控可以分为三类：数据监控、性能监控和异常监控
   * 前端埋点方法分为三种：代码埋点、可视化埋点和无痕埋点
   * [前端埋点体系怎么搭建](https://github.com/closertb/closertb.github.io/issues/46)
 
-### [base64编码原理](https://juejin.cn/post/6844903663459106829)
+### [2、base64编码原理](https://juejin.cn/post/6844903663459106829)
 
    * base64编码本质上就是将二进制转化为文本数据的方案
    
    * Base64编码的主要的作用不在于安全性，而在于让内容能在各个网关间无错的传输，这才是Base64编码的核心作用
 
-### 组件设计
+### 3、组件设计
 1）优化原则
   * 多使用内存和缓存
   * 减少CPU计算量，减少网络耗时
