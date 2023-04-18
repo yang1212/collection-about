@@ -1,31 +1,31 @@
 ## 用法与概念
-[1、生命周期](https://juejin.cn/post/6844904113914773518)
+**[1、生命周期](https://juejin.cn/post/6844904113914773518)**
 
-[2、组件之间数据通信](https://www.cnblogs.com/Tiboo/p/12593666.html)
+**[2、组件之间数据通信](https://www.cnblogs.com/Tiboo/p/12593666.html)**
 
-[3、动态组件与异步组件](https://cn.vuejs.org/v2/guide/components-dynamic-async.html)
+**[3、动态组件与异步组件](https://cn.vuejs.org/v2/guide/components-dynamic-async.html)**
 
 * 动态组件：让多个组件使用同一个挂载点，并动态切换
 * 异步组件：将应用分割成小一些的代码块，并且只在需要的时候才从服务器加载一个模块
 
-[4、keep-alive](https://segmentfault.com/a/1190000023832423)
+**[4、keep-alive](https://segmentfault.com/a/1190000023832423)**
 
-[5、$nextTick](https://segmentfault.com/a/1190000012861862)
+**[5、$nextTick](https://segmentfault.com/a/1190000012861862)**
 
 * 事件循环： 开始执行一个宏任务 –> 执行完这个宏任务中所有同步代码 —> 清空当前微任务队列中所有微任务 —> UI渲染 。
 
 * Vue异步更新：Vue 在修改数据后，视图不会立刻更新，而是等同一事件循环中的所有数据变化完成之后，再统一进行视图更新。
 
 
-[6、插槽(slot)](https://segmentfault.com/a/1190000018441566)
+**[6、插槽(slot)](https://segmentfault.com/a/1190000018441566)**
 
-[7、mixin](https://segmentfault.com/a/1190000015698391)
+**[7、mixin](https://segmentfault.com/a/1190000015698391)**
 
 * 当多个组件中有相同的业务逻辑，可将这些逻辑剥离出来，通过 mixins 混入代码，比如上拉下拉加载数据
 * 需要注意的是 mixins 混入的钩子函数会先于组件内的钩子函数执行，遇到同名选项时会有选择性的进行合并
 
 
-8、Vue常见性能优化方式
+**8、Vue常见性能优化方式**
 
    * 合理使用v-show、v-if、compouted、keep-alive、异步组件
 
@@ -38,11 +38,11 @@
 <br/>
 
 ## 原理
-[1、vue渐进式框架的理解](blog.csdn.net/wandoumm/article/details/80253681)
+**[1、vue渐进式框架的理解](blog.csdn.net/wandoumm/article/details/80253681)**
 
-[2、MVVM](https://juejin.cn/post/6844903929298288647)
+**[2、MVVM](https://juejin.cn/post/6844903929298288647)**
 
-[3、谈谈对虚拟DOM的认识](https://juejin.im/post/5d36cc575188257aea108a74#heading-14)
+**[3、谈谈对虚拟DOM的认识](https://juejin.im/post/5d36cc575188257aea108a74#heading-14)**
 
 * 背景：数据驱动试图，减少dom操作
 
@@ -55,7 +55,7 @@
    * [两棵树是否相等](https://leetcode-cn.com/problems/same-tree/submissions/)
    * [diff 算法](https://juejin.cn/post/6844903767473651720)
 
-4、[Vue 2.x双向数据绑定](https://juejin.cn/post/6844903917898186766)
+**4、[Vue 2.x双向数据绑定](https://juejin.cn/post/6844903917898186766)**
 
 * 核心API： 基于[object.defineproperty](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty) 进行数据劫持
 * 存在的问题：深度监听，需要一次性递归到底。故data层级不可嵌套过深； 无法对新增、删除属性做监听；  
@@ -65,15 +65,15 @@
 * 监听数组的原理： [原型链的重写](https://github.com/yang1212/collection-about/issues/11)
 
 
-5、[vue data为什么是函数？而不是对象](https://www.imqianduan.com/vue/192.html )
+**5、[vue data为什么是函数？而不是对象](https://www.imqianduan.com/vue/192.html )**
 
 
 <br/>  
 
 ## vue-router
-   [1、vue-router常用路由](https://router.vuejs.org/zh/guide/essentials/nested-routes.html)
+   **[1、vue-router常用路由](https://router.vuejs.org/zh/guide/essentials/nested-routes.html)**
 
-   [2、路由两种模式实现原理](https://www.cnblogs.com/Tiboo/p/11588022.html)
+   **[2、路由两种模式实现原理](https://www.cnblogs.com/Tiboo/p/11588022.html)**
    
 
 <br/>

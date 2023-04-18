@@ -26,7 +26,7 @@
 ### [命令行](https://juejin.cn/post/6844904000525959182#heading-4)
 * **查找文件路径**：Ctrl + p
 * **缩进**： Ctrl + tab
-* **选中相同的词**： Ctrl + d 
+* **选中相同的词**： Ctrl + d （点击多次）
 * **折叠/收起代码**：Ctrl + Shift + [ / ]
 * **选中区块**：Ctrl + Shift + ↑/↓ （选中当前行鼠标点3次）
 * **复制代码向上/向下**：Shift + Alt + Up/Down

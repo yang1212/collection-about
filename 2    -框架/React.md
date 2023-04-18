@@ -1,16 +1,16 @@
 ## React
-1、什么是 JSX 
+**1、什么是 JSX**
 
 * 一种新的 JS 方言 JSX，将原始 HTML 模板嵌入到 JS 代码中。JSX 代码本身不能被浏览器读取，必须使用Babel和webpack等工具将其转换为传统的JS
 
-[2、组件通信传值](https://github.com/yang1212/collection-about/issues/6)
+**[2、组件通信传值](https://github.com/yang1212/collection-about/issues/6)**
 
-3、变量更改
+**3、变量更改**
 
 * [类组件：setState](https://github.com/yang1212/collection-about/issues/12)
 * [函数组件：useState](https://github.com/yang1212/collection-about/issues/34)
 
-[4、生命周期](https://juejin.cn/post/6914112105964634119)
+**[4、生命周期](https://juejin.cn/post/6914112105964634119)**
 
  * 类组件
    ```js
@@ -39,20 +39,20 @@
 
     与class 组件中的 componentDidMount、componentDidUpdate 和 componentWillUnmount 具有相同的用途，只是它被合并为同一个API
 
-5、[函数组件和类组件的区别](https://juejin.cn/post/6867028553629138952)
+**5、[函数组件和类组件的区别](https://juejin.cn/post/6867028553629138952)**
 
-6、[受控组件&非受控组件](https://juejin.cn/post/6858276396968951822#comment)
+**6、[受控组件&非受控组件](https://juejin.cn/post/6858276396968951822#comment)**
 
-7、性能优化
+**7、性能优化**
 
 * 父组件更新，所有子组件无条件更新
 * [PureComponent](https://juejin.cn/post/6844903480369512455)
 * [React.memo](https://1349279985.github.io/%E4%BC%98%E5%8C%96React-memo%E6%B8%B2%E6%9F%93%E5%88%A4%E5%88%AB%E6%9C%BA%E5%88%B6%E5%8F%8A%E5%AE%9E%E6%88%98/)
 * ImmutableJS
 
-8、高阶组件-HOC
+**8、高阶组件-HOC**
 
-9、合成事件
+**9、合成事件**
 
 * React16事件绑定到document上
 * React17事件绑定到root组件上 （更改原因：有利于多个react版本并存，比如微前端场景）
@@ -60,11 +60,11 @@
 <br/>
 
 ## react-router
-[1、react-router-dom && react-router的区别](https://hexuanzhang.github.io/2018/03/01/react-router/)：
+**[1、react-router-dom && react-router的区别](https://hexuanzhang.github.io/2018/03/01/react-router/)**
 
 * react-router-dom 是在 react-router 基础上添加了一些在浏览器环境下的特定功能，如 Link、BrowserRouter 、HashRouter 等
 
-2、react-router-dom
+**2、react-router-dom**
 
 * [v6 新特性解读及迁移指南](https://juejin.cn/post/6844904096059621389)
 * [v5 路由的配置等案例](https://segmentfault.com/a/1190000020812860)
@@ -74,10 +74,10 @@
 <br/>
 
 ## react-redux
-[1、案例基础用法](https://github.com/yang1212/collection-about/issues/7)
+**[1、案例基础用法](https://github.com/yang1212/collection-about/issues/7)**
 
-2、异步action
+**2、异步action**
 
-3、redux单向数据流
+**3、redux单向数据流**
 
-4、redux中间件
+**4、redux中间件**

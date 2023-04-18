@@ -1,6 +1,6 @@
 ## 知识点
 
-### [1、盒模型](https://www.zhangxinxu.com/wordpress/2016/09/talking-about-css-margin-box/)
+**[1、盒模型](https://www.zhangxinxu.com/wordpress/2016/09/talking-about-css-margin-box/)**
   
    
   box-sizing用来规定容器元素的尺寸计算方式，属性值对应如下：
@@ -9,7 +9,7 @@
   * -inherit： 继承父元素
  
 
-### [2、布局](https://github.com/yang1212/collection-about/issues/20)
+**[2、布局](https://github.com/yang1212/collection-about/issues/20)**
 * [拓展一：position定位](https://www.ruanyifeng.com/blog/2019/11/css-position.html): 设置绝对定位的元素A会相对于离自己最近的设置相对或绝对定位的父元素进行定位,（或者说离自己最近的不是static的父元素进行定位，因为元素默认是static）
 * [拓展二：margin重叠](https://github.com/yang1212/collection-about/issues/17)
 
@@ -18,7 +18,7 @@
 * [拓展四：BFC](https://juejin.im/post/5a4dbe026fb9a0452207ebe6)
  
 
-### [3、适配](https://github.com/yang1212/collection-about/issues/21)
+**[3、适配](https://github.com/yang1212/collection-about/issues/21)**
   ````
     vh: 网页视口高度的1/100， vw: 网页视口宽度的1/100
     window.screen.height        屏幕高度
@@ -30,7 +30,7 @@
 
 ## 其他
 
-### 1、CSS动画处理考虑的性能问题
+**1、CSS动画处理考虑的性能问题**
 
 * 兼容性问题
 
@@ -39,6 +39,6 @@
 * 移动端要想动画性能流畅，应该使用3d硬件加速
 
 
-### 2、[CSS3动画与JS动画的区别](https://www.cnblogs.com/shuaishuaidejun/p/7444711.html)
+**2、[CSS3动画与JS动画的区别](https://www.cnblogs.com/shuaishuaidejun/p/7444711.html)**
 
     
