@@ -51,7 +51,7 @@
 
 **[6、数组去重](https://www.cnblogs.com/Tiboo/p/11846316.html)**
 
-[7、对象拷贝](https://juejin.im/post/5b5dcf8351882519790c9a2e#heading-4)
+**[7、对象拷贝](https://juejin.im/post/5b5dcf8351882519790c9a2e#heading-4)**
 
 * 浅拷贝: 以赋值的形式拷贝引用对象，仍指向同一个地址，修改时原对象也会受到影响
 
@@ -60,46 +60,46 @@
 
 ## 性能相关知识点
 
-[1、为什么操作DOM慢](https://segmentfault.com/a/1190000004114594)
+**[1、为什么操作DOM慢](https://segmentfault.com/a/1190000004114594)**
 
-[2、重绘与回流](https://www.cnblogs.com/Tiboo/p/10505613.html)
+**[2、重绘与回流](https://www.cnblogs.com/Tiboo/p/10505613.html)**
 
-[3、防抖与节流](https://www.cnblogs.com/Tiboo/p/11795788.html)
+**[3、防抖与节流](https://www.cnblogs.com/Tiboo/p/11795788.html)**
 
-[4、前端缓存](https://github.com/yang1212/collection-about/issues/41)
+**[4、前端缓存](https://github.com/yang1212/collection-about/issues/41)**
 
-[5、内存泄露](https://juejin.im/post/5b2fd09ee51d45588576f429)
+**[5、内存泄露](https://juejin.im/post/5b2fd09ee51d45588576f429)**
  
-  指内存没有被释放或者被垃圾回收，造成内存泄露的可能会有以下几种情况：
-  * 监听在window/body等事件没有解绑
+  * 指内存没有被释放或者被垃圾回收，造成内存泄露的可能会有以下几种情况：
+    * 监听在window/body等事件没有解绑
 
-  * 模块形成的闭包内部变量使用完后没有置成null
+    * 模块形成的闭包内部变量使用完后没有置成null
 
-  * 使用第三方库创建，没有调用正确的销毁函数  
+    * 使用第三方库创建，没有调用正确的销毁函数  
 
 
 <br/>
 
 ## 其他
 
-1、JS数据存放位置
+**1、JS数据存放位置**
 * 原始类型：值存储于栈中
 * 引用类型：指针存储于栈中，值存储于堆中
 
 
-2、执行 2.toString() 报错？
+**2、执行 2.toString() 报错？**
 
 JS引擎无法确定 '.' 是浮点数还是 . 操作符, 恰当的做法是用括号包裹，如：(2).toString()
 
-3、[toString 与 valueOf](https://segmentfault.com/a/1190000010824347)
+**3、[toString 与 valueOf](https://segmentfault.com/a/1190000010824347)**
      
      * toString: 返回对象的字符串表示
      * valueOf: 返回对象的字符串，布尔，数值表示
      
-4、[模块化规范](https://github.com/yang1212/collection-about/issues/15)
+**4、[模块化规范](https://github.com/yang1212/collection-about/issues/15)**
 * 1）[深入解析ES Module](https://zhuanlan.zhihu.com/p/40733281)
 * 2）[不要使用 export default {a, b, c}](https://zhuanlan.zhihu.com/p/40733281)
 * 3）[require 与 import](https://github.com/yang1212/collection-about/issues/40)
 * 4）[MVC, MVVM](https://zhuanlan.zhihu.com/p/64257809)
 
-5、[JavaScript实现千位分隔符](https://www.jianshu.com/p/928c68f92c0c)
+**5、[JavaScript实现千位分隔符](https://www.jianshu.com/p/928c68f92c0c)**
