@@ -32,7 +32,7 @@
 * **大通用**：Object.prototype.toString.call(‘yf’).slice(8, -1) // String
 * **基本类型**： typeof val === "function"（除了null, 可判断基本数据类型与function）
 * **数组**：Array.isArray(value)
-* **对象、function**： instanceof ( 通过原型链判断eg:  [] instanceof Array 为true, 因为[].__proto__ === Array.prototype )
+* **对象、function**： instanceof ( 原型链判断:  [] instanceof Array 为true, 因为[].__proto__ === Array.prototype )
 
 
 **[2、常用原生方法](https://github.com/yang1212/collection-about/issues/43)**
@@ -88,19 +88,17 @@
 * 引用类型：指针存储于栈中，值存储于堆中
 
 
-**2、执行 2.toString() 报错？**
-
-JS引擎无法确定 '.' 是浮点数还是 . 操作符, 恰当的做法是用括号包裹，如：(2).toString()
-
-**3、[toString 与 valueOf](https://segmentfault.com/a/1190000010824347)**
+**2、[valueOf与toString](https://segmentfault.com/a/1190000010824347)**
      
-     * toString: 返回对象的字符串表示
-     * valueOf: 返回对象的字符串，布尔，数值表示
+  * valueOf: 返回对象的字符串，布尔，数值表示
+  * toString: 返回对象的字符串表示
+  * toString拓展：执行2.toString() 报错是S引擎无法确定 '.' 是浮点数还是 . 操作符, 恰当的做法是用括号包裹，如：(2).toString()
+
      
-**4、[模块化规范](https://github.com/yang1212/collection-about/issues/15)**
+**3、[模块化规范](https://github.com/yang1212/collection-about/issues/15)**
 * 1）[深入解析ES Module](https://zhuanlan.zhihu.com/p/40733281)
 * 2）[不要使用 export default {a, b, c}](https://zhuanlan.zhihu.com/p/40733281)
 * 3）[require 与 import](https://github.com/yang1212/collection-about/issues/40)
 * 4）[MVC, MVVM](https://zhuanlan.zhihu.com/p/64257809)
 
-**5、[JavaScript实现千位分隔符](https://www.jianshu.com/p/928c68f92c0c)**
+**4、[JavaScript实现千位分隔符](https://www.jianshu.com/p/928c68f92c0c)**
