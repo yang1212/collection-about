@@ -49,9 +49,7 @@
 
 [2、导出GitHub issues](https://gissue.github.io/)
 
-[3、window-nvm 管理node版本](https://www.cnblogs.com/Tiboo/p/12637602.html)
+[3、GitKraken使用教程](https://www.jianshu.com/p/b7e7897aae14)
 
-[4、GitKraken使用教程](https://www.jianshu.com/p/b7e7897aae14)
-
-[5、SourceTree使用教程](https://www.jianshu.com/p/a1d5645e11ad)
+[4、SourceTree使用教程](https://www.jianshu.com/p/a1d5645e11ad)
 
