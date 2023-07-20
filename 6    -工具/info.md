@@ -36,11 +36,9 @@
 <br/>
 
 ## Git
-### 命令行
-* 查配置(非全局少个--global而已)：git config -l 
-* 查全局配置：git config --global -l 
-* 设置代理(全局): git config --global https.proxy http://127.0.0.1:1080
-* 取消代理(全局): git config --global --unset https.proxy
+### [命令行](https://www.bookstack.cn/read/git-tutorial/docs-branch.md)
+* [更改用户名](https://docs.github.com/zh/get-started/getting-started-with-git/setting-your-username-in-git?platform=mac)
+* [设置、查看、取消代理](https://www.cnblogs.com/yongy1030/p/11699086.html)
 * 清除凭证(清除后操作pull/push/fetch时需要手动输入密码): git config --system --unset credential.helper
 * 配置凭证(开启凭证助手，一次输入密码认证成功后会被存储): git config --global credential.helper store
 
@@ -53,6 +51,7 @@
 
 [3、window-nvm 管理node版本](https://www.cnblogs.com/Tiboo/p/12637602.html)
 
+[4、GitKraken使用教程](https://www.jianshu.com/p/b7e7897aae14)
 
-
+[5、SourceTree使用教程](https://www.jianshu.com/p/a1d5645e11ad)
 

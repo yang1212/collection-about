@@ -28,7 +28,7 @@
 
 <br/>
 
-## 其他
+## 问题
 
 **1、CSS动画处理考虑的性能问题**
 
@@ -41,4 +41,14 @@
 
 **2、[CSS3动画与JS动画的区别](https://www.cnblogs.com/shuaishuaidejun/p/7444711.html)**
 
+<br/>
+
+## 其他
+[1、素材 | 渐变背景CSS3](http://color.oulu.me/)
+
+[2、素材 | 文字在线转表情](https://translate.yandex.com/?lang=zh-emj&text=%E9%80%9A%E7%9F%A5)
+
+[3、素材 | Markdown表情](https://github.com/zhouie/markdown-emoji#%E8%87%AA%E7%84%B6)
+
+[4、素材 | 插画](https://www.pixeltrue.com/premium/free-frontliner-heroes-illustrations)
     

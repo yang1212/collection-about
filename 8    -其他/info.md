@@ -88,6 +88,9 @@ H5(微信、支付宝)：
 
 <br/>
 
-## 踩坑
-[1、Date.parse()获取时间戳iOS无法获取](https://blog.csdn.net/mayuko2012/article/details/78181484?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-78181484-blog-91863886.pc_relevant_3mothn_strategy_recovery&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-78181484-blog-91863886.pc_relevant_3mothn_strategy_recovery&utm_relevant_index=1)
+
+## 拓展
+[1、主流X86-ARM-RISC-V-MIPS芯片架构分析](https://www.cnblogs.com/wujianming-110117/p/16578486.html)
+
+[2、浅谈vpn、vps、Proxy以及shadowsocks之间的联系和区别](https://medium.com/@thomas_summon/%E6%B5%85%E8%B0%88vpn-vps-proxy%E4%BB%A5%E5%8F%8Ashadowsocks%E4%B9%8B%E9%97%B4%E7%9A%84%E8%81%94%E7%B3%BB%E5%92%8C%E5%8C%BA%E5%88%AB-b0198f92db1b)
 
