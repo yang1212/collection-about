@@ -49,10 +49,9 @@
 ## 其他
 [1、编辑器方式打开github](https://github1s.com/yang1212/Bill)
 
-[2、window-nvm](https://www.cnblogs.com/Tiboo/p/12637602.html)
+[2、导出GitHub issues](https://gissue.github.io/)
 
-[3、导出GitHub issues](https://gissue.github.io/)
-
+[3、window-nvm 管理node版本](https://www.cnblogs.com/Tiboo/p/12637602.html)
 
 
 

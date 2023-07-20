@@ -1,26 +1,26 @@
 🌞 JavaScript 是一门解释型语言，没有编译阶段，所以它是动态类型
 
 
-## 知识点   
+## 知识点理解  
 
 **1、静态作用域&动态作用域**
 
-  * 事实上JavaScript并不具有动态作用域，它只有词法作用域，简单明了，但是this机制某种程度上很像动态作用域
+  * JavaScript并不具有动态作用域，它只有词法作用域，但是this机制某种程度上很像动态作用域
 
-  * 静态作用域：静态作用域（即词法作用域）中的 函数 遇到既不是形参也不是函数内部定义的局部变量的变量时，会去**函数定义** 时的环境中查询。
+  * 静态作用域：静态作用域（即词法作用域）中的 函数 遇到既不是形参也不是函数内部定义的局部变量的变量时，会去 **函数定义** 时的环境中查询。
 
-  * 动态作用域：动态作用域中的 函数 遇到既不是形参也不是函数内部定义的局部变量的变量时，到**函数调用** 时的环境中查询。
+  * 动态作用域：动态作用域中的 函数 遇到既不是形参也不是函数内部定义的局部变量的变量时，到 **函数调用** 时的环境中查询。
 
 **[2、This](https://www.cnblogs.com/Tiboo/p/11370325.html)**
-* setInterval()，setTimeout() 方法是浏览器 window 对象提供，所以this指向window对象，这跟变量的作用域有关
- 
-**[3、哪些场景不能用箭头函数](https://zhuanlan.zhihu.com/p/26540168)**
+* 结合上面对作用域的理解，setInterval()，setTimeout() 方法是浏览器 window 对象提供，所以this指向window对象。
 
-*  实际场景：Vue data不可以使用箭头函数问题。(关联拓展之: [vue data为什么是函数？而不是对象](https://www.imqianduan.com/vue/192.html))
+3、函数
+* 拓展一：[哪些场景不能用箭头函数](https://zhuanlan.zhihu.com/p/26540168)
+
 
 **[4、闭包](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html)**
 
-* 本质就是上级作用域内变量的生命周期，因为被下级作用域内引用，而没有被释放。就导致上级作用域内的变量，等到下级作用域执行完以后才正常得到释放？
+* 本质就是上级作用域内变量的生命周期，因为被下级作用域内引用，而没有被释放。就导致上级作用域内的变量，等到下级作用域执行完以后才正常得到释放。
 
 **[5、New操作符](https://juejin.cn/post/6844903789070123021)**
 
@@ -28,34 +28,35 @@
 
 ## 数据操作
 
-**[1、类型转换](https://juejin.im/post/5b6906b46fb9a04fcb5b8771)**
-* 类型比较“==”转换原则
-
-  * 如果其中一个操作数为string, 另外一个操作数会转换为string
-  * 如果其中一个操作数为number, 另外一个操作数会转换为number
-  * 如果其中一个操作数为布尔，它就会被转换为数值（true为1，false为0）
-  * 如果其中一个操作数为null或者是undefined， 另外一个操作数必须是null或者是undefined才会返回true，否则为false
-
-**[2、判断值](https://juejin.im/post/5be52b1ae51d450b3647e766#heading-2)**
-* 通用：Object.prototype.toString.call(value).slice(8, -1) ( 判断某个对象之属于哪种内置类型 )
-* 基本类型： typeof val === "string" 、typeof val === "function"（判断剩下的基本数据类型与function，除了null）
-* 数组：Array.isArray(value)
-* 对象、function： instanceof ( 通过原型链判断eg:  [] instanceof Array 为true, 因为[].__proto__ === Array.prototype )
+**[1、判断值](https://juejin.im/post/5be52b1ae51d450b3647e766#heading-2)**
+* **大通用**：Object.prototype.toString.call(‘yf’).slice(8, -1) // String
+* **基本类型**： typeof val === "function"（除了null, 可判断基本数据类型与function）
+* **数组**：Array.isArray(value)
+* **对象、function**： instanceof ( 通过原型链判断eg:  [] instanceof Array 为true, 因为[].__proto__ === Array.prototype )
 
 
-**[3、常用原生方法](https://github.com/yang1212/collection-about/issues/43)**
+**[2、常用原生方法](https://github.com/yang1212/collection-about/issues/43)**
 
-**[4、数值计算](https://github.com/yang1212/collection-about/issues/3)**
+**[3、数值计算](https://github.com/yang1212/collection-about/issues/3)**
+
+**[4、数组去重](https://www.cnblogs.com/Tiboo/p/11846316.html)**
 
 **[5、前端正则](https://github.com/yang1212/collection-about/issues/42)**
 
-**[6、数组去重](https://www.cnblogs.com/Tiboo/p/11846316.html)**
-
-**[7、对象拷贝](https://juejin.im/post/5b5dcf8351882519790c9a2e#heading-4)**
+**[6、对象拷贝](https://juejin.im/post/5b5dcf8351882519790c9a2e#heading-4)**
 
 * 浅拷贝: 以赋值的形式拷贝引用对象，仍指向同一个地址，修改时原对象也会受到影响
 
 * 深拷贝: 完全拷贝一个新对象，修改时原对象不再受到任何影响
+
+**[7、类型转换](https://juejin.im/post/5b6906b46fb9a04fcb5b8771)**
+
+* 类型比较“==”（x==y）
+
+  * 如果其中一个操作数为string, 另外一个操作数会转换为string
+  * 如果其中一个操作数为number, 另外一个操作数会转换为number
+  * 如果其中一个操作数为布尔，它就会被转换为数值（true为1，false为0）
+  * 如果其中一个操作数为null或者是undefined， 另外一个操作数必须是null或者是undefined才会返回true，否则为false。
 
 
 ## 性能相关知识点
