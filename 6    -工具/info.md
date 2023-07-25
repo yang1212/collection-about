@@ -24,15 +24,43 @@
 * **vscode-pdf**: 支持阅读pdf文件 
 
 ### [命令行](https://juejin.cn/post/6844904000525959182#heading-4)
-* **查找文件路径**：Ctrl + p
-* **缩进**： Ctrl + tab
-* **选中相同的词**： Ctrl + d （点击多次）
-* **折叠/收起代码**：Ctrl + Shift + [ / ]
-* **选中区块**：Ctrl + Shift + ↑/↓ （选中当前行鼠标点3次）
-* **复制代码向上/向下**：Shift + Alt + Up/Down
-* **导航到特定的行**：Ctrl + g
-* **打开关闭侧边栏**：Ctrl + b
-* **重命名变量**：F2
+* **查找文件路径**：
+    ```
+    Mac: command + p (输入:行数可定位到对应行)
+    Windows: Ctrl + p 
+    ```
+* **缩进**： 
+    ```
+    Mac: command + tab
+    Windows: Ctrl + tab
+    ```
+
+* **选中区块**：
+    ```
+    Mac: Shift + ↑/↓（选中当前行: 鼠标点3次）
+    Windows: Ctrl + Shift + ↑/↓ 
+    ```
+* **复制代码向上/向下**：
+    ```
+    Mac: Shift + option + ↑/↓ 
+    Windows: Shift + Alt + ↑/↓ 
+    ```
+* **向上/向下添加光标**：
+    ```
+    Mac: command + option + ↑/↓ (配合command + → 整词移动更好用)
+    Windows: ctrl + Alt + ↑/↓ 
+    ```
+
+* **选中相同的词**： 
+    ```
+    Mac: command + d（点击多次）
+    Windows: Ctrl + d 
+    ```
+* **打开关闭侧边栏**：
+    ```
+    Mac: command + b
+    Windows: Ctrl + b 
+    ```
 <br/>
 
 ## Git

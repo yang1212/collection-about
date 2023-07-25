@@ -10,7 +10,9 @@
  
 
 **[2、布局](https://github.com/yang1212/collection-about/issues/20)**
-* [拓展一：position定位](https://www.ruanyifeng.com/blog/2019/11/css-position.html): 设置绝对定位的元素A会相对于离自己最近的设置相对或绝对定位的父元素进行定位,（或者说离自己最近的不是static的父元素进行定位，因为元素默认是static）
+* [拓展一：position定位](https://www.ruanyifeng.com/blog/2019/11/css-position.html)
+
+  设置绝对定位的元素A会相对于离自己最近的设置相对或绝对定位的父元素进行定位,（或者说离自己最近的不是static的父元素进行定位，因为元素默认是static）
 * [拓展二：margin重叠](https://github.com/yang1212/collection-about/issues/17)
 
 * [拓展三：浮动](https://github.com/yang1212/collection-about/issues/19)
@@ -20,10 +22,10 @@
 
 **[3、适配](https://github.com/yang1212/collection-about/issues/21)**
   ````
-    vh: 网页视口高度的1/100， vw: 网页视口宽度的1/100
-    window.screen.height        屏幕高度
-    window.innerHeight          网页视口高度
-    document.body.clientHeight  body高度
+    网页视口单位      vh: 网页视口高度的1/100； vw: 网页视口宽度的1/100
+    网页视口高度      window.innerHeight 
+    屏幕高度         window.screen.height
+    body高度        document.body.clientHeight  
   ````
 
 <br/>
