@@ -3,18 +3,19 @@
 **[1、盒模型](https://www.zhangxinxu.com/wordpress/2016/09/talking-about-css-margin-box/)**
   
    
-  box-sizing用来规定容器元素的尺寸计算方式，属性值对应如下：
-  * -content-box：W3C标准盒模型 (默认), width = 内容的宽度
-  * -border-box： IE模型, width = 内容的宽度 + border + padding
-  * -inherit： 继承父元素
- 
+box-sizing用来规定容器元素的尺寸计算方式，属性值对应如下：
+````
+content-box：W3C标准盒模型 (默认), width = 内容的宽度
+border-box： IE模型, width = 内容的宽度 + border + padding
+inherit： 继承父元素
+````
 
 **[2、布局](https://github.com/yang1212/collection-about/issues/20)**
 ````
-  网页视口单位      vh: 网页视口高度的1/100； vw: 网页视口宽度的1/100
-  网页视口高度      window.innerHeight 
-  屏幕高度         window.screen.height
-  body高度        document.body.clientHeight  
+网页视口单位      vh: 网页视口高度的1/100； vw: 网页视口宽度的1/100
+网页视口高度      window.innerHeight 
+屏幕高度         window.screen.height
+body高度        document.body.clientHeight  
 ````
 * [拓展一：position定位](https://www.ruanyifeng.com/blog/2019/11/css-position.html)
 
