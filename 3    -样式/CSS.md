@@ -20,7 +20,7 @@
 * [拓展四：BFC](https://juejin.im/post/5a4dbe026fb9a0452207ebe6)
  
 
-**[3、适配](https://github.com/yang1212/collection-about/issues/21)**
+**[3、视口与像素](https://github.com/yang1212/collection-about/issues/21)**
   ````
     网页视口单位      vh: 网页视口高度的1/100； vw: 网页视口宽度的1/100
     网页视口高度      window.innerHeight 
