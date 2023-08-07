@@ -1,12 +1,13 @@
 ## VSCode
 ### 插件
-* **Browser Preview**: vscode内打开浏览器
+* **Code Translate**: 滑词翻译软件
+* **Image preview**: hover预览图片
 * **Git History**: 查看当前文件的提交记录
 * **GitLens**: 可查看具体一行文件的提交记录
 * **Polacode-2020**: 将代码片段转换为好看的图片
 * **path-alias**: 一个可以解决路径别名提示，跳转的vscode插件
 * **vscode-pdf**: 支持阅读pdf文件
-* **Code Translate**: 滑词翻译软件
+* **Browser Preview**: vscode内打开浏览器
 
 ### [命令行](https://juejin.cn/post/6844904000525959182#heading-4)
 * **查找文件路径**：
