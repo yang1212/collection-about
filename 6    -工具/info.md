@@ -1,22 +1,6 @@
-## 在线工具
-### 转换
-* [时间戳转换](https://tool.lu/timestamp/)
-* [进制转换](https://tool.oschina.net/hexconvert)
-* [文本去重](https://www.dute.org/text-remove-duplicates)
-* [JSON解析验证](https://www.json.cn/)
-* [uuid生成](https://1024tools.com/uuid?)
-
-### UI
-* **[processon](https://www.processon.com/login)**: 画图工具
-* **[tiny](https://tinyjpg.com/)**: 图片压缩
-* **[ps](https://www.photopea.com/)**: 在线PS
-* **[pxcook](https://fancynode.com.cn/pxcook)**: 代码生成
-
-<br/>
-
 ## VSCode
 ### 插件
-* **Browser Preview**： vscode内打开浏览器
+* **Browser Preview**: vscode内打开浏览器
 * **Git History**: 查看当前文件的提交记录
 * **GitLens**: 可查看具体一行文件的提交记录
 * **Polacode-2020**: 将代码片段转换为好看的图片
@@ -64,6 +48,30 @@
     ```
 <br/>
 
+## 辅助工具
+
+### 浏览器插件
+* **深色模式**: Сhrome 的深色阅读器
+* **ColorZilla**: 取色器
+* **ImTranslator**: 翻译，字典，声音
+* **草料二维码**: 二维码生成
+* **自动剪切板**: 选中文字自动复制
+* **Adblock Plus**: 免费的广告拦截器
+
+### UI
+* **[processon](https://www.processon.com/login)**: 画图工具
+* **[tiny](https://tinyjpg.com/)**: 图片压缩
+* **[ps](https://www.photopea.com/)**: 在线PS
+* **[pxcook](https://fancynode.com.cn/pxcook)**: 代码生成
+
+### 转换
+* [时间戳转换](https://tool.lu/timestamp/)
+* [进制转换](https://tool.oschina.net/hexconvert)
+* [文本去重](https://www.dute.org/text-remove-duplicates)
+* [JSON解析验证](https://www.json.cn/)
+* [uuid生成](https://1024tools.com/uuid?)
+
+
 ## Git
 ### [命令行](https://www.bookstack.cn/read/git-tutorial/docs-branch.md)
 * [更改用户名](https://docs.github.com/zh/get-started/getting-started-with-git/setting-your-username-in-git?platform=mac)
@@ -74,9 +82,9 @@
 <br/>
 
 ## 其他
-[1、编辑器方式打开github](https://github1s.com/yang1212/Bill)
+[1、Github: 编辑器方式打开](https://github1s.com/yang1212/Bill)
 
-[2、导出GitHub issues](https://gissue.github.io/)
+[2、Github: 导出issues](https://gissue.github.io/)
 
 [3、GitKraken使用教程](https://www.jianshu.com/p/b7e7897aae14)
 
