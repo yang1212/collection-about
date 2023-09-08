@@ -27,7 +27,7 @@ body高度        document.body.clientHeight
 * [拓展四：BFC](https://juejin.im/post/5a4dbe026fb9a0452207ebe6)
  
 
-**[3、像素/物理像素/分辨率](https://github.com/yang1212/collection-about/issues/21)**
+**[3、像素/物理像素/分辨率](https://juejin.cn/post/7190723647030427708?searchId=202309081742354AB8D8F1900D91E94207)**
 
 <br/>
 
