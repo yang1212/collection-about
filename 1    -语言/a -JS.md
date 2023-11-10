@@ -43,11 +43,7 @@
 
 **[5、前端正则](https://github.com/yang1212/collection-about/issues/42)**
 
-**[6、对象拷贝](https://juejin.im/post/5b5dcf8351882519790c9a2e#heading-4)**
-
-* 浅拷贝: 以赋值的形式拷贝引用对象，仍指向同一个地址，修改时原对象也会受到影响
-
-* 深拷贝: 完全拷贝一个新对象，修改时原对象不再受到任何影响
+**[6、对象拷贝](https://juejin.cn/post/7299659033970229283)**
 
 **[7、类型转换](https://juejin.im/post/5b6906b46fb9a04fcb5b8771)**
 
