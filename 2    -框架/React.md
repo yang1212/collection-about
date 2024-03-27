@@ -29,8 +29,6 @@
     * 卸载时
       1、componentWillUnmount
       在组件即将被卸载或销毁时进行调用，是取消网络请求、移除监听事件、清理 DOM 元素、清理定时器等操作的好时机
-      2、componentDidUnmount
-      组件销毁后
    ```
   
   * 函数组件
