@@ -37,10 +37,8 @@
 
 #### [6、工具](https://github.com/yang1212/collection-about/blob/master/6%20%20%20%20-%E5%B7%A5%E5%85%B7/info.md)
 
-#### [7、npm](https://github.com/yang1212/collection-about/blob/master/7%20%20%20%20-npm/info.md)
+#### [7、混合](https://github.com/yang1212/collection-about/blob/master/8%20%20%20%20-%E5%85%B6%E4%BB%96/info.md)
 
-#### [8、其他](https://github.com/yang1212/collection-about/blob/master/8%20%20%20%20-%E5%85%B6%E4%BB%96/info.md)
+#### [8、books](https://github.com/yang1212/vue-about/blob/master/README.md)
 
-#### [9、books](https://github.com/yang1212/vue-about/blob/master/README.md)
-
-#### [10、思维训练与实践]()
+#### 9、思维训练与实践
