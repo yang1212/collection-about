@@ -94,3 +94,16 @@ H5(微信、支付宝)：
 
 [2、浅谈vpn、vps、Proxy以及shadowsocks之间的联系和区别](https://medium.com/@thomas_summon/%E6%B5%85%E8%B0%88vpn-vps-proxy%E4%BB%A5%E5%8F%8Ashadowsocks%E4%B9%8B%E9%97%B4%E7%9A%84%E8%81%94%E7%B3%BB%E5%92%8C%E5%8C%BA%E5%88%AB-b0198f92db1b)
 
+## npm包
+[1、一个轻量、可拓展、针对手机网页的前端开发者调试面板](https://gitee.com/Tencent/vConsole#%E6%88%AA%E5%9B%BE)
+
+
+
+## 理论
+[1、怎样挑选一个好的 NPM 包](https://www.infoq.cn/article/wad44vl8vgbfzvj4hnpp)
+
+[2、npm install 原理分析](https://cloud.tencent.com/developer/article/1555982)
+
+[3、node_modules 困境](https://zhuanlan.zhihu.com/p/137535779)
+
+
