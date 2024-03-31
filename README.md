@@ -42,3 +42,5 @@
 #### [8、其他](https://github.com/yang1212/collection-about/blob/master/8%20%20%20%20-%E5%85%B6%E4%BB%96/info.md)
 
 #### [9、books](https://github.com/yang1212/vue-about/blob/master/README.md)
+
+#### [10、思维训练与实践]
