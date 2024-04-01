@@ -54,4 +54,4 @@
 
 #### [8、books](https://github.com/yang1212/vue-about/blob/master/README.md)
 
-#### 9、思维训练与实践
+#### 9、情绪、思维、行为训练与实践
