@@ -58,5 +58,10 @@
 * 让他人使用你开发的库时，少安装一些不必要的依赖
 
 
+## 实践过程
+1、[基于书籍实践分析webpack](https://www.cnblogs.com/Tiboo/p/12434287.html)
+
+2、[老项目升级优化过程](https://www.cnblogs.com/Tiboo/p/14385863.html)
+
 
 
