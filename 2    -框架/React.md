@@ -10,32 +10,8 @@
 * [类组件：setState](https://github.com/yang1212/collection-about/issues/12)
 * [函数组件：useState](https://github.com/yang1212/collection-about/issues/34)
 
-**[4、生命周期](https://juejin.cn/post/6914112105964634119)**
+**[4、生命周期](https://github.com/yang1212/collection-about/issues/58)**
 
- * 类组件
-   ```js
-    * 挂载时
-      1、constructor
-      初始化函数内部 state
-      2、componentDidMount
-      在组件挂载后 (插入DOM树后) 立即调用，是发送网络请求、启用事件监听方法的好时机
-
-    * 更新时
-      1、shouldCompontntUpdate
-      在组件更新之前调用，可以控制组件是否进行更新。默认返回为true（即默认渲染所有子组件）
-      2、componentDidUpdate
-      在更新后会被立即调用，首次渲染不会执行
-
-    * 卸载时
-      1、componentWillUnmount
-      在组件即将被卸载或销毁时进行调用，是取消网络请求、移除监听事件、清理 DOM 元素、清理定时器等操作的好时机
-   ```
-  
-  * 函数组件
-  
-    [useEffect](https://github.com/yang1212/collection-about/issues/34)
-
-    与class 组件中的 componentDidMount、componentDidUpdate 和 componentWillUnmount 具有相同的用途，只是它被合并为同一个API
 
 **5、[函数组件和类组件的区别](https://juejin.cn/post/6867028553629138952)**
 
