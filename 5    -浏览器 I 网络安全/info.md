@@ -20,6 +20,7 @@
 [3）WebSocket](https://www.ruanyifeng.com/blog/2017/05/websocket.html)
 * 在单个TCP连接上进行全双工通信的网络协议
 
+[4) 概念整理、详细分享之前整理的PPT](https://www.cnblogs.com/Tiboo/p/11865635.html)
 
 **[3、跨域](https://github.com/yang1212/collection-about/issues/22)**
   * [聊一聊cookie](https://segmentfault.com/a/1190000004556040)
