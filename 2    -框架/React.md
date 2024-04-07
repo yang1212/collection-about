@@ -8,7 +8,7 @@
 **3、变量更改**
 
 * [类组件：setState](https://github.com/yang1212/collection-about/issues/12)
-* [函数组件：useState](https://github.com/yang1212/collection-about/issues/34)
+* [函数组件：useState](https://github.com/yang1212/collection-about/issues/65)
 
 **[4、生命周期](https://github.com/yang1212/collection-about/issues/58)**
 
