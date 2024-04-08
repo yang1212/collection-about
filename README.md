@@ -38,7 +38,7 @@
 
 #### [6、工具](https://github.com/yang1212/collection-about/blob/master/6%20%20%20%20-%E5%B7%A5%E5%85%B7/info.md)
 
-#### [7、混合](https://github.com/yang1212/collection-about/blob/master/8%20%20%20%20-%E5%85%B6%E4%BB%96/info.md)
+#### [7、混合](https://github.com/yang1212/collection-about/blob/master/7%20%20%20%20-%E6%B7%B7%E5%90%88/info.md)
 
 #### 8、通用能力训练与实践
 
