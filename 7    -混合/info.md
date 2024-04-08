@@ -5,7 +5,7 @@
 
 <br/>
 
-## 熟悉的名词
+## 场景
 **[1、监控和埋点方案](https://github.com/forthealllight/blog/issues/23)**
 
   * PV/UV:PV(page view)，即页面浏览量或点击量。UV:指访问某个站点或点击某条新闻的不同IP地址的人数
@@ -38,10 +38,33 @@
   * -web端加载优先级: browser > module > main 
 
 4）[npm install 原理分析](https://cloud.tencent.com/developer/article/1555982) 
-  
+
+**4、npm**
+
+[1、怎样挑选一个好的 NPM 包](https://www.infoq.cn/article/wad44vl8vgbfzvj4hnpp)
+
+[2、npm install 原理分析](https://cloud.tencent.com/developer/article/1555982)
+
+[3、node_modules 困境](https://zhuanlan.zhihu.com/p/137535779)
+
+**5、登录注册**
+
+H5(微信、支付宝)：
+* -登录：跳转微信定向地址, url参数中包含回调地址
+* -手机号码：基于验证码绑定
+
+小程序(微信)：
+* -登录：wx.getUserProfile获取用户信息后调用后端接口
+* -手机号码：open-type="getPhoneNumber"触发调用后端接口
+
+**5、支付**
+* H5(微信):  window.WeixinJSBridge.invoke( 'getBrandWCPayRequest', ...）
+* H5(支付宝): ap.tradePay
+* 小程序(微信):  wx.requestPayment
+
 <br/>
 
-## 懵懂的名词
+## 拓展
 **[1、Flutter](https://www.jianshu.com/p/51e989500ca3)**
 
 * 用于构建跨平台的手机App的SDK。写一份代码，在Android 和iOS平台上都可以运行。
@@ -66,44 +89,12 @@
 **[7、Rust](https://zhuanlan.zhihu.com/p/62057547)**
 
 
+**[8、主流X86-ARM-RISC-V-MIPS芯片架构分析](https://www.cnblogs.com/wujianming-110117/p/16578486.html)**
 
-<br/>
-
-
-## 场景
-**1、登录注册**
-
-H5(微信、支付宝)：
-* -登录：跳转微信定向地址, url参数中包含回调地址
-* -手机号码：基于验证码绑定
-
-小程序(微信)：
-* -登录：wx.getUserProfile获取用户信息后调用后端接口
-* -手机号码：open-type="getPhoneNumber"触发调用后端接口
-
-**2、支付**
-* H5(微信):  window.WeixinJSBridge.invoke( 'getBrandWCPayRequest', ...）
-* H5(支付宝): ap.tradePay
-* 小程序(微信):  wx.requestPayment
-
-<br/>
-
-
-## 拓展
-[1、主流X86-ARM-RISC-V-MIPS芯片架构分析](https://www.cnblogs.com/wujianming-110117/p/16578486.html)
-
-[2、浅谈vpn、vps、Proxy以及shadowsocks之间的联系和区别](https://medium.com/@thomas_summon/%E6%B5%85%E8%B0%88vpn-vps-proxy%E4%BB%A5%E5%8F%8Ashadowsocks%E4%B9%8B%E9%97%B4%E7%9A%84%E8%81%94%E7%B3%BB%E5%92%8C%E5%8C%BA%E5%88%AB-b0198f92db1b)
-
-## npm包
-[1、一个轻量、可拓展、针对手机网页的前端开发者调试面板](https://gitee.com/Tencent/vConsole#%E6%88%AA%E5%9B%BE)
+**[9、浅谈vpn、vps、Proxy以及shadowsocks之间的联系和区别](https://medium.com/@thomas_summon/%E6%B5%85%E8%B0%88vpn-vps-proxy%E4%BB%A5%E5%8F%8Ashadowsocks%E4%B9%8B%E9%97%B4%E7%9A%84%E8%81%94%E7%B3%BB%E5%92%8C%E5%8C%BA%E5%88%AB-b0198f92db1b)**
 
 
 
-## 理论
-[1、怎样挑选一个好的 NPM 包](https://www.infoq.cn/article/wad44vl8vgbfzvj4hnpp)
 
-[2、npm install 原理分析](https://cloud.tencent.com/developer/article/1555982)
-
-[3、node_modules 困境](https://zhuanlan.zhihu.com/p/137535779)
 
 
