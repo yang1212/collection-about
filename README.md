@@ -29,7 +29,7 @@
 * [Rollup](https://github.com/yang1212/collection-about/blob/master/4%20%20%20%20-%E5%B7%A5%E7%A8%8B%E5%8C%96/b%20-Rollup.md)
 * [Vite](https://github.com/yang1212/collection-about/blob/master/4%20%20%20%20-%E5%B7%A5%E7%A8%8B%E5%8C%96/c%20-Vite.md)
 * [Lerna](https://github.com/yang1212/collection-about/blob/master/4%20%20%20%20-%E5%B7%A5%E7%A8%8B%E5%8C%96/d%20-lerna.md)
-* [Demo](https://github.com/yang1212/build-demo)
+* [打包模板](https://github.com/yang1212/build-demo)
 
 
 
