@@ -41,11 +41,11 @@
 
 **4、npm**
 
-[1、怎样挑选一个好的 NPM 包](https://www.infoq.cn/article/wad44vl8vgbfzvj4hnpp)
+* [1、怎样挑选一个好的 NPM 包](https://www.infoq.cn/article/wad44vl8vgbfzvj4hnpp)
 
-[2、npm install 原理分析](https://cloud.tencent.com/developer/article/1555982)
+* [2、npm install 原理分析](https://cloud.tencent.com/developer/article/1555982)
 
-[3、node_modules 困境](https://zhuanlan.zhihu.com/p/137535779)
+* [3、node_modules 困境](https://zhuanlan.zhihu.com/p/137535779)
 
 **5、登录注册**
 
