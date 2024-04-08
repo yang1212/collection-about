@@ -1,7 +1,7 @@
 🌞 JavaScript 是一门解释型语言，没有编译阶段，所以它是动态类型
 
 
-## 知识点理解  
+## 一、常见知识点理解  
 
 **1、静态作用域&动态作用域**
 
@@ -26,7 +26,9 @@
 
 **[6、关于宏任务与微任务](https://github.com/yang1212/collection-about/issues/4)**
 
-## 数据操作
+<br/>
+
+## 二、数据操作
 
 **[1、判断值](https://juejin.im/post/5be52b1ae51d450b3647e766#heading-2)**
 * **大通用**：Object.prototype.toString.call(‘yf’).slice(8, -1) // String
@@ -47,15 +49,8 @@
 
 **[7、类型转换](https://juejin.im/post/5b6906b46fb9a04fcb5b8771)**
 
-* 类型比较“==”（x==y）
 
-  * 如果其中一个操作数为string, 另外一个操作数会转换为string
-  * 如果其中一个操作数为number, 另外一个操作数会转换为number
-  * 如果其中一个操作数为布尔，它就会被转换为数值（true为1，false为0）
-  * 如果其中一个操作数为null或者是undefined， 另外一个操作数必须是null或者是undefined才会返回true，否则为false。
-
-
-## 性能相关知识点
+## 三、性能相关知识点
 
 **[1、为什么操作DOM慢](https://segmentfault.com/a/1190000004114594)**
 
@@ -66,18 +61,16 @@
 **[4、前端缓存](https://github.com/yang1212/collection-about/issues/41)**
 
 **[5、内存泄露](https://juejin.im/post/5b2fd09ee51d45588576f429)**
- 
-  * 指内存没有被释放或者被垃圾回收，造成内存泄露的可能会有以下几种情况：
-    * 监听在window/body等事件没有解绑
 
-    * 模块形成的闭包内部变量使用完后没有置成null
-
-    * 使用第三方库创建，没有调用正确的销毁函数  
+指内存没有被释放或者被垃圾回收，造成内存泄露的可能会有以下几种情况：
+* 监听在window/body等事件没有解绑
+* 模块形成的闭包内部变量使用完后没有置成null
+* 使用第三方库创建，没有调用正确的销毁函数  
 
 
 <br/>
 
-## 其他
+## 四、其他
 
 **1、JS数据存放位置**
 * 原始类型：值存储于栈中

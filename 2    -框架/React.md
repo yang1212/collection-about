@@ -5,28 +5,31 @@
 
 **[2、组件通信传值](https://github.com/yang1212/collection-about/issues/6)**
 
-**3、变量更改**
+**[3、研究hook衍生出的知识点](https://github.com/yang1212/collection-about/issues/59)**
 
-* [类组件：setState](https://github.com/yang1212/collection-about/issues/12)
-* [函数组件：useState](https://github.com/yang1212/collection-about/issues/65)
+* [生命周期](https://github.com/yang1212/collection-about/issues/58)
+* [状态管理之：MobX的简单使用](https://github.com/yang1212/collection-about/issues/64)
+* [类组件之: 复杂的继承关系](https://github.com/yang1212/collection-about/issues/60)
+* [函数组件之: 组合、自定义Hook](https://github.com/yang1212/collection-about/issues/61)
+* [类组件之: 关注点分离困难](https://github.com/yang1212/collection-about/issues/62)
+* [副作用](https://github.com/yang1212/collection-about/issues/63)
+* [场景与踩坑-useState](https://github.com/yang1212/collection-about/issues/65)
+* [批处理](https://github.com/yang1212/collection-about/issues/66)
+* [虚拟DOM](https://github.com/yang1212/collection-about/issues/68)
 
-**[4、生命周期](https://github.com/yang1212/collection-about/issues/58)**
 
+**4、[受控组件&非受控组件](https://juejin.cn/post/6858276396968951822#comment)**
 
-**5、[函数组件和类组件的区别](https://juejin.cn/post/6867028553629138952)**
-
-**6、[受控组件&非受控组件](https://juejin.cn/post/6858276396968951822#comment)**
-
-**7、性能优化**
+**5、性能优化**
 
 * 父组件更新，所有子组件无条件更新
 * [PureComponent](https://juejin.cn/post/6844903480369512455)
 * [React.memo](https://1349279985.github.io/%E4%BC%98%E5%8C%96React-memo%E6%B8%B2%E6%9F%93%E5%88%A4%E5%88%AB%E6%9C%BA%E5%88%B6%E5%8F%8A%E5%AE%9E%E6%88%98/)
 * ImmutableJS
 
-**8、高阶组件-HOC**
+**6、高阶组件-HOC**
 
-**9、合成事件**
+**7、合成事件**
 
 * React16事件绑定到document上
 * React17事件绑定到root组件上 （更改原因：有利于多个react版本并存，比如微前端场景）
