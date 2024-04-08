@@ -1,4 +1,4 @@
-## webpack
+## 一、webpack周边理论
 
 **[1、Babel](https://my.oschina.net/vivotech/blog/4407304)**
 
@@ -48,8 +48,6 @@
 
 * loader配置缓存，其他loader: thread-loader, cache-loader
 
-* [优化升级的心路历程](https://www.cnblogs.com/Tiboo/p/14385863.html)
-
 
 **10、[模块联邦](https://jishuin.proginn.com/p/763bfbd640a6)**
 
@@ -58,7 +56,7 @@
 * 让他人使用你开发的库时，少安装一些不必要的依赖
 
 
-## 实践过程
+## 二、实践过程
 1、[基于书籍实践分析webpack](https://www.cnblogs.com/Tiboo/p/12434287.html)
 
 2、[老项目升级优化过程](https://www.cnblogs.com/Tiboo/p/14385863.html)
