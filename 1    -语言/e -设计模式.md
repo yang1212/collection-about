@@ -1,16 +1,19 @@
 ## 目录
 
+* [【 设计模式 】 发布-订阅模式](https://github.com/yang1212/collection-about/issues/38)
+
+* [【 设计模式 】 状态模式](https://github.com/yang1212/collection-about/issues/36)
+
+* [【 设计模式 】 策略模式](https://github.com/yang1212/collection-about/issues/37)
+ 
 * [【 设计模式 】 单例模式](https://mp.weixin.qq.com/s/95_oTlmPKHqDCmUJaWeg0A)
 
 * [【 设计模式 】 工厂模式](https://mp.weixin.qq.com/s/3SsjPP3bxPiQKASKfvyYag)
 
 * [【 设计模式 】 装饰者模式](https://mp.weixin.qq.com/s/KVy81rtB0YMeaHaem1PYMw)
 
-* [【 设计模式 】 状态模式](https://github.com/yang1212/collection-about/issues/36)
 
-* [【 设计模式 】 策略模式](https://github.com/yang1212/collection-about/issues/37)
 
-* [【 设计模式 】 发布-订阅模式](https://github.com/yang1212/collection-about/issues/38)
 
 
 
