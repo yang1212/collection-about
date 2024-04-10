@@ -60,7 +60,7 @@
 * 核心API： 基于[object.defineproperty](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty) 进行数据劫持
 * 存在的问题：深度监听，需要一次性递归到底。故data层级不可嵌套过深； 无法对新增、删除属性做监听；  
 
-* 核心设计模式：[发布-订阅模式](https://mp.weixin.qq.com/s/ehrBQkjtBTyyiuUo8KiBLg)
+* 核心设计模式：[观察者模式](https://github.com/yang1212/collection-about/issues/38)
 
 * 监听数组的原理： [原型链的重写](https://github.com/yang1212/collection-about/issues/11)
 
