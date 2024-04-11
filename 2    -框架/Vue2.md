@@ -43,20 +43,18 @@
 **[2、MVVM](https://juejin.cn/post/6844903929298288647)**
 
 **[3、对虚拟DOM的认识](https://github.com/yang1212/collection-about/issues/68)**
-
-* 相关联：
-   * [浏览器渲染引擎工作流程](https://segmentfault.com/a/1190000010298038)
-   * [深度优先理论](https://www.51cto.com/article/614590.html)
-   * [深度优先遍历DOM树](https://github.com/yang1212/collection-about/issues/9)
-   * [两棵树是否相等](https://leetcode-cn.com/problems/same-tree/submissions/)
-   * [diff 算法](https://juejin.cn/post/6844903767473651720)
+ * [浏览器渲染引擎工作流程](https://segmentfault.com/a/1190000010298038)
+ * [深度优先理论](https://www.51cto.com/article/614590.html)
+ * [两棵树是否相等](https://leetcode-cn.com/problems/same-tree/submissions/)
+ * [diff 算法](https://juejin.cn/post/6844903767473651720)
 
 **4、[Vue 2.x双向数据绑定](https://juejin.cn/post/6844903917898186766)**
 
 * 核心API： 基于[object.defineproperty](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty) 进行数据劫持
-* 存在的问题：深度监听，需要一次性递归到底。故data层级不可嵌套过深； 无法对新增、删除属性做监听；  
 
 * 核心设计模式：[观察者模式](https://github.com/yang1212/collection-about/issues/38)
+
+* 存在的问题：深度监听，需要一次性递归到底。故data层级不可嵌套过深； 无法对新增、删除属性做监听；  
 
 * 监听数组的原理： [原型链的重写](https://github.com/yang1212/collection-about/issues/11)
 
