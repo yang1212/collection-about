@@ -56,8 +56,6 @@
 
 * 存在的问题：深度监听，需要一次性递归到底。故data层级不可嵌套过深； 无法对新增、删除属性做监听；  
 
-* 监听数组的原理： [原型链的重写](https://github.com/yang1212/collection-about/issues/11)
-
 
 **5、[vue data为什么是函数？而不是对象](https://www.imqianduan.com/vue/192.html )**
 
