@@ -7,11 +7,11 @@
 
 **3、[ref, reactive, toRef, toRefs](https://github.com/yang1212/collection-about/issues/45)**
 
+**4、[双向数据绑定](https://github.com/yang1212/collection-about/issues/70)**
 
+**5、[watch最佳实践](https://juejin.cn/post/6980987158710452231)**
 
-**4、[watch最佳实践](https://juejin.cn/post/6980987158710452231)**
-
-**5、数据通信**
+**6、数据通信**
 
 * defineProps：子组件接收父组件传值
   ````javaScript
@@ -41,7 +41,7 @@
   </script>
 
   ````
-**6、defineExpose**
+**7、defineExpose**
 * 在父组件中调用子组件方法。(vue2 中通常使用$ref去获取子组件)
   ````javaScript
   子组件：
