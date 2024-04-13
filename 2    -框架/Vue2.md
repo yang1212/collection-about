@@ -49,6 +49,7 @@
  * [diff 算法](https://juejin.cn/post/6844903767473651720)
 
 **4、[Vue 2.x双向数据绑定](https://juejin.cn/post/6844903917898186766)**
+* [总结](https://github.com/yang1212/collection-about/issues/69)
 
 * 核心API： 基于[object.defineproperty](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty) 进行数据劫持
 
