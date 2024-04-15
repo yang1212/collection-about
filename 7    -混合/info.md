@@ -6,20 +6,23 @@
 <br/>
 
 ## 场景
-**[1、监控和埋点方案](https://github.com/forthealllight/blog/issues/23)**
+
+**[1、优化](https://github.com/yang1212/collection-about/issues/73)**
+
+**[2、监控和埋点方案](https://github.com/forthealllight/blog/issues/23)**
 
   * PV/UV:PV(page view)，即页面浏览量或点击量。UV:指访问某个站点或点击某条新闻的不同IP地址的人数
   * 前端监控可以分为三类：数据监控、性能监控和异常监控
   * 前端埋点方法分为三种：代码埋点、可视化埋点和无痕埋点
   * [前端埋点体系怎么搭建](https://github.com/closertb/closertb.github.io/issues/46)
 
-**[2、base64编码原理](https://juejin.cn/post/6844903663459106829)**
+**[3、base64编码原理](https://juejin.cn/post/6844903663459106829)**
 
    * base64编码本质上就是将二进制转化为文本数据的方案
    
    * Base64编码的主要的作用不在于安全性，而在于让内容能在各个网关间无错的传输，这才是Base64编码的核心作用
 
-**3、组件设计**
+**4、组件设计**
 
 1）优化原则
   * 多使用内存和缓存
@@ -39,7 +42,7 @@
 
 4）[npm install 原理分析](https://cloud.tencent.com/developer/article/1555982) 
 
-**4、npm**
+**5、npm**
 
 * [1、怎样挑选一个好的 NPM 包](https://www.infoq.cn/article/wad44vl8vgbfzvj4hnpp)
 
@@ -47,7 +50,7 @@
 
 * [3、node_modules 困境](https://zhuanlan.zhihu.com/p/137535779)
 
-**5、登录注册**
+**6、登录注册**
 
 H5(微信、支付宝)：
 * -登录：跳转微信定向地址, url参数中包含回调地址
@@ -57,20 +60,14 @@ H5(微信、支付宝)：
 * -登录：wx.getUserProfile获取用户信息后调用后端接口
 * -手机号码：open-type="getPhoneNumber"触发调用后端接口
 
-**5、支付**
+**7、支付**
 * H5(微信):  window.WeixinJSBridge.invoke( 'getBrandWCPayRequest', ...）
 * H5(支付宝): ap.tradePay
 * 小程序(微信):  wx.requestPayment
 
 <br/>
 
-## 优化
 
-1、性能优化
-
-2、搜索引擎优化
-
-3、安全性优化
 
 <br/>
 
