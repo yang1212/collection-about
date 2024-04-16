@@ -1,4 +1,4 @@
-## 有意思的周刊
+## 周刊
 [1、weekly-每周一篇](https://github.com/ruanyf/weekly)
 
 [2、freecodecamp-英文版](https://www.freecodecamp.org/news/search)
