@@ -36,11 +36,9 @@
   
   * -browser : 定义 npm 包在 browser 环境下的入口文件；
   * -main : browser 环境和 node 环境均可使用，定义了 npm 包的入口文件；
-  * -module : browser 环境和 node 环境均可使用，定义 npm 包的 ESM 规范的入口文件；
-     
+  * -module : browser 环境和 node 环境均可使用，定义 npm 包的 ESM 规范的入口文件； 
   * -web端加载优先级: browser > module > main 
 
-4）[npm install 原理分析](https://cloud.tencent.com/developer/article/1555982) 
 
 **5、npm**
 
