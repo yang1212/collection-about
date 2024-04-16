@@ -73,4 +73,24 @@
 
 ## vuex
    
-   Vuex是一个专为Vue.js应用程序开发的状态管理模式，采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化。
+### 1、数据持久化
+LocalStorage 或 SessionStorage：
+
+使用浏览器的本地存储（LocalStorage 或 SessionStorage）来存储 Vuex 状态。
+
+Vuex中设置监听器，在状态发生变化时将状态保存到本地存储中，并在应用程序启动时从本地存储中加载状态。
+
+这种方法适用于小型状态和敏感信息不太重要的场景。
+
+```javaScript
+// 保存状态到LocalStorage
+store.subscribe((mutation, state) => {
+  localStorage.setItem('vuex_state', JSON.stringify(state));
+});
+
+// 从LocalStorage加载状态
+const savedState = localStorage.getItem('vuex_state');
+if (savedState) {
+  store.replaceState(JSON.parse(savedState));
+}
+```
