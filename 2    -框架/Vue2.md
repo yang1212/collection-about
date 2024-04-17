@@ -67,6 +67,33 @@
    **[1、vue-router常用路由](https://router.vuejs.org/zh/guide/essentials/nested-routes.html)**
 
    **[2、路由两种模式实现原理](https://www.cnblogs.com/Tiboo/p/11588022.html)**
+
+   **3、动态生成路由配置**
+   * 从接口获取路由数据
+   * 根据路由数据动态生成路由配
+   * 使用生成的路由配置来配置 Vue Router
+   * 一个简单示例，演示如何动态生成路由配置:
+     ```javaScript
+        // 假设你从接口获取的路由数据格式如下：
+        const routeData = [
+          { path: '/home', component: Home },
+          { path: '/about', component: About },
+          // 更多路由数据...
+        ];
+        
+        // 动态生成路由配置
+        const routes = routeData.map(route => {
+          return {
+            path: route.path,
+            component: route.component
+          };
+        });
+        
+        // 配置 Vue Router
+        const router = new VueRouter({
+          routes
+        });
+     ```
    
 
 <br/>
