@@ -9,20 +9,24 @@
 
 **[1、优化](https://github.com/yang1212/collection-about/issues/73)**
 
-**[2、监控和埋点方案](https://github.com/forthealllight/blog/issues/23)**
+**[2、微前端](https://tech.meituan.com/2020/02/27/meituan-waimai-micro-frontends-practice.html)**
+
+**3、重构**
+
+**[4、监控和埋点方案](https://github.com/forthealllight/blog/issues/23)**
 
   * PV/UV:PV(page view)，即页面浏览量或点击量。UV:指访问某个站点或点击某条新闻的不同IP地址的人数
   * 前端监控可以分为三类：数据监控、性能监控和异常监控
   * 前端埋点方法分为三种：代码埋点、可视化埋点和无痕埋点
   * [前端埋点体系怎么搭建](https://github.com/closertb/closertb.github.io/issues/46)
 
-**[3、base64编码原理](https://juejin.cn/post/6844903663459106829)**
+**[5、base64编码原理](https://juejin.cn/post/6844903663459106829)**
 
    * base64编码本质上就是将二进制转化为文本数据的方案
    
    * Base64编码的主要的作用不在于安全性，而在于让内容能在各个网关间无错的传输，这才是Base64编码的核心作用
 
-**4、组件设计**
+**6、组件设计**
 
 1）优化原则
   * 多使用内存和缓存
@@ -40,7 +44,7 @@
   * -web端加载优先级: browser > module > main 
 
 
-**5、npm**
+**7、npm**
 
 * [1、怎样挑选一个好的 NPM 包](https://www.infoq.cn/article/wad44vl8vgbfzvj4hnpp)
 
@@ -48,7 +52,7 @@
 
 * [3、node_modules 困境](https://zhuanlan.zhihu.com/p/137535779)
 
-**6、登录注册**
+**8、登录注册**
 
 H5(微信、支付宝)：
 * -登录：跳转微信定向地址, url参数中包含回调地址
@@ -58,7 +62,7 @@ H5(微信、支付宝)：
 * -登录：wx.getUserProfile获取用户信息后调用后端接口
 * -手机号码：open-type="getPhoneNumber"触发调用后端接口
 
-**7、支付**
+**9、支付**
 * H5(微信):  window.WeixinJSBridge.invoke( 'getBrandWCPayRequest', ...）
 * H5(支付宝): ap.tradePay
 * 小程序(微信):  wx.requestPayment
@@ -82,21 +86,18 @@ H5(微信、支付宝)：
 
 * 无服务器架构，即在无需管理服务器等底层资源的情况下完成应用的开发和运行
 
-**[4、微前端](https://tech.meituan.com/2020/02/27/meituan-waimai-micro-frontends-practice.html)**
-
-
-**[5、nginx](https://juejin.cn/post/6844904129987526663)**
+**[4、nginx](https://juejin.cn/post/6844904129987526663)**
    
 
-**[6、编译型与解释型语言](https://www.tspweb.com/key/%E7%BC%96%E8%AF%91%E8%AF%AD%E8%A8%80.html)**
+**[5、编译型与解释型语言](https://www.tspweb.com/key/%E7%BC%96%E8%AF%91%E8%AF%AD%E8%A8%80.html)**
 
 
-**[7、Rust](https://zhuanlan.zhihu.com/p/62057547)**
+**[6、Rust](https://zhuanlan.zhihu.com/p/62057547)**
 
 
-**[8、主流X86-ARM-RISC-V-MIPS芯片架构分析](https://www.cnblogs.com/wujianming-110117/p/16578486.html)**
+**[7、主流X86-ARM-RISC-V-MIPS芯片架构分析](https://www.cnblogs.com/wujianming-110117/p/16578486.html)**
 
-**[9、浅谈vpn、vps、Proxy以及shadowsocks之间的联系和区别](https://medium.com/@thomas_summon/%E6%B5%85%E8%B0%88vpn-vps-proxy%E4%BB%A5%E5%8F%8Ashadowsocks%E4%B9%8B%E9%97%B4%E7%9A%84%E8%81%94%E7%B3%BB%E5%92%8C%E5%8C%BA%E5%88%AB-b0198f92db1b)**
+**[8、浅谈vpn、vps、Proxy以及shadowsocks之间的联系和区别](https://medium.com/@thomas_summon/%E6%B5%85%E8%B0%88vpn-vps-proxy%E4%BB%A5%E5%8F%8Ashadowsocks%E4%B9%8B%E9%97%B4%E7%9A%84%E8%81%94%E7%B3%BB%E5%92%8C%E5%8C%BA%E5%88%AB-b0198f92db1b)**
 
 
 
