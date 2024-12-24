@@ -40,4 +40,6 @@
 
 #### [7、混合](https://github.com/yang1212/collection-about/blob/master/7%20%20%20%20-%E6%B7%B7%E5%90%88/info.md)
 
-#### [8、books](https://github.com/yang1212/vue-about/blob/master/README.md)
+#### [8、英语](https://github.com/yang1212/collection-about/tree/master/8%20%20%20%20-%E8%8B%B1%E8%AF%AD)
+
+#### [9、books](https://github.com/yang1212/vue-about/blob/master/README.md)
