@@ -17,6 +17,9 @@ he lives with his grandparents in the countryside.
 5. 我今晚和家人一起吃晚饭。   
 I‘m having dinner with my family tonight.
 
+6. 我会帮你做作业。  
+I will help you with your homework.
+
 
 
 
