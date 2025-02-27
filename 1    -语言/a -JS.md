@@ -13,6 +13,7 @@
 
 **[2、This](https://www.cnblogs.com/Tiboo/p/11370325.html)**
 * 结合上面对作用域的理解，setInterval()，setTimeout() 方法是浏览器 window 对象提供，所以this指向window对象。
+* [箭头函数](https://github.com/yang1212/collection-about/issues/40)
 
 3、函数
 * 拓展一：[哪些场景不能用箭头函数](https://zhuanlan.zhihu.com/p/26540168)
