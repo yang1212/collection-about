@@ -69,3 +69,14 @@
     const { goSomePage } = child.value;
   </script>
   ````
+  <br/>
+
+  ## 状态管理
+
+  1、[Pinia: Vuex的替代品](https://github.com/yang1212/collection-about/issues/44)
+
+
+
+
+  <br/>
+  
