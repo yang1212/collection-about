@@ -18,7 +18,7 @@
 * [虚拟DOM](https://github.com/yang1212/collection-about/issues/68)
 
 
-**4、[受控组件&非受控组件](https://juejin.cn/post/6858276396968951822#comment)**
+**4、[单向数据流](https://github.com/yang1212/collection-about/issues/71)**
 
 **5、性能优化**
 
@@ -27,7 +27,7 @@
 * [React.memo](https://1349279985.github.io/%E4%BC%98%E5%8C%96React-memo%E6%B8%B2%E6%9F%93%E5%88%A4%E5%88%AB%E6%9C%BA%E5%88%B6%E5%8F%8A%E5%AE%9E%E6%88%98/)
 * ImmutableJS
 
-**6、高阶组件-HOC**
+**6、[受控组件](https://github.com/yang1212/collection-about/issues/72)**
 
 **7、合成事件**
 
