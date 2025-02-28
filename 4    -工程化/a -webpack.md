@@ -1,4 +1,6 @@
-## 一、webpack周边理论
+🌞 Webpack 的主要任务是把源代码（JS、CSS、TS、Vue 等）转换成浏览器可以运行的 bundle.js，这个过程本质上就是编译。
+
+## 一、webpack
 
 **[1、Babel](https://my.oschina.net/vivotech/blog/4407304)**
 
