@@ -10,33 +10,33 @@
 
 **3、webpack构建流程**
 
-1️⃣ 初始化
-
-读取 webpack.config.js 配置
-创建 Compiler 实例，确定 entry 入口文件
-
-2️⃣ 编译（解析 JS 依赖）
-
-解析 import / require，构建模块依赖关系
-递归分析所有依赖，生成 模块依赖图
-
-3️⃣ 转换（处理非 JS 文件）
-
-Loader 处理 Vue、CSS、TS 等文件
-比如：
-vue-loader 处理 .vue
-sass-loader 处理 .scss
-babel-loader 转换 ES6+ → ES5
-
-4️⃣ 优化 & 打包
-
-Tree Shaking（去除无用代码）
-Code Splitting（代码分割，优化加载速度）
-压缩 & 代码混淆（减少文件大小）
-
-5️⃣ 输出文件
-
-生成 dist/ 目录，包含 index.html 和 bundle.js
+    1️⃣ 初始化
+    
+    读取 webpack.config.js 配置
+    创建 Compiler 实例，确定 entry 入口文件
+    
+    2️⃣ 编译（解析 JS 依赖）
+    
+    解析 import / require，构建模块依赖关系
+    递归分析所有依赖，生成 模块依赖图
+    
+    3️⃣ 转换（处理非 JS 文件）
+    
+    Loader 处理 Vue、CSS、TS 等文件
+    比如：
+    vue-loader 处理 .vue
+    sass-loader 处理 .scss
+    babel-loader 转换 ES6+ → ES5
+    
+    4️⃣ 优化 & 打包
+    
+    Tree Shaking（去除无用代码）
+    Code Splitting（代码分割，优化加载速度）
+    压缩 & 代码混淆（减少文件大小）
+    
+    5️⃣ 输出文件
+    
+    生成 dist/ 目录，包含 index.html 和 bundle.js
 
 **4、webpack的热更新，以及原理**
 
