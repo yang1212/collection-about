@@ -40,6 +40,39 @@
 
 **4、webpack的热更新，以及原理**
 
+**1️⃣ 核心流程：**
+
+    （1）启动 Webpack 开发服务器（webpack-dev-server）
+     Webpack 监听文件变化
+     启动一个 WebSocket 服务器（浏览器端会和这个服务器保持连接）
+    
+    （2）代码变更（如修改 .js、.vue、.css 文件）
+     Webpack 重新 编译 变更的模块
+     生成 新的模块（Bundle）
+     通过 WebSocket 通知浏览器有更新
+    
+    （3）浏览器端收到 WebSocket 通知
+     通过 HMR runtime 请求 增量更新
+     只替换发生变化的模块，而不是刷新整个页面
+
+
+**2️⃣ 原理：**
+
+    （1）WebSocket 监听变更
+     Webpack-dev-server 开启 WebSocket 连接，让前端和服务器保持通讯
+     文件修改后，Webpack 触发 增量编译，并告诉浏览器有更新
+     
+    （2）模块热替换
+     浏览器端 Webpack 不会刷新页面，而是只加载新的模块
+     执行 module.hot.accept()，让变更的代码生效
+     如果代码不支持 HMR，则会 自动回退到整个页面刷新
+     
+    （3）Vue HMR 处理
+     Vue-loader 内部自动支持 HMR
+     组件状态不会丢失，只有改动的部分重新渲染
+
+
+
 
 **[5、预设、transform、babel-polyfill 它们之间](https://www.jiangruitao.com/babel/babel-polyfill/)**
 
