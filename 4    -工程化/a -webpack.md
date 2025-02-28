@@ -77,9 +77,9 @@
 **[5、预设、transform、babel-polyfill 它们之间](https://www.jiangruitao.com/babel/babel-polyfill/)**
 
 **[6、module,chunk,bundle的区别](https://www.cnblogs.com/skychx/p/webpack-module-chunk-bundle.html)**
-* module: 一切皆模块，只要是可引用的，都为模块
-* chunk: webpack 会根据文件引用关系生成 chunk 文件, 如经过output，optimization等得到都是chunk文件
-* bundle: 最终经过处理，可以直接运行在浏览器的文件
+* module: Webpack 以模块为单位 进行打包，每个 .js、.vue、.css 文件都可以看作一个模块。
+* chunk: Webpack 打包后合并的逻辑代码块，像main.js 入口 Chunk，包含项目的主要逻辑。
+* bundle: Webpack 将 Chunk 处理后，生成的最终文件，就是 dist/ 目录中的 .js/.css 文件
 * 总之：module，chunk 和 bundle 其实就是同一份逻辑代码在不同转换场景下取的三个名字
 
 **[7、devTool之source-map](https://zhuanlan.zhihu.com/p/135228801)**
