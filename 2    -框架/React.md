@@ -13,7 +13,7 @@
 * [函数组件之: 组合、自定义Hook](https://github.com/yang1212/collection-about/issues/61)
 * [类组件之: 关注点分离困难](https://github.com/yang1212/collection-about/issues/62)
 * [副作用](https://github.com/yang1212/collection-about/issues/63)
-* [场景与踩坑-useState](https://github.com/yang1212/collection-about/issues/65)
+* [useState-使用场景与坑](https://github.com/yang1212/collection-about/issues/65)
 * [批处理](https://github.com/yang1212/collection-about/issues/66)
 * [虚拟DOM](https://github.com/yang1212/collection-about/issues/68)
 
