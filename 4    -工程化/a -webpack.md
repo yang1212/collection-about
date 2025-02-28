@@ -49,7 +49,7 @@
 * loader配置缓存，其他loader: thread-loader, cache-loader
 
 
-**10、[模块联邦](https://jishuin.proginn.com/p/763bfbd640a6)**
+**10、[webpack5: 模块联邦](https://github.com/yang1212/collection-about/issues/73)**
 
 **11、devDependencies有什么意义？**
 
