@@ -12,7 +12,7 @@
 
 * [【 设计模式 】 装饰者模式](https://mp.weixin.qq.com/s/KVy81rtB0YMeaHaem1PYMw)
 
-
+* [【 设计模式 】 常见前端设计模式汇总](https://github.com/yang1212/collection-about/issues/76)
 
 
 
