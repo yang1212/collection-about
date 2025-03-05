@@ -9,16 +9,15 @@
 
 **[3、研究hook衍生出的知识点](https://github.com/yang1212/collection-about/issues/59)**
 
+* [常用Hooks](https://github.com/yang1212/collection-about/issues/34)
 * [生命周期](https://github.com/yang1212/collection-about/issues/58)
 * [状态管理之：MobX的简单使用](https://github.com/yang1212/collection-about/issues/64)
 * [类组件之: 复杂的继承关系](https://github.com/yang1212/collection-about/issues/60)
 * [函数组件之: 组合、自定义Hook](https://github.com/yang1212/collection-about/issues/61)
 * [类组件之: 关注点分离困难](https://github.com/yang1212/collection-about/issues/62)
 * [副作用](https://github.com/yang1212/collection-about/issues/63)
-* [useState-使用场景与坑](https://github.com/yang1212/collection-about/issues/65)
 * [批处理](https://github.com/yang1212/collection-about/issues/66)
 * [虚拟DOM](https://github.com/yang1212/collection-about/issues/68)
-
 
 **4、[单向数据流](https://github.com/yang1212/collection-about/issues/71)**
 
