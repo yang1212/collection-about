@@ -1,7 +1,9 @@
-## React
-**1、什么是 JSX**
 
-* 一种新的 JS 方言 JSX，将原始 HTML 模板嵌入到 JS 代码中。JSX 代码本身不能被浏览器读取，必须使用Babel和webpack等工具将其转换为传统的JS
+
+## React
+**1、React 的渲染机制**
+
+* 在 React 中，每次组件状态（state）或属性（props）发生变化时，组件都会重新渲染。
 
 **[2、组件通信传值](https://github.com/yang1212/collection-about/issues/6)**
 
