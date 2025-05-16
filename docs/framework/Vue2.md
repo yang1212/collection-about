@@ -38,7 +38,7 @@
 <br/>
 
 ## 原理
-**[1、vue渐进式框架的理解](blog.csdn.net/wandoumm/article/details/80253681)**
+<!-- **[1、vue渐进式框架的理解](blog.csdn.net/wandoumm/article/details/80253681)** -->
 
 **[2、MVVM](https://juejin.cn/post/6844903929298288647)**
 

@@ -5,21 +5,21 @@
 ## 🚀 导航
 
 
-#### 1、语言
+#### [1、语言](https://github.com/yang1212/collection-about/tree/master/docs/language)
 
-* [JS](https://github.com/yang1212/collection-about/blob/master/1%20%20%20%20-%E8%AF%AD%E8%A8%80/a%20-JS.md)
-* [ES6](https://github.com/yang1212/collection-about/blob/master/1%20%20%20%20-%E8%AF%AD%E8%A8%80/b%20-ES6.md)
-* [TS](https://github.com/yang1212/collection-about/blob/master/1%20%20%20%20-%E8%AF%AD%E8%A8%80/c%20-TS.md)
-* [手写系列](https://github.com/yang1212/collection-about/blob/master/1%20%20%20%20-%E8%AF%AD%E8%A8%80/d%20-%E6%89%8B%E5%86%99%E7%B3%BB%E5%88%97.md)
-* [设计模式](https://github.com/yang1212/collection-about/blob/master/1%20%20%20%20-%E8%AF%AD%E8%A8%80/e%20-%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)
+* JS
+* ES6
+* TS
+* 手写系列
+* 设计模式
 
-#### 2、框架
+#### [2、框架](https://github.com/yang1212/collection-about/tree/master/docs/framework)
 
-* [Vue2](https://github.com/yang1212/collection-about/blob/master/2%20%20%20%20-%E6%A1%86%E6%9E%B6/Vue2.md)
-* [Vue3](https://github.com/yang1212/collection-about/blob/master/2%20%20%20%20-%E6%A1%86%E6%9E%B6/Vue3.md)
-* [React](https://github.com/yang1212/collection-about/blob/master/2%20%20%20%20-%E6%A1%86%E6%9E%B6/React.md)
-* [小程序](https://github.com/yang1212/collection-about/tree/master/2%20%20%20%20-%E6%A1%86%E6%9E%B6/%E5%B0%8F%E7%A8%8B%E5%BA%8F)
-* [RN](https://github.com/yang1212/collection-about/issues/46)
+* Vue2
+* Vue3
+* React
+* 小程序
+* RN
 
 #### [3、样式](https://github.com/yang1212/collection-about/blob/master/3%20%20%20%20-%E6%A0%B7%E5%BC%8F/CSS.md)
 
