@@ -5,4 +5,4 @@
 ## 🚀 导航
 
 
-https://yangfu.asia/
+[网址](https://yangfu.goodgoodstudy.win/)
